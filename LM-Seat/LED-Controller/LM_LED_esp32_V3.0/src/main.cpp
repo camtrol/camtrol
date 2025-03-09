@@ -1,20 +1,14 @@
-/* 2024년 6월 22일
+/* 2025년 3월 9일
 
-LM Seat V1.1 조명 콘트롤 프로그램
+LM Seat V3.2 조명 콘트롤 프로그램
 https://squareline.io/  camtrol@naver.com   gustnr99**
 
 
 해야 할 프로그램
-    1. 시작 시 Switch, Door 입력 처리하기
-    2. 무드등, 사이드, userSetting 화면처리 하기.
-
-  SquareLine UI Insert 하기
-    - SQL의 Library 폴더에 있는 ui 폴더를 VSC의 src 폴더에
-      Drag & Drop 한다.
+    1. 10 V 미만일때 저전압 보호모드 동작.
 
     추 후 할일
-    1. 준비된 Display제품의 RS485 통신 내용 구현 해야함.
-    2. AP 통신을 위한 방안 마련 해야 함.
+    1. ST7735 Program
 
 */
 
@@ -33,7 +27,8 @@ https://squareline.io/  camtrol@naver.com   gustnr99**
 #define ENABLE 5 // RS485 Enable...
 
 // #define PWM_ON 255
-#define PWM_ON 1023
+// #define PWM_ON 1023
+#define PWM_ON 900
 #define ON HIGH
 #define OFF LOW
 
@@ -43,6 +38,8 @@ https://squareline.io/  camtrol@naver.com   gustnr99**
 #define LED4 45
 #define LED5 41
 // #define FLOOR 41
+
+#define MAIN_VOLT 17
 
 #define LiPo 8
 // #define POWER 17
@@ -126,7 +123,7 @@ int ledCh[6] = {0, LED1, LED2, LED3, LED4, LED5};
 
 int switchVolt, doorVolt;
 
-uint8_t bright, btnSelect;
+uint8_t bright, btnSelect, lowVoltCount = 0;
 // uint8_t neo1Pwm, neo2Pwm = 100;
 uint8_t loopCount = 0;
 uint16_t stableCount = 600;
@@ -1049,49 +1046,6 @@ void serialEvent2() {
     Serial.println();
   }
 
-  // if (analogRead(SWITCH) > 1000) {
-  //   Serial.print("Switch Flag : True");
-  //   switchFlag = true;
-  //   // digitalWrite(POWER, HIGH);
-  // } else {
-  //   Serial.print(",  Switch Flag : False");
-  //   switchFlag = false;
-  // }
-
-  // if (analogRead(DOOR) > 1000) {
-  //   Serial.println(",  DOOR Flag : True");
-  //   doorFlag = false;
-  //   if (ledFlag[1] == false)
-  //     ledcWrite(ledPwmCh[1], 0);
-  // } else {
-  //   Serial.println(",  DOOR Flag : False");
-  //   doorFlag = true;
-  //   if (ledFlag[1] == false)
-  //     ledcWrite(ledPwmCh[1], PWM_ON);
-  // }
-
-  // if (digitalRead(LiPo)) {
-  //   batLiPoFlag = true;
-  //   Serial.println("Bat LiPo Flag : True");
-  // } else {
-  //   batLiPoFlag = false;
-  //   Serial.println("Bat LiPo Flag : False");
-  // }
-
-  // if (!switchFlag) {
-  //   switchOffCount++;
-  //   if (switchOffCount > 3) {
-  //     switchOffCount = 0;
-  //   }
-  // }
-
-  // Serial.print("Command: ");
-  // Serial.print(_division);
-  // Serial.print(", Value: ");
-  // Serial.print(_value);
-  // Serial.print(", PWM: ");
-  // Serial.println(pwm);
-
   comCount = 0;
 }
 
@@ -1357,60 +1311,20 @@ void comProcess() {
                         // if (loopCount > 100) { // 약 1초 마다 실행...
     switchVolt = analogRead(SWITCH);
     if (switchVolt > 1000) {
-      // Serial.print("Switch Flag : True");
       switchFlag = true;
-      // digitalWrite(SWITCH_LED, LOW);
     } else {
-      // Serial.print("Switch Flag : False");
       switchFlag = false;
-      // digitalWrite(SWITCH_LED, HIGH);
     }
-
-    // Serial.print("TV Flag : ");
-    // Serial.print(tvFlag);
-    // Serial.print(", ledFlag[5] : ");
-    // Serial.println(ledFlag[5]);
 
     if (tvFlag || ledFlag[5])
       digitalWrite(FAN, HIGH);
     else
       digitalWrite(FAN, LOW);
 
-    // if (digitalRead(DOOR) != doorFlag) {
-    //   // delay(50);
-    //   if (digitalRead(DOOR)) {
-    //     // delay(500);
-    //     doorFlag = true;
-    //     digitalWrite(DOOR_LED, LOW);
-    //     if (ledFlag[1] == false) {
-    //       ledcWrite(ledPwmCh[1], PWM_ON);
-    //     }
-    //   } else {
-    //     // delay(300);
-    //     doorFlag = false;
-    //     digitalWrite(DOOR_LED, HIGH);
-    //     if (ledFlag[1] == false) {
-    //       ledcWrite(ledPwmCh[1], 0);
-    //     }
-    //   }
-    //   delay(300);
-
-    //   Serial.print("Door flag : ");
-    //   Serial.println(doorFlag);
-
-    //   // s = "DOOR:";
-    //   // s += doorFlag;
-    //   // s += ':';
-    //   // s += doorFlag;
-    //   // comSend(s);
-    // }
-
     if (digitalRead(LiPo)) {
       batLiPoFlag = true;
-      // Serial.println("Bat LiPo Flag : True");
     } else {
       batLiPoFlag = false;
-      // Serial.println("Bat LiPo Flag : False");
     }
 
     if (!switchFlag) {
@@ -1419,90 +1333,54 @@ void comProcess() {
         switchOffCount = 0;
       }
     }
-    // uint16_t tv_read = analogRead(13);
-    // tv_volt = (tv_read * 0.00744109136) + 1.0;
-    // Serial.println(tv_volt);
-    // s = "TV_VOLT:";
-    // s += String(tv_volt + (float(tvAdj) / 100), 1);
-    // s += ':';
-    // s += String(tv_volt + (float(tvAdj) / 100), 1);
-    // s += " V";
-    // comSend(s); // 1초 마다 Touch 측으로 회신...
-    // s = "SWITCH:";
-    // s += switchFlag;
-    // s += ':';
-    // s += switchFlag;
-    // comSend(s); // 1초 마다 Touch 측으로 회신...
-    // s = "DOOR:";
-    // s += doorFlag;
-    // s += ':';
-    // s += doorFlag;
-    // comSend(s); // 1초 마다 Touch 측으로 회신...
-    // s = "BAT:";
-    // s += batLiPoFlag;
-    // s += ':';
-    // s += batLiPoFlag;
-    // comSend(s); // 1초 마다 Touch 측으로 회신...
-    // s = "BAT:";
-    // s += batLiPoFlag;
-    // s += ':';
-    // s += batLiPoFlag;
-    // comSend(s); // 1초 마다 Touch 측으로 회신...
-    // delay(5);
-    // if (switchFlag != switchFlagPush || doorFlag != doorFlagPush ||
-    //     batLiPoFlag != batLiPoFlagPush) {
 
-    // if (switchFlag != switchFlagPush) {
-    //   switchFlagPush = switchFlag;
     if (switchFlag) {
-      // Serial.println("Switch Flag : True");
+
       digitalWrite(SWITCH_LED, LOW);
     } else {
-      // Serial.println("Switch Flag : False");
+
       digitalWrite(SWITCH_LED, HIGH);
     }
     s = "SWITCH:";
     s += switchFlag;
     s += ':';
     s += switchFlag;
-    // comSend(s);
-    // } else if (doorFlag != doorFlagPush) {
-    //   doorFlagPush = doorFlag;
-    // if (doorFlag) {
-    //   Serial.println(",  DOOR Flag : False");
-    //   digitalWrite(DOOR_LED, LOW);
-    //   if (ledFlag[1] == false) {
-    //     ledcWrite(ledPwmCh[1], PWM_ON);
-    //   }
-    // } else {
-    //   Serial.println(",  DOOR Flag : True");
-    //   digitalWrite(DOOR_LED, HIGH);
-    //   if (ledFlag[1] == false) {
-    //     ledcWrite(ledPwmCh[1], 0);
-    //   }
-    // }
-    // s = "DOOR:";
-    // s += doorFlag;
-    // s += ':';
-    // s += doorFlag;
-    // comSend(s);
-    // } else if (batLiPoFlag != batLiPoFlagPush) {
-    //   batLiPoFlagPush = batLiPoFlag;
-
-    // if (batLiPoFlag) {
-    //   Serial.println("Bat LiPo Flag : True");
-    // } else {
-    //   Serial.println("Bat LiPo Flag : False");
-    // }
 
     s = "BAT:";
     s += batLiPoFlag;
     s += ':';
     s += batLiPoFlag;
-    // comSend(s);
-    // }
-    // } else
-    // comSend("COM:1");
+
+    int volt = analogRead(MAIN_VOLT);
+    float mainVolt = volt * 0.0059122807;
+
+    Serial.print("Volt ROW : ");
+    Serial.print(volt);
+    Serial.print(", Main Volt : ");
+    Serial.print(mainVolt);
+    Serial.println(" V");
+
+    if (mainVolt < 10.0) {
+      if (lowVoltCount > 3) { // ledPwmCh[1]
+        if (ledFlag[1] || ledPwmCh[2] || ledPwmCh[3] || ledPwmCh[4] ||
+            ledPwmCh[5] || tvFlag) {
+          comSend("BAT_LOW:1:1");
+          delay(10);
+          comSend("BAT_LOW:1:1");
+          Serial.println("Battery Low...");
+          ledcWrite(ledPwmCh[1], 0);
+          ledcWrite(ledPwmCh[2], 0);
+          ledcWrite(ledPwmCh[3], 0);
+          ledcWrite(ledPwmCh[4], 0);
+          ledcWrite(ledPwmCh[5], 0);
+          digitalWrite(TV, LOW);
+          while (1)
+            ;
+        }
+      }
+      lowVoltCount++;
+    }
+
     loopCount = 0;
   }
 
@@ -1515,8 +1393,6 @@ void comProcess() {
     rs485Flag = true;
   if (comCount > 250)
     comCount = 65;
-  // Serial.print("comCount : ");
-  // Serial.println(comCount);
 }
 
 void doorProcess() {
@@ -1575,6 +1451,7 @@ uint32_t Wheel1(byte WheelPos, bool neoCh) {
     WheelPos -= 170;
     return strip2.Color(WheelPos * 3, 255 - WheelPos * 3, 0);
   }
+  return 0;
 }
 
 // 1. 무지개 모드

@@ -7730,7 +7730,7 @@
                   {
                     "nid": -798264874,
                     "strtype": "OBJECT/Name",
-                    "strval": "Button11",
+                    "strval": "Button6",
                     "InheritedType": 10
                   },
                   {
@@ -9599,7 +9599,7 @@
                   {
                     "nid": -1469275442,
                     "strtype": "LABEL/Text",
-                    "strval": "TV 전원 전압을 확인 해 주세요.",
+                    "strval": "저 전압 보호모드로 진입 하였습니다.\\n\\n모든 출력을 차단 합니다.",
                     "InheritedType": 10
                   },
                   {
@@ -9622,9 +9622,15 @@
                             "InheritedType": 7
                           },
                           {
+                            "nid": 10430,
+                            "strtype": "_style/Text_Align",
+                            "strval": "CENTER",
+                            "InheritedType": 3
+                          },
+                          {
                             "nid": -363293860,
                             "strtype": "_style/Text_Font",
-                            "strval": "SOYOMapleBold22",
+                            "strval": "SOYOMapleBold26",
                             "InheritedType": 3
                           }
                         ],
@@ -9814,7 +9820,7 @@
                   {
                     "nid": -704855154,
                     "strtype": "OBJECT/Name",
-                    "strval": "Button6",
+                    "strval": "Button11",
                     "InheritedType": 10
                   },
                   {
@@ -9871,6 +9877,12 @@
                     "flags": 1048576,
                     "strtype": "OBJECT/Flags",
                     "InheritedType": 1
+                  },
+                  {
+                    "nid": 100,
+                    "strtype": "OBJECT/Hidden",
+                    "strval": "True",
+                    "InheritedType": 2
                   },
                   {
                     "nid": 225,
@@ -10067,7 +10079,7 @@
                 "strtype": "OBJECT/Position",
                 "intarray": [
                   0,
-                  3
+                  26
                 ],
                 "InheritedType": 7
               },
@@ -10077,7 +10089,7 @@
                 "strtype": "OBJECT/Size",
                 "intarray": [
                   581,
-                  130
+                  292
                 ],
                 "InheritedType": 7
               },
@@ -10093,7 +10105,7 @@
                 "InheritedType": 1
               },
               {
-                "nid": 850207854,
+                "nid": 100,
                 "strtype": "OBJECT/Hidden",
                 "strval": "True",
                 "InheritedType": 2
@@ -10163,10 +10175,10 @@
                         "nid": -253496375,
                         "strtype": "_style/Bg_Color",
                         "intarray": [
-                          89,
-                          89,
-                          89,
-                          180
+                          49,
+                          49,
+                          49,
+                          230
                         ],
                         "InheritedType": 7
                       },
@@ -10308,8 +10320,7 @@
                 "InheritedType": 4
               }
             ],
-            "saved_objtypeKey": "PANEL",
-            "tree_closed": true
+            "saved_objtypeKey": "PANEL"
           },
           {
             "guid": "GUID49040476-909319S6393192",
@@ -11145,7 +11156,7 @@
               {
                 "nid": -390256878,
                 "strtype": "LABEL/Text",
-                "strval": "카인드 V1.0-LA-052",
+                "strval": "리무진 V3.0-LM-064",
                 "InheritedType": 10
               },
               {
@@ -11355,7 +11366,7 @@
               {
                 "nid": -1134052302,
                 "strtype": "LABEL/Text",
-                "strval": "17240810052",
+                "strval": "17241213064",
                 "InheritedType": 10
               },
               {
@@ -11739,7 +11750,7 @@
               {
                 "nid": 1626938699,
                 "strtype": "IMAGE/Asset",
-                "strval": "assets/QR-Code-052.png",
+                "strval": "assets/QR-Code-064.png",
                 "InheritedType": 5
               },
               {
@@ -21076,10 +21087,10 @@
     "theme_dark": true,
     "theme_color1": 5,
     "theme_color2": 0,
-    "uiExportFolderPath": "E:/CamTrol II/LM_Seet/L-CON_V3.0/SQL_LM_LED_8048S050-V3.0/SQL_Marre_SC01-Plus/./libraries/ui/src",
-    "projectExportFolderPath": "E:/CamTrol II/LM_Seet/L-CON_V3.0/SQL_LM_LED_8048S050-V3.0/SQL_Marre_SC01-Plus",
+    "uiExportFolderPath": "E:/CamTrol III/LM-Seat/LED-Controller/SQL_LM_LED_8048S050-V3.0/SQL_Marre_SC01-Plus/./libraries/ui/src",
+    "projectExportFolderPath": "E:/CamTrol III/LM-Seat/LED-Controller/SQL_LM_LED_8048S050-V3.0/SQL_Marre_SC01-Plus",
     "custom_variable_prefix": "uic",
-    "backup_cnt": 2585,
+    "backup_cnt": 2586,
     "autosave_cnt": 0,
     "group_color_cnt": 0,
     "lvgl_version": "8.3.6",

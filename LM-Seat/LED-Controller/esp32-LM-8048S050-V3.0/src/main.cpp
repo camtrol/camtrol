@@ -508,7 +508,7 @@ void buttonOutLine() {
   lv_obj_set_style_outline_opa(ui_Button3, 0, LV_PART_MAIN | LV_STATE_DEFAULT);
   lv_obj_set_style_outline_opa(ui_Button4, 0, LV_PART_MAIN | LV_STATE_DEFAULT);
   lv_obj_set_style_outline_opa(ui_Button5, 0, LV_PART_MAIN | LV_STATE_DEFAULT);
-  lv_obj_set_style_outline_opa(ui_Button11, 0, LV_PART_MAIN | LV_STATE_DEFAULT);
+  lv_obj_set_style_outline_opa(ui_Button6, 0, LV_PART_MAIN | LV_STATE_DEFAULT);
 }
 
 void userSettingCancel(lv_event_t *e) {
@@ -712,7 +712,7 @@ void tvOutButton(lv_event_t *e) {
   lvState = lv_obj_get_state(ui_Button6);
 
   buttonOutLine();
-  lv_obj_set_style_outline_opa(ui_Button11, 255,
+  lv_obj_set_style_outline_opa(ui_Button6, 255,
                                LV_PART_MAIN | LV_STATE_DEFAULT);
 
   if (lvState == 3) {
@@ -1112,14 +1112,14 @@ void handleJson() {
     lv_label_set_text(ui_LabelLED, label_text);
   } else if (division == "TV") {
     buttonOutLine();
-    lv_obj_set_style_outline_opa(ui_Button11, 255,
+    lv_obj_set_style_outline_opa(ui_Button6, 255,
                                  LV_PART_MAIN | LV_STATE_DEFAULT);
     if (!value) { // 값이 0 이면...
       tvFlag = false;
-      lv_obj_clear_state(ui_Button11, LV_STATE_CHECKED);
+      lv_obj_clear_state(ui_Button6, LV_STATE_CHECKED);
     } else { // 값이 1 이면...
       tvFlag = true;
-      lv_obj_add_state(ui_Button11, LV_STATE_CHECKED);
+      lv_obj_add_state(ui_Button6, LV_STATE_CHECKED);
     }
     s = "TV:";
     s += tvFlag == true ? '1' : '0';
@@ -1898,12 +1898,12 @@ void ledButton5(lv_event_t *e) {
 void tvButton(lv_event_t *e) {
   logoChangeCounter = 0;
   logoCounter = 0;
-  lvState = lv_obj_get_state(ui_Button11);
+  lvState = lv_obj_get_state(ui_Button6);
 
   Serial.println("tvButton...");
 
   buttonOutLine();
-  lv_obj_set_style_outline_opa(ui_Button11, 255,
+  lv_obj_set_style_outline_opa(ui_Button6, 255,
                                LV_PART_MAIN | LV_STATE_DEFAULT);
 
   s = "TV:";
@@ -1947,14 +1947,14 @@ void serialEvent2() {
   String _value = eventString.substring(index1 + 1, index2);
   String _flag = eventString.substring(index2 + 1, index3 - 1);
 
-  // Serial.println(eventString);
-  // Serial.print("Division : ");
-  // Serial.print(_division);
-  // Serial.print(", Value : ");
-  // Serial.print(_value);
-  // Serial.print(", Flag : ");
-  // Serial.println(_flag);
-  // Serial.println();
+  Serial.println(eventString);
+  Serial.print("Division : ");
+  Serial.print(_division);
+  Serial.print(", Value : ");
+  Serial.print(_value);
+  Serial.print(", Flag : ");
+  Serial.println(_flag);
+  Serial.println();
 
   if (_division == "LED1") {
     comInitFlag = true;
@@ -2070,15 +2070,15 @@ void serialEvent2() {
     comInitFlag = true;
 
     buttonOutLine();
-    lv_obj_set_style_outline_opa(ui_Button11, 255,
+    lv_obj_set_style_outline_opa(ui_Button6, 255,
                                  LV_PART_MAIN | LV_STATE_DEFAULT);
 
     if (_value != "0") {
       tvFlag = true;
-      lv_obj_add_state(ui_Button11, LV_STATE_CHECKED);
+      lv_obj_add_state(ui_Button6, LV_STATE_CHECKED);
     } else {
       tvFlag = false;
-      lv_obj_clear_state(ui_Button11, LV_STATE_CHECKED);
+      lv_obj_clear_state(ui_Button6, LV_STATE_CHECKED);
     }
   } else if (_division == "NEO_1_FLAG") {
     comInitFlag = true;
@@ -2256,6 +2256,12 @@ void serialEvent2() {
     }
   } else if (_division == "QR_OK") {
     lv_disp_load_scr(ui_ScreenHome);
+  } else if (_division == "BAT_LOW") {
+    lv_disp_load_scr(ui_ScreenHome);
+    ledcWrite(0, map(bright, 1, 100, 1, 255));
+    lv_obj_clear_flag(ui_PanelMessage, LV_OBJ_FLAG_HIDDEN);
+    lv_timer_handler();
+    while (1) ;
   } else if (_division == "SEND_OK") {
     comInitFlag = true;
 
@@ -2714,7 +2720,8 @@ void setup() {
   s = 100;
   s.toCharArray(label_text, s.length() + 1);
   lv_label_set_text(ui_LabelBGBright, label_text);
-  lv_slider_set_value(ui_Slider3, bright, LV_ANIM_OFF);
+  // lv_slider_set_value(ui_Slider3, bright, LV_ANIM_OFF);
+  lv_slider_set_value(ui_Slider3, 100, LV_ANIM_OFF);
 
   lv_obj_add_flag(ui_PanelMessage,
                   LV_OBJ_FLAG_HIDDEN | LV_OBJ_FLAG_ADV_HITTEST);

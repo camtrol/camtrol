@@ -16,7 +16,7 @@ SET(SOURCES ui_ScreenHome.c
     ui_img_wifi_png.c
     ui_img_1448386974.c
     ui_img_tv_png.c
-    ui_img_1847130928.c
+    ui_img_316324357.c
     ui_img_2128645090.c
     ui_img_618194214.c
     ui_img_44959014.c
@@ -33,6 +33,10 @@ SET(SOURCES ui_ScreenHome.c
     ui_img_37325770.c
     ui_img_316326407.c
     ui_img_1119049822.c
+    ui_img_1847130928.c
+    ui_img_1187410730.c
+    ui_img_1719747066.c
+    ui_img_105685651.c
     fonts/ui_font_DigitalPlaySt12.c
     fonts/ui_font_SOYOMapleBold12.c
     fonts/ui_font_SOYOMapleBold14.c
