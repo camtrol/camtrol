@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "array": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "vector": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp"
+    },
+    "cmake.sourceDirectory": "E:/CamTrol II/CarInd/esp32-Carind-SC01-PLUS/.pio/libdeps/esp32-s3-devkitc-1/LovyanGFX"
+}

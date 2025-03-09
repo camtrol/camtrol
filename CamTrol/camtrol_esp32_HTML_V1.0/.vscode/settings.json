@@ -1,0 +1,25 @@
+{
+    // "cmake.sourceDirectory": "E:/CamTrol II/Marre/marre_esp32_V5.1/.pio/libdeps/esp32-s3-devkitc-1/Adafruit BusIO",
+    "css.enabledLanguages": [
+        "html",
+        "javascriptreact",
+        "typescriptreact",
+        "typescript",
+        "javascript",
+        "njk",
+        "nunjucks",
+        "html-nunjucks",
+        "php"
+    ],
+    "editor.formatOnSave": true,
+    "json.schemas": [],
+    // "editor.defaultFormatter": "vscode.css-language-features",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.printWidth": 150
+}

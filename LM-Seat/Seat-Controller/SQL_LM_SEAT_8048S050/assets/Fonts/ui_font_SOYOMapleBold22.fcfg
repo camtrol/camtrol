@@ -1,0 +1,17 @@
+{
+  "codename": "SOYOMapleBold22",
+  "ttf_path": "/assets/Fonts/SOYOMapleBold.ttf",
+  "bin_path": "/assets/Fonts\\ui_font_SOYOMapleBold22.bin",
+  "c_path": "/assets/Fonts\\ui_font_SOYOMapleBold22.c",
+  "cfg_path": "/assets/Fonts\\ui_font_SOYOMapleBold22.fcfg",
+  "size": 22,
+  "bpp": 2,
+  "letters": 4,
+  "ranges": [
+    "0x20-0x7f",
+    "  0xac00-0xd7af"
+  ],
+  "symbols": "°CΩ",
+  "customparams": "--no-compress --no-prefilter",
+  "uploaded": false
+}

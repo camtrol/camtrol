@@ -1,0 +1,1940 @@
+457835973039767
+Server.pretty
+0.96 OLED
+
+
+0
+4
+4
+Server.pretty
+1.3 OLED
+
+
+0
+4
+4
+Server.pretty
+1.3_oled
+
+
+0
+6
+4
+Server.pretty
+1.47_IPS
+Molex SPOX Connector System, 5267-06A, 6 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator
+connector Molex SPOX side entry
+0
+12
+12
+Server.pretty
+1N5401
+Diode, DO-201AE series, Axial, Horizontal, pin pitch=15.24mm, , length*diameter=9*5.3mm^2, , http://www.farnell.com/datasheets/529758.pdf
+Diode DO-201AE series Axial Horizontal pin pitch 15.24mm  length 9mm diameter 5.3mm
+0
+2
+2
+Server.pretty
+8.5x8.5_Push_Lock
+1x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x4.1mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
+DIP Switch SPST Slide 7.62mm 300mil LowProfile
+0
+2
+2
+Server.pretty
+40A-RELAY Pin
+Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309
+Through Hole Mount Test Points
+0
+1
+1
+Server.pretty
+80A-RELAY Pin
+Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309
+Through Hole Mount Test Points
+0
+1
+1
+Server.pretty
+1203_1x3P_Slide
+E-Switch sub miniature slide switch, EG series, DPDT, http://spec_sheets.e-switch.com/specs/P040047.pdf
+switch DPDT
+0
+3
+3
+Server.pretty
+3610-Motor
+Molex SPOX Connector System, 5267-02A, 2 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator
+connector Molex SPOX side entry
+0
+3
+3
+Server.pretty
+4056 3.7V
+Varistor, diameter 21.5mm, width 4.3mm, pitch 10mm
+varistor SIOV
+0
+6
+6
+Server.pretty
+6690A
+8-Lead Plastic Small Outline, 5.3x6.2mm Body (http://www.ti.com.cn/cn/lit/ds/symlink/tl7705a.pdf)
+SOIC 1.27
+0
+8
+3
+Server.pretty
+6990A
+8-Lead Plastic Small Outline, 5.3x6.2mm Body (http://www.ti.com.cn/cn/lit/ds/symlink/tl7705a.pdf)
+SOIC 1.27
+0
+8
+6
+Server.pretty
+ACS712
+SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+Server.pretty
+ACS712-20A
+8-Lead Plastic Small Outline, 5.3x6.2mm Body (http://www.ti.com.cn/cn/lit/ds/symlink/tl7705a.pdf)
+SOIC 1.27
+0
+8
+8
+Server.pretty
+ACS758_Hole
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+1
+1
+Server.pretty
+ADS1115
+
+
+0
+10
+10
+Server.pretty
+AHT10
+
+
+0
+4
+4
+Server.pretty
+AHT10-SMD
+
+
+0
+4
+4
+Server.pretty
+ALP1205
+Buzzer, D12.2mm height 6.5mm, https://product.tdk.com/info/en/catalog/datasheets/piezoelectronic_buzzer_ps_en.pdf
+buzzer
+0
+2
+2
+Server.pretty
+AOD1484
+TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/
+DPAK TO-252 DPAK-3 TO-252-3 SOT-428
+0
+7
+3
+Server.pretty
+AOD1485
+TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/
+DPAK TO-252 DPAK-3 TO-252-3 SOT-428
+0
+7
+3
+Server.pretty
+AOD4185
+TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/
+DPAK TO-252 DPAK-3 TO-252-3 SOT-428
+0
+7
+3
+Server.pretty
+ARDUINO_NANO_2
+
+
+0
+30
+30
+Server.pretty
+Allegro_CB_PFF
+Allegro MicroSystems, CB-PFF Package (http://www.allegromicro.com/en/Products/Current-Sensor-ICs/Fifty-To-Two-Hundred-Amp-Integrated-Conductor-Sensor-ICs/ACS758.aspx) !PADS 4-5 DO NOT MATCH DATASHEET!
+Allegro CB-PFF
+0
+37
+5
+Server.pretty
+BL150-L-A
+SPST Off-On Pushbutton, 1A, 30V, CW Industries P/N GPTS203211B, http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf
+SPST button switch Off-On
+0
+8
+8
+Server.pretty
+BN-M3
+Mounting Hole 3.2mm, M3, DIN965
+mounting hole 3.2mm m3 din965
+0
+1
+1
+Server.pretty
+BN-M4
+Mounting Hole 3.2mm, M3, DIN965
+mounting hole 3.2mm m3 din965
+0
+1
+1
+Server.pretty
+BR-111
+TO-92 leads in-line, narrow, oval pads, drill 0.6mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+4
+1
+Server.pretty
+BR-114
+TO-92 leads in-line, narrow, oval pads, drill 0.6mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+5
+2
+Server.pretty
+BR-119
+TO-92 leads in-line, narrow, oval pads, drill 0.6mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+8
+1
+Server.pretty
+BR-120
+TO-92 leads in-line, narrow, oval pads, drill 0.6mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+5
+1
+Server.pretty
+BR-762C
+Altech AK300 serie terminal block (Script generated with StandardBox.py) (http://www.altechcorp.com/PDFS/PCBMETRC.PDF)
+Altech AK300 serie connector
+0
+2
+2
+Server.pretty
+BR-762C-6P
+Altech AK300 serie terminal block (Script generated with StandardBox.py) (http://www.altechcorp.com/PDFS/PCBMETRC.PDF)
+Altech AK300 serie connector
+0
+6
+6
+Server.pretty
+BR-1300C-2P
+Altech AK300 serie terminal block (Script generated with StandardBox.py) (http://www.altechcorp.com/PDFS/PCBMETRC.PDF)
+Altech AK300 serie connector
+0
+2
+2
+Server.pretty
+BSD-101
+1x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x4.1mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
+DIP Switch SPST Slide 7.62mm 300mil LowProfile
+0
+2
+2
+Server.pretty
+BatteryHolder_AA_14500
+https://www.keyelco.com/product-pdf.cfm?p=1025
+AA battery cell holder
+0
+2
+2
+Server.pretty
+BatteryHolder_CR2032
+Comfortable Electronic CR2450 battery holder, http://www.comf.com.tw/ProductDetail.asp?no=148
+Comfortable Electronic CR2450
+0
+2
+2
+Server.pretty
+BridgeHole_3.2mm_M3
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+1
+1
+Server.pretty
+CDS_SMD_PAD
+Resistor, LDR 5.1x3.4mm, see http://yourduino.com/docs/Photoresistor-5516-datasheet.pdf
+Resistor LDR5.1x3.4mm
+0
+2
+2
+Server.pretty
+CPV_Radial_D18.0mm_P7.50mm
+CP, Radial series, Radial, pin pitch=7.50mm, , diameter=18mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 7.50mm  diameter 18mm Electrolytic Capacitor
+0
+2
+2
+Server.pretty
+CP_Radial_D18.0mm_P7.0mm
+CP, Radial series, Radial, pin pitch=7.50mm, , diameter=18mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 7.50mm  diameter 18mm Electrolytic Capacitor
+0
+2
+2
+Server.pretty
+CP_Radial_D18.0mm_P7.50mm
+CP, Radial series, Radial, pin pitch=7.50mm, , diameter=18mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 7.50mm  diameter 18mm Electrolytic Capacitor
+0
+2
+2
+Server.pretty
+CP_Radial_D18.0mm_P7mm
+CP, Radial series, Radial, pin pitch=7.50mm, , diameter=18mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 7.50mm  diameter 18mm Electrolytic Capacitor
+0
+2
+2
+Server.pretty
+CP_Radial_D18.0mm_P7mm-L
+CP, Radial series, Radial, pin pitch=7.50mm, , diameter=18mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 7.50mm  diameter 18mm Electrolytic Capacitor
+0
+2
+2
+Server.pretty
+CP_Radial_D18.0mm_P7mm-R
+CP, Radial series, Radial, pin pitch=7.50mm, , diameter=18mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 7.50mm  diameter 18mm Electrolytic Capacitor
+0
+2
+2
+Server.pretty
+C_0805_HandSoldering
+Capacitor SMD 0805, hand soldering
+capacitor 0805
+0
+2
+2
+Server.pretty
+C_Radial_D12.5mm_H25.0mm_P5.00mm
+C, Radial series, Radial, pin pitch=5.00mm, diameter=12.5mm, height=25mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 5.00mm diameter 12.5mm height 25mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Server.pretty
+C_Radial_D18.0mm_H35.5mm_P7.50mm
+C, Radial series, Radial, pin pitch=7.50mm, diameter=18mm, height=35.5mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 7.50mm diameter 18mm height 35.5mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Server.pretty
+Crystal_SMD_HC49-SD
+SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package
+SMD SMT crystal
+0
+2
+2
+Server.pretty
+DH22
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+Server.pretty
+DH23B
+Heatsink, StoneCold HS
+heatsink
+0
+2
+2
+Server.pretty
+DIP-28_W7.62mm_Socket_LongPads
+28-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket, LongPads
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads
+0
+28
+28
+Server.pretty
+DPAK
+TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/
+DPAK TO-252 DPAK-3 TO-252-3 SOT-428
+0
+7
+3
+Server.pretty
+DS1307
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+Through hole pin header THT 1x08 2.54mm single row
+0
+12
+7
+Server.pretty
+D_DO-27_P5.08mm_Vertical_KathodeUp_1N5406
+Diode, DO-27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=9.52*5.33mm^2, , http://www.slottechforum.com/slotinfo/Techstuff/CD2%20Diodes%20and%20Transistors/Cases/Diode%20DO-27.jpg
+Diode DO-27 series Axial Vertical pin pitch 5.08mm  length 9.52mm diameter 5.33mm
+0
+2
+2
+Server.pretty
+D_DO-27_P15.24mm_Horizontal
+Diode, DO-27 series, Axial, Horizontal, pin pitch=15.24mm, , length*diameter=9.52*5.33mm^2, , http://www.slottechforum.com/slotinfo/Techstuff/CD2%20Diodes%20and%20Transistors/Cases/Diode%20DO-27.jpg
+Diode DO-27 series Axial Horizontal pin pitch 15.24mm  length 9.52mm diameter 5.33mm
+0
+2
+2
+Server.pretty
+D_SMA
+Diode SMA (DO-214AC)
+Diode SMA (DO-214AC)
+0
+2
+2
+Server.pretty
+D_SMA_Handsoldering
+Diode SMA (DO-214AC) Handsoldering
+Diode SMA (DO-214AC) Handsoldering
+0
+2
+2
+Server.pretty
+D_SOD-123
+SOD-123
+SOD-123
+0
+2
+2
+Server.pretty
+EC001-006-09
+FINDER 36.11, SPDT relay, 10A, https://gfinder.findernet.com/public/attachments/36/EN/S36EN.pdf
+spdt relay
+0
+14
+14
+Server.pretty
+ESP32-BLANK
+
+
+0
+30
+30
+Server.pretty
+ESP32-DEVKITC-32D
+
+
+0
+30
+30
+Server.pretty
+ESP32-S
+
+
+0
+38
+38
+Server.pretty
+ESP32-S-Board
+
+
+0
+38
+38
+Server.pretty
+ESP32-S-PCB
+Single 2.4 GHz Wi-Fi and Bluetooth combo chip https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
+Single 2.4 GHz Wi-Fi and Bluetooth combo  chip
+0
+33
+33
+Server.pretty
+ESP32-S2-PCB
+Single 2.4 GHz Wi-Fi and Bluetooth combo chip https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
+Single 2.4 GHz Wi-Fi and Bluetooth combo  chip
+0
+39
+39
+Server.pretty
+ESP32-S3
+
+
+0
+40
+40
+Server.pretty
+ESP32-S3-PCB
+Single 2.4 GHz Wi-Fi and Bluetooth combo chip https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
+Single 2.4 GHz Wi-Fi and Bluetooth combo  chip
+0
+41
+41
+Server.pretty
+ESP32Hole
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+1
+1
+Server.pretty
+FET-PCB
+
+
+0
+6
+3
+Server.pretty
+FHT1200
+Varistor, diameter 21.5mm, width 4.3mm, pitch 10mm
+varistor SIOV
+0
+2
+2
+Server.pretty
+FHT1500
+Varistor, diameter 21.5mm, width 4.3mm, pitch 10mm
+varistor SIOV
+0
+2
+2
+Server.pretty
+FQ-013 ACTIVE 3V
+Generic Buzzer, D12mm height 9.5mm with RM7.6mm
+buzzer
+0
+2
+2
+Server.pretty
+FRG700-16F
+Varistor, diameter 21.5mm, width 4.3mm, pitch 10mm
+varistor SIOV
+0
+2
+2
+Server.pretty
+FRG1100-16F
+Varistor, diameter 21.5mm, width 4.3mm, pitch 10mm
+varistor SIOV
+0
+2
+2
+Server.pretty
+FRG1200-16F
+Varistor, diameter 21.5mm, width 4.3mm, pitch 10mm
+varistor SIOV
+0
+2
+2
+Server.pretty
+FRG1400-16F
+Varistor, diameter 21.5mm, width 4.3mm, pitch 10mm
+varistor SIOV
+0
+2
+2
+Server.pretty
+FRU600-30F
+PTC Resettable Fuse, Ihold = 6.0A, Itrip=10.8A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf
+ptc resettable fuse polyfuse THT
+0
+6
+2
+Server.pretty
+FRU700-30F
+Varistor, diameter 21.5mm, width 4.3mm, pitch 10mm
+varistor SIOV
+0
+2
+2
+Server.pretty
+FRX375
+Varistor, diameter 21.5mm, width 4.3mm, pitch 10mm
+varistor SIOV
+0
+2
+2
+Server.pretty
+FSMD400
+Varistor, diameter 21.5mm, width 4.3mm, pitch 10mm
+varistor SIOV
+0
+2
+2
+Server.pretty
+FUSE-Holder
+TO-92 leads in-line, narrow, oval pads, drill 0.6mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+1
+1
+Server.pretty
+FUSE-Holder-mini
+TO-92 leads in-line, narrow, oval pads, drill 0.6mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+0
+0
+Server.pretty
+FUSE-PIN-Holder
+PTC Resettable Fuse, Ihold = 6.0A, Itrip=10.8A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf
+ptc resettable fuse polyfuse THT
+0
+6
+2
+Server.pretty
+FUSE-PIN-Holder-Mini
+PTC Resettable Fuse, Ihold = 6.0A, Itrip=10.8A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf
+ptc resettable fuse polyfuse THT
+0
+4
+2
+Server.pretty
+Fuse-Pin
+car blade fuse
+car blade fuse
+0
+2
+2
+Server.pretty
+Fuse_1201_3225
+Fuse SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+fuse handsolder
+0
+2
+2
+Server.pretty
+Fuse_1210_3225
+Fuse SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+fuse handsolder
+0
+2
+2
+Server.pretty
+Fuse_1210_3225Metric_Castellated
+Fuse SMD 1210 (3225 Metric), castellated end terminal, IPC_7351. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+fuse castellated
+0
+2
+2
+Server.pretty
+Fuse_FUZETEC
+PTC Resettable Fuse, Ihold = 13.0A, Itrip=24.0A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf
+ptc resettable fuse polyfuse THT
+0
+4
+2
+Server.pretty
+GL3526
+Ceramic Resomator/Filter 10.0x5.0 RedFrequency MG/MT/MX series, http://www.red-frequency.com/download/datenblatt/redfrequency-datenblatt-ir-zta.pdf, length*width=10.0x5.0mm^2 package, package length=10.0mm, package width=5.0mm, 2 pins
+THT ceramic resonator filter
+0
+2
+2
+Server.pretty
+HF49FD-005-1H11
+Relay SPDT, Finder Type34.51, vertical/standing form, see https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf
+Relay SPDT Finder
+0
+4
+4
+Server.pretty
+HFD45-S
+https://www.fujitsu.com/downloads/MICRO/fcai/relays/ftr-b3.pdf
+Fujitsh FTR B3S B3SA Relay J JLeg
+0
+8
+8
+Server.pretty
+HJR1-2CM-12V
+Finder 32.21-x000 Relay, DPDT, https://gfinder.findernet.com/public/attachments/30/EN/S30EN.pdf
+AXICOM IM-Series Relay SPDT
+0
+8
+8
+Server.pretty
+HTTM
+
+
+0
+3
+3
+Server.pretty
+HW-298
+Varistor, diameter 21.5mm, width 4.3mm, pitch 10mm
+varistor SIOV
+0
+6
+4
+Server.pretty
+Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal
+Hirose FH12, FFC/FPC connector, FH12-12S-0.5SH, 12 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator
+connector Hirose FH12 horizontal
+0
+14
+13
+Server.pretty
+Hirose_FH12-18S-0.5SH_1x18-1MP_P0.50mm_Horizontal_ST7789V3-TC
+Hirose FH12, FFC/FPC connector, FH12-18S-0.5SH, 18 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator
+connector Hirose FH12 horizontal
+0
+20
+19
+Server.pretty
+Hirose_FH12-30S-0.5SH_1x30-1MP_P0.50mm_Horizontal
+Hirose FH12, FFC/FPC connector, FH12-30S-0.5SH, 30 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator
+connector Hirose FH12 horizontal
+0
+32
+31
+Server.pretty
+Hole_2.1mm
+Mounting Hole 2.1mm, no annular
+mounting hole 2.1mm no annular
+0
+0
+0
+Server.pretty
+Hole_7.5mm
+Mounting Hole 2.1mm, no annular
+mounting hole 2.1mm no annular
+0
+0
+0
+Server.pretty
+IDC-Header_2x06-1MP_P2.54mm_Latch_Horizontal
+Through hole IDC header, 2x06, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows latches, mounting holes, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
+Through hole horizontal IDC header THT 2x06 2.54mm double row
+0
+14
+13
+Server.pretty
+IDC-Header_2x06_P2.54mm_Latch_Horizontal
+Through hole IDC header, 2x06, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows latches, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
+Through hole horizontal IDC header THT 2x06 2.54mm double row
+0
+12
+12
+Server.pretty
+IDC-Header_2x06_P2.54mm_Vertical
+Through hole IDC box header, 2x06, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
+Through hole vertical IDC box header THT 2x06 2.54mm double row
+0
+12
+12
+Server.pretty
+IDC-Header_2x07_P2.54mm_Latch_Horizontal
+Through hole IDC header, 2x07, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows latches, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
+Through hole horizontal IDC header THT 2x07 2.54mm double row
+0
+14
+14
+Server.pretty
+IDC-Header_2x15_P2.54mm_Vertical
+Through hole IDC box header, 2x15, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
+Through hole vertical IDC box header THT 2x15 2.54mm double row
+0
+30
+30
+Server.pretty
+JEB-E2S
+Diode, DO-201AE series, Axial, Horizontal, pin pitch=15.24mm, , length*diameter=9*5.3mm^2, , http://www.farnell.com/datasheets/529758.pdf
+Diode DO-201AE series Axial Horizontal pin pitch 15.24mm  length 9mm diameter 5.3mm
+0
+0
+0
+Server.pretty
+JOTM-1S6
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
+Server.pretty
+JQC-T78-DC12V-A
+FINDER 36.11, SPDT relay, 10A, https://gfinder.findernet.com/public/attachments/36/EN/S36EN.pdf
+spdt relay
+0
+4
+4
+Server.pretty
+JQC-T78-DC12V-C
+FINDER 36.11, SPDT relay, 10A, https://gfinder.findernet.com/public/attachments/36/EN/S36EN.pdf
+spdt relay
+0
+5
+5
+Server.pretty
+JUMPER-SHORT
+
+
+0
+2
+2
+Server.pretty
+Jumper-3P-2.54mm
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+2
+Server.pretty
+KF7.62-2P
+https://katalog.we-online.de/em/datasheet/6913114001xx.pdf
+Wuerth WR-TBL Series 3114 terminal block pitch 7.62mm
+0
+2
+2
+Server.pretty
+LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED handsolder
+0
+2
+2
+Server.pretty
+LED_0805
+Capacitor SMD 0805, hand soldering
+capacitor 0805
+0
+2
+2
+Server.pretty
+LED_D3.0mm_FlatTop
+LED, Round, FlatTop, diameter 3.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-47XEC(Ver.9A).pdf
+LED Round FlatTop diameter 3.0mm 2 pins
+0
+2
+2
+Server.pretty
+LED_WS2812B-PLCC4
+http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf
+LED NeoPixel
+0
+4
+4
+Server.pretty
+LM2596 DC-DC
+
+
+0
+4
+4
+Server.pretty
+MAX485
+8-Lead Plastic Small Outline, 5.3x6.2mm Body (http://www.ti.com.cn/cn/lit/ds/symlink/tl7705a.pdf)
+SOIC 1.27
+0
+8
+8
+Server.pretty
+MMSD4148
+SOD-123
+SOD-123
+0
+2
+2
+Server.pretty
+MOSFET_MODULE-3
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+Through hole pin header THT 1x08 2.54mm single row
+0
+6
+6
+Server.pretty
+MOSFET_MODULE-4
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+Through hole pin header THT 1x08 2.54mm single row
+0
+7
+7
+Server.pretty
+MOSFET_MODULE-M2
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+Through hole pin header THT 1x08 2.54mm single row
+0
+6
+6
+Server.pretty
+MP1584
+Varistor, diameter 21.5mm, width 4.3mm, pitch 10mm
+varistor SIOV
+0
+4
+4
+Server.pretty
+MP1584-SMD
+Varistor, diameter 21.5mm, width 4.3mm, pitch 10mm
+varistor SIOV
+0
+4
+4
+Server.pretty
+MPU6050
+
+
+0
+8
+8
+Server.pretty
+MSL-1C2P
+1x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x4.1mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
+DIP Switch SPST Slide 7.62mm 300mil LowProfile
+0
+6
+3
+Server.pretty
+MagneticBuzzer_ProSignal_ABT-410-RC
+Buzzer, Elektromagnetic Beeper, Summer, 1,5V-DC,
+Pro Signal ABT-410-RC 
+0
+2
+2
+Server.pretty
+MiniStepDownConv
+
+
+0
+4
+4
+Server.pretty
+Molex_SPOX_5267-02A_1x02_P2.50mm_Vertical
+Molex SPOX Connector System, 5267-02A, 2 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator
+connector Molex SPOX side entry
+0
+2
+2
+Server.pretty
+Molex_SPOX_5267-03A_1x03_P2.50mm_Vertical
+Molex SPOX Connector System, 5267-03A, 3 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator
+connector Molex SPOX side entry
+0
+3
+3
+Server.pretty
+Molex_SPOX_5267-04A_1x04_P2.50mm_SMD
+Molex SPOX Connector System, 5267-04A, 4 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator
+connector Molex SPOX side entry
+0
+4
+4
+Server.pretty
+Molex_SPOX_5267-04A_1x04_P2.50mm_Vertical
+Molex SPOX Connector System, 5267-04A, 4 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator
+connector Molex SPOX side entry
+0
+4
+4
+Server.pretty
+Molex_SPOX_5267-05A_1x05_P2.50mm_Vertical
+Molex SPOX Connector System, 5267-05A, 5 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator
+connector Molex SPOX side entry
+0
+5
+5
+Server.pretty
+Molex_SPOX_5267-06A_1x06_P2.50mm_Vertical
+Molex SPOX Connector System, 5267-06A, 6 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator
+connector Molex SPOX side entry
+0
+6
+6
+Server.pretty
+MountingHole_3.2mm_M3
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+1
+1
+Server.pretty
+MountingHole_3.2mm_M3-Case
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+1
+1
+Server.pretty
+MountingHole_3.2mm_M3-pb
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+1
+1
+Server.pretty
+MountingHole_3.2mm_M3-pcb
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+1
+1
+Server.pretty
+MountingHole_3.2mm_M3-support
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+1
+1
+Server.pretty
+MountingHole_4mm_M4-pcb
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+1
+1
+Server.pretty
+MountingHole_5mm_M5-pcb
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+1
+1
+Server.pretty
+MountingHole_6.2mm
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+1
+1
+Server.pretty
+NE555
+8-Lead Plastic Small Outline, 5.3x6.2mm Body (http://www.ti.com.cn/cn/lit/ds/symlink/tl7705a.pdf)
+SOIC 1.27
+0
+8
+8
+Server.pretty
+NW3-SK-02
+1x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x4.1mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
+DIP Switch SPST Slide 7.62mm 300mil LowProfile
+0
+7
+4
+Server.pretty
+NW3-SK-02A
+1x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x4.1mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
+DIP Switch SPST Slide 7.62mm 300mil LowProfile
+0
+7
+4
+Server.pretty
+OUTPUT_MODULE
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+Through hole pin header THT 1x08 2.54mm single row
+0
+16
+16
+Server.pretty
+OUTPUT_MODULE-2
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+Through hole pin header THT 1x08 2.54mm single row
+0
+8
+8
+Server.pretty
+OUTPUT_MODULE-3
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+Through hole pin header THT 1x08 2.54mm single row
+0
+6
+6
+Server.pretty
+OUTPUT_MODULE_pcb
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+Through hole pin header THT 1x08 2.54mm single row
+0
+16
+16
+Server.pretty
+P2-L
+SPST Off-On Pushbutton, 1A, 30V, CW Industries P/N GPTS203211B, http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf
+SPST button switch Off-On
+0
+8
+8
+Server.pretty
+PA1a-5V
+Relay SPDT, Finder Type34.51, vertical/standing form, see https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf
+Relay SPDT Finder
+0
+4
+4
+Server.pretty
+PC817-SMD
+4-lead surface-mounted (SMD) DIP package, row spacing 7.62 mm (300 mils)
+SMD DIP DIL PDIP SMDIP 2.54mm 7.62mm 300mil
+0
+4
+4
+Server.pretty
+PCA9555DB_SOP65P780X200-24N
+
+
+0
+24
+24
+Server.pretty
+PCB-28
+TO-92 leads in-line, narrow, oval pads, drill 0.6mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+5
+1
+Server.pretty
+PhoenixContact_MCV_1,5_2-G-3.81_1x02_P3.81mm_Vertical
+Generic Phoenix Contact connector footprint for: MCV_1,5/2-G-3.81; number of pins: 02; pin pitch: 3.81mm; Vertical || order number: 1803426 8A 160V
+phoenix_contact connector MCV_01x02_G_3.81mm
+0
+2
+2
+Server.pretty
+PhoenixContact_MCV_1,5_3-G-3.81_1x03_P3.81mm_Vertical
+Generic Phoenix Contact connector footprint for: MCV_1,5/3-G-3.81; number of pins: 03; pin pitch: 3.81mm; Vertical || order number: 1803439 8A 160V
+phoenix_contact connector MCV_01x03_G_3.81mm
+0
+3
+3
+Server.pretty
+PhoenixContact_MCV_1,5_4-G-3.81_1x04_P3.81mm_Vertical
+Generic Phoenix Contact connector footprint for: MCV_1,5/4-G-3.81; number of pins: 04; pin pitch: 3.81mm; Vertical || order number: 1803442 8A 160V
+phoenix_contact connector MCV_01x04_G_3.81mm
+0
+4
+4
+Server.pretty
+PhoenixContact_MCV_1,5_5-G-3.81_1x05_P3.81mm_Vertical
+Generic Phoenix Contact connector footprint for: MCV_1,5/5-G-3.81; number of pins: 05; pin pitch: 3.81mm; Vertical || order number: 1803455 8A 160V
+phoenix_contact connector MCV_01x05_G_3.81mm
+0
+5
+5
+Server.pretty
+PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal
+Generic Phoenix Contact connector footprint for: MC_1,5/2-G-3.5; number of pins: 02; pin pitch: 3.50mm; Angled || order number: 1844210 8A 160V
+phoenix_contact connector MC_01x02_G_3.5mm
+0
+2
+2
+Server.pretty
+PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal
+Generic Phoenix Contact connector footprint for: MC_1,5/2-G-3.81; number of pins: 02; pin pitch: 3.81mm; Angled || order number: 1803277 8A 160V
+phoenix_contact connector MC_01x02_G_3.81mm
+0
+2
+2
+Server.pretty
+PhoenixContact_MC_1,5_3-G-3.5_1x03_P3.50mm_Horizontal
+Generic Phoenix Contact connector footprint for: MC_1,5/3-G-3.5; number of pins: 03; pin pitch: 3.50mm; Angled || order number: 1844223 8A 160V
+phoenix_contact connector MC_01x03_G_3.5mm
+0
+3
+3
+Server.pretty
+PhoenixContact_MC_1,5_3-G-3.81_1x03_P3.81mm_Horizontal
+Generic Phoenix Contact connector footprint for: MC_1,5/3-G-3.81; number of pins: 03; pin pitch: 3.81mm; Angled || order number: 1803280 8A 160V
+phoenix_contact connector MC_01x03_G_3.81mm
+0
+3
+3
+Server.pretty
+PhoenixContact_MC_1,5_4-G-3.81_1x04_P3.81mm_Horizontal
+Generic Phoenix Contact connector footprint for: MC_1,5/4-G-3.81; number of pins: 04; pin pitch: 3.81mm; Angled || order number: 1803293 8A 160V
+phoenix_contact connector MC_01x04_G_3.81mm
+0
+4
+4
+Server.pretty
+PhoenixContact_MC_1,5_5-G-3.81_1x05_P3.81mm_Horizontal
+Generic Phoenix Contact connector footprint for: MC_1,5/5-G-3.81; number of pins: 05; pin pitch: 3.81mm; Angled || order number: 1803303 8A 160V
+phoenix_contact connector MC_01x05_G_3.81mm
+0
+5
+5
+Server.pretty
+PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal
+Generic Phoenix Contact connector footprint for: MSTBA_2,5/2-G-5,08; number of pins: 02; pin pitch: 5.08mm; Angled || order number: 1757242 12A || order number: 1923869 16A (HC)
+phoenix_contact connector MSTBA_01x02_G_5.08mm
+0
+2
+2
+Server.pretty
+PhoenixContact_MSTBVA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal
+Generic Phoenix Contact connector footprint for: MSTBVA_2,5/3-G-5,08; number of pins: 03; pin pitch: 5.08mm; Vertical || order number: 1755749 12A || order number: 1924318 16A (HC)
+phoenix_contact connector MSTBVA_01x03_G_5.08mm
+0
+2
+2
+Server.pretty
+PhoenixContact_MSTBVA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal_limousine
+Generic Phoenix Contact connector footprint for: MSTBVA_2,5/3-G-5,08; number of pins: 03; pin pitch: 5.08mm; Vertical || order number: 1755749 12A || order number: 1924318 16A (HC)
+phoenix_contact connector MSTBVA_01x03_G_5.08mm
+0
+2
+2
+Server.pretty
+PhoenixContact_MSTBVA_2,5_2-G-5,08_1x02_P5.08mm_Vertical_NEW
+Generic Phoenix Contact connector footprint for: MSTBVA_2,5/3-G-5,08; number of pins: 03; pin pitch: 5.08mm; Vertical || order number: 1755749 12A || order number: 1924318 16A (HC)
+phoenix_contact connector MSTBVA_01x03_G_5.08mm
+0
+2
+2
+Server.pretty
+PhoenixContact_MSTBVA_2,5_2-G-5,08_1x03_P5.08mm_Horizontal
+Generic Phoenix Contact connector footprint for: MSTBVA_2,5/3-G-5,08; number of pins: 03; pin pitch: 5.08mm; Vertical || order number: 1755749 12A || order number: 1924318 16A (HC)
+phoenix_contact connector MSTBVA_01x03_G_5.08mm
+0
+3
+3
+Server.pretty
+PhoenixContact_MSTBVA_2,5_2-G_1x02_P5.00mm_Vertical
+Generic Phoenix Contact connector footprint for: MSTBVA_2,5/2-G; number of pins: 02; pin pitch: 5.00mm; Vertical || order number: 1755516 12A || order number: 1924198 16A (HC)
+phoenix_contact connector MSTBVA_01x02_G_5.00mm
+0
+2
+2
+Server.pretty
+PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical
+Generic Phoenix Contact connector footprint for: MSTBVA_2,5/3-G-5,08; number of pins: 03; pin pitch: 5.08mm; Vertical || order number: 1755749 12A || order number: 1924318 16A (HC)
+phoenix_contact connector MSTBVA_01x03_G_5.08mm
+0
+3
+3
+Server.pretty
+PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical2
+Generic Phoenix Contact connector footprint for: MSTBVA_2,5/3-G-5,08; number of pins: 03; pin pitch: 5.08mm; Vertical || order number: 1755749 12A || order number: 1924318 16A (HC)
+phoenix_contact connector MSTBVA_01x03_G_5.08mm
+0
+3
+3
+Server.pretty
+PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical_NEW
+Generic Phoenix Contact connector footprint for: MSTBVA_2,5/3-G-5,08; number of pins: 03; pin pitch: 5.08mm; Vertical || order number: 1755749 12A || order number: 1924318 16A (HC)
+phoenix_contact connector MSTBVA_01x03_G_5.08mm
+0
+3
+3
+Server.pretty
+PinHeader_1x03_P2.00mm_Vertical
+Through hole straight pin header, 1x03, 2.00mm pitch, single row
+Through hole pin header THT 1x03 2.00mm single row
+0
+3
+3
+Server.pretty
+PinHeader_1x04_P2.54mm_Vertical
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+Server.pretty
+PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left
+surface-mounted straight pin header, 1x04, 2.54mm pitch, single row, style 1 (pin 1 left)
+Surface mounted pin header SMD 1x04 2.54mm single row style1 pin1 left
+0
+4
+4
+Server.pretty
+PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Left
+surface-mounted straight pin header, 1x06, 2.54mm pitch, single row, style 1 (pin 1 left)
+Surface mounted pin header SMD 1x06 2.54mm single row style1 pin1 left
+0
+6
+6
+Server.pretty
+PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Right
+surface-mounted straight pin header, 1x06, 2.54mm pitch, single row, style 2 (pin 1 right)
+Surface mounted pin header SMD 1x06 2.54mm single row style2 pin1 right
+0
+6
+6
+Server.pretty
+PinHeader_2x03_P1.27mm_Vertical_Ract_SMD
+surface-mounted straight pin header, 2x03, 1.27mm pitch, double rows
+Surface mounted pin header SMD 2x03 1.27mm double row
+0
+6
+6
+Server.pretty
+PinHeader_2x03_P1.27mm_Vertical_SMD
+surface-mounted straight pin header, 2x03, 1.27mm pitch, double rows
+Surface mounted pin header SMD 2x03 1.27mm double row
+0
+6
+6
+Server.pretty
+PinHeader_2x03_P1.27mm_Vertical_SMD_Base_Hole
+surface-mounted straight pin header, 2x03, 1.27mm pitch, double rows
+Surface mounted pin header SMD 2x03 1.27mm double row
+0
+6
+6
+Server.pretty
+PinHeader_2x03_P1.27mm_Vertical_SMD_Hole
+surface-mounted straight pin header, 2x03, 1.27mm pitch, double rows
+Surface mounted pin header SMD 2x03 1.27mm double row
+0
+6
+6
+Server.pretty
+PinHeader_2x03_P1.27mm_Vertical_SMD_Hole_Ract
+surface-mounted straight pin header, 2x03, 1.27mm pitch, double rows
+Surface mounted pin header SMD 2x03 1.27mm double row
+0
+6
+6
+Server.pretty
+PinHeader_2x03_P1.27mm_Vertical_SMD_Mount
+surface-mounted straight pin header, 2x03, 1.27mm pitch, double rows
+Surface mounted pin header SMD 2x03 1.27mm double row
+0
+6
+6
+Server.pretty
+PinSocket_1x4_P2.54mm_Vertical
+Through hole straight socket strip, 1x10, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x10 2.54mm single row
+0
+4
+4
+Server.pretty
+Potentiometer_12RH
+Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html
+Potentiometer vertical Alps RK09K Single
+0
+5
+3
+Server.pretty
+Potentiometer_Bourns_3296Y_Vertical
+Potentiometer, vertical, Bourns 3296Y, https://www.bourns.com/pdfs/3296.pdf
+Potentiometer vertical Bourns 3296Y
+0
+3
+3
+Server.pretty
+Potentiometer_Bourns_3386C_Horizontal
+Potentiometer, horizontal, Bourns 3386C, https://www.bourns.com/pdfs/3386.pdf
+Potentiometer horizontal Bourns 3386C
+0
+3
+3
+Server.pretty
+Potentiometer_KP
+Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html
+Potentiometer vertical Alps RK09K Single
+0
+3
+3
+Server.pretty
+Potentiometer_Piher_PT-10-V05_Vertical
+Potentiometer, vertical, Piher PT-10-V05, http://www.piher-nacesa.com/pdf/12-PT10v03.pdf
+Potentiometer vertical Piher PT-10-V05
+0
+3
+3
+Server.pretty
+Potentiometer_Piher_PT-10-V05_Vertical_2
+Potentiometer, vertical, Piher PT-10-V05, http://www.piher-nacesa.com/pdf/12-PT10v03.pdf
+Potentiometer vertical Piher PT-10-V05
+0
+3
+3
+Server.pretty
+Potentiometer_Switch
+1111-5R1211, Single Pot, Horizontal, Switch, Alps RK097 Single, https://tech.alpsalpine.com/prod/e/pdf/potentiometer/rotarypotentiometers/rk097/rk097.pdf
+Potentiometer horizontal Alps RK097 Single Switch
+0
+5
+5
+Server.pretty
+Potentiometer_Switch_3P
+1111-5R1211, Single Pot, Horizontal, Switch, Alps RK097 Single, https://tech.alpsalpine.com/prod/e/pdf/potentiometer/rotarypotentiometers/rk097/rk097.pdf
+Potentiometer horizontal Alps RK097 Single Switch
+0
+3
+3
+Server.pretty
+RELAY Pin
+Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309
+Through Hole Mount Test Points
+0
+1
+1
+Server.pretty
+RELAY-80A
+FINDER 36.11, SPDT relay, 10A, https://gfinder.findernet.com/public/attachments/36/EN/S36EN.pdf
+spdt relay
+0
+5
+5
+Server.pretty
+RELAY-80A JD1914
+FINDER 36.11, SPDT relay, 10A, https://gfinder.findernet.com/public/attachments/36/EN/S36EN.pdf
+spdt relay
+0
+5
+5
+Server.pretty
+RELAY_10A
+FINDER 36.11, SPDT relay, 10A, https://gfinder.findernet.com/public/attachments/36/EN/S36EN.pdf
+spdt relay
+0
+5
+5
+Server.pretty
+RJ11_Connfly_DS1133-S4_Horizontal
+RJ14 connector 6P4C Horizontal http://www.connfly.com/userfiles/image/UpLoadFile/File/2012/10/26/DS1133.pdf
+RJ14 connector 6P4C Connfly DS1133
+0
+4
+4
+Server.pretty
+RJ14_Connfly_DS1133-S4_Horizontal
+RJ14 connector 6P4C Horizontal http://www.connfly.com/userfiles/image/UpLoadFile/File/2012/10/26/DS1133.pdf
+RJ14 connector 6P4C Connfly DS1133
+0
+4
+4
+Server.pretty
+RJ45_8P_OPEN
+1 port ethernet throughhole connector, https://en.ninigi.com/product/rj45ge/pdf
+RJ45 ethernet 8p8c
+0
+10
+9
+Server.pretty
+RJ45_Ninigi_GE
+1 port ethernet throughhole connector, https://en.ninigi.com/product/rj45ge/pdf
+RJ45 ethernet 8p8c
+0
+10
+9
+Server.pretty
+RV09H
+Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html
+Potentiometer vertical Alps RK09K Single
+0
+5
+3
+Server.pretty
+R_0805_HandSoldering
+Resistor SMD 0805, hand soldering
+resistor 0805
+0
+2
+2
+Server.pretty
+R_Array_4x0603
+Chip Resistor Network, ROHM MNR14 (see mnr_g.pdf)
+resistor array
+0
+8
+8
+Server.pretty
+Relay_1-Form-A_Schrack-RYII_RM5mm
+Relay, 1-Form-A, Schrack-RYII, RM5mm, SPST-NO
+Relay 1-Form-A Schrack-RYII RM5mm SPST-NO
+0
+4
+4
+Server.pretty
+Relay_25A
+https://gfinder.findernet.com/public/attachments/56/DE/S56DE.pdf
+Relay socket DPDT Finder 96.12 56.32
+0
+5
+5
+Server.pretty
+Relay_HJR1-2C-L-12VDC
+Finder 32.21-x000 Relay, DPDT, https://gfinder.findernet.com/public/attachments/30/EN/S30EN.pdf
+AXICOM IM-Series Relay SPDT
+0
+8
+5
+Server.pretty
+Relay_HJR1-2C-M-12VDC
+Finder 32.21-x000 Relay, DPDT, https://gfinder.findernet.com/public/attachments/30/EN/S30EN.pdf
+AXICOM IM-Series Relay SPDT
+0
+8
+8
+Server.pretty
+Relay_MODULE-3
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+Through hole pin header THT 1x08 2.54mm single row
+0
+8
+6
+Server.pretty
+Relay_MODULE-M2
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+Through hole pin header THT 1x08 2.54mm single row
+0
+6
+6
+Server.pretty
+RotarySwitch_FDR-04
+Alps rotary encoder, EC12E... without switch (pins are dummy), vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+5
+5
+Server.pretty
+SC5R5224ZH_D9.5mm_H5.00mm
+CP, Radial_Tantal series, Radial, pin pitch=5.00mm, , diameter=9.0mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf
+CP Radial_Tantal series Radial pin pitch 5.00mm  diameter 9.0mm Tantal Electrolytic Capacitor
+0
+2
+2
+Server.pretty
+SGL8022W
+8-Lead Plastic Small Outline, 5.3x6.2mm Body (http://www.ti.com.cn/cn/lit/ds/symlink/tl7705a.pdf)
+SOIC 1.27
+0
+8
+8
+Server.pretty
+SLPH-300V-5,08_1x03_P5.08mm_Vertical
+Generic Phoenix Contact connector footprint for: MSTBVA_2,5/3-G-5,08; number of pins: 03; pin pitch: 5.08mm; Vertical || order number: 1755749 12A || order number: 1924318 16A (HC)
+phoenix_contact connector MSTBVA_01x03_G_5.08mm
+0
+3
+3
+Server.pretty
+SMBJ48A
+Diode SMB (DO-214AA)
+Diode SMB (DO-214AA)
+0
+2
+2
+Server.pretty
+SMD_CONN_1x01_P2.50mm
+Molex SPOX Connector System, 5267-06A, 6 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator
+connector Molex SPOX side entry
+0
+1
+1
+Server.pretty
+SMD_CONN_1x01_P2.50mm-2.5SQ
+Molex SPOX Connector System, 5267-06A, 6 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator
+connector Molex SPOX side entry
+0
+1
+1
+Server.pretty
+SMD_CONN_1x01_P2.50mm-10SQ
+Molex SPOX Connector System, 5267-06A, 6 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator
+connector Molex SPOX side entry
+0
+1
+1
+Server.pretty
+SMD_CONN_1x02_P2.50mm
+Molex SPOX Connector System, 5267-06A, 6 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator
+connector Molex SPOX side entry
+0
+2
+2
+Server.pretty
+SMD_CONN_1x03_P2.50mm
+Molex SPOX Connector System, 5267-06A, 6 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator
+connector Molex SPOX side entry
+0
+3
+3
+Server.pretty
+SMD_CONN_1x4_P1.270mm
+Molex SPOX Connector System, 5267-06A, 6 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator
+connector Molex SPOX side entry
+0
+4
+4
+Server.pretty
+SMD_CONN_1x04_P2.50mm
+Molex SPOX Connector System, 5267-06A, 6 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator
+connector Molex SPOX side entry
+0
+4
+4
+Server.pretty
+SMD_CONN_1x05_P2.50mm
+Molex SPOX Connector System, 5267-06A, 6 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator
+connector Molex SPOX side entry
+0
+5
+5
+Server.pretty
+SMD_CONN_1x06_P2.50mm
+Molex SPOX Connector System, 5267-06A, 6 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator
+connector Molex SPOX side entry
+0
+6
+6
+Server.pretty
+SMD_CONN_1x7_P1.270mm
+Molex SPOX Connector System, 5267-06A, 6 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator
+connector Molex SPOX side entry
+0
+7
+7
+Server.pretty
+SMD_CONN_1x8_P1.270mm
+Molex SPOX Connector System, 5267-06A, 6 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator
+connector Molex SPOX side entry
+0
+8
+8
+Server.pretty
+SMD_CONN_1x12_P1.270mm
+Molex SPOX Connector System, 5267-06A, 6 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator
+connector Molex SPOX side entry
+0
+12
+12
+Server.pretty
+SMD_CONN_1x14_P1.270mm
+Molex SPOX Connector System, 5267-06A, 6 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator
+connector Molex SPOX side entry
+0
+14
+14
+Server.pretty
+SOIC-8_3.9x4.9mm_P1.27mm
+SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+Server.pretty
+SOIC-14_3.9x8.7mm_P1.27mm
+SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+14
+14
+Server.pretty
+SOIC-16_3.9x9.9mm_P1.27mm
+SOIC, 16 Pin (JEDEC MS-012AC, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+16
+16
+Server.pretty
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+Server.pretty
+SS-12F44
+CuK miniature slide switch, OS series, SPDT, https://www.ckswitches.com/media/1428/os.pdf
+switch SPDT
+0
+5
+3
+Server.pretty
+SSD1306
+
+
+0
+4
+4
+Server.pretty
+ST7789V
+
+
+0
+0
+0
+Server.pretty
+ST7789V2
+
+
+0
+0
+0
+Server.pretty
+ST7789_P0.50mm
+Hirose FH12, FFC/FPC connector, FH12-18S-0.5SH, 18 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator
+connector Hirose FH12 horizontal
+0
+18
+18
+Server.pretty
+ST7789_P1.270mm
+Molex SPOX Connector System, 5267-06A, 6 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator
+connector Molex SPOX side entry
+0
+12
+12
+Server.pretty
+SW_Tactile_SKHH_Angled
+tactile switch 6mm ALPS SKHH right angle http://www.alps.com/prod/info/E/HTML/Tact/SnapIn/SKHH/SKHHLUA010.html
+tactile switch 6mm ALPS SKHH right angle
+0
+4
+2
+Server.pretty
+SW_Tactile_SPST_Angled_PTS645Vx39-2LFS
+tactile switch SPST right angle, PTS645VL39-2 LFS
+tactile switch SPST angled PTS645VL39-2 LFS C&K Button
+0
+4
+2
+Server.pretty
+SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip
+net tie solder jumper bridged
+0
+2
+2
+Server.pretty
+SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
+solder jumper open
+0
+2
+2
+Server.pretty
+SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm
+SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip
+net tie solder jumper bridged
+0
+3
+3
+Server.pretty
+SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm
+SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip
+solder jumper open
+0
+3
+3
+Server.pretty
+SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm
+SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip
+net tie solder jumper bridged
+0
+3
+3
+Server.pretty
+T90-12VDC-TL-C
+https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+Relay RAYEX L90S SPDT
+0
+5
+5
+Server.pretty
+TIP41C
+TO-220-2, Vertical, RM 5.08mm
+TO-220-2 Vertical RM 5.08mm
+0
+3
+3
+Server.pretty
+TO-220_Horizontal
+TO-220, Horizontal, RM 2.54mm
+TO-220 Horizontal RM 2.54mm
+0
+5
+4
+Server.pretty
+TS-3404
+https://www.mouser.com/ds/2/60/RS-282G05A-SM_RT-1159762.pdf
+SPST button tactile switch
+0
+4
+2
+Server.pretty
+TS27-1-TW
+SW PUSH 12mm https://www.e-switch.com/system/asset/product_line/data_sheet/143/TL1100.pdf
+tact sw push 12mm
+0
+7
+7
+Server.pretty
+TSSOP-10_3x3mm_P0.5mm
+TSSOP10: plastic thin shrink small outline package; 10 leads; body width 3 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot552-1_po.pdf)
+SSOP 0.5
+0
+10
+10
+Server.pretty
+TSSOP-28_4.4x9.7mm_P0.65mm
+TSSOP28: plastic thin shrink small outline package; 28 leads; body width 4.4 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot361-1_po.pdf)
+SSOP 0.65
+0
+28
+28
+Server.pretty
+TTP23-B6
+6-pin SOT-23 package, Handsoldering
+SOT-23-6 Handsoldering
+0
+6
+6
+Server.pretty
+TestPoint_Keystone_5015_Micro-Minature
+SMT Test Point- Micro Miniature 5015, http://www.keyelco.com/product-pdf.cfm?p=1353
+Test Point
+0
+2
+2
+Server.pretty
+Test_Point
+Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309
+Through Hole Mount Test Points
+0
+1
+1
+Server.pretty
+Test_Point_Manual
+Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309
+Through Hole Mount Test Points
+0
+1
+1
+Server.pretty
+Touch_Switch_R2
+surface-mounted straight pin header, 2x03, 1.27mm pitch, double rows
+Surface mounted pin header SMD 2x03 1.27mm double row
+0
+6
+6
+Server.pretty
+Touch_Switch_R7
+surface-mounted straight pin header, 2x03, 1.27mm pitch, double rows
+Surface mounted pin header SMD 2x03 1.27mm double row
+0
+6
+6
+Server.pretty
+USB_A_NW3-USBC-004_Vertical
+https://www.molex.com/pdm_docs/sd/1050570001_sd.pdf
+USB A Vertical
+0
+6
+5
+Server.pretty
+USB_A_NW3-USBC-005
+https://www.molex.com/pdm_docs/sd/1050570001_sd.pdf
+USB A Vertical
+0
+8
+5
+Server.pretty
+USL-5SAB2-3P
+Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
+Altech AK300 terminal block pitch 5.0mm
+0
+6
+3
+Server.pretty
+USL-5VB1L3-3P
+Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
+Altech AK300 terminal block pitch 5.0mm
+0
+3
+3
+Server.pretty
+WCS2750
+Allegro MicroSystems, CB-PFF Package (http://www.allegromicro.com/en/Products/Current-Sensor-ICs/Fifty-To-Two-Hundred-Amp-Integrated-Conductor-Sensor-ICs/ACS758.aspx) !PADS 4-5 DO NOT MATCH DATASHEET!
+Allegro CB-PFF
+0
+5
+5
+Server.pretty
+WIRE-JUMPER
+
+
+0
+2
+2
+Server.pretty
+Water_Gauge
+
+
+0
+6
+6
+Server.pretty
+WireHole_10SQ-pb
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+1
+1
+Server.pretty
+Wire_Guide_5mm
+WireConnection with 2mm drill
+
+0
+2
+2
+Server.pretty
+Wire_Pin
+
+
+0
+1
+1
+Server.pretty
+YSS-1201
+1x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x4.1mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
+DIP Switch SPST Slide 7.62mm 300mil LowProfile
+0
+6
+3
+Server.pretty
+YSS-1201-Dual
+1x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x4.1mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
+DIP Switch SPST Slide 7.62mm 300mil LowProfile
+0
+6
+6
+Server.pretty
+YSS-1203
+1x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x4.1mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
+DIP Switch SPST Slide 7.62mm 300mil LowProfile
+0
+3
+3
+Server.pretty
+carind logo
+
+
+0
+0
+0
+Server.pretty
+jumper-5mm
+SMT Test Point- Micro Miniature 5015, http://www.keyelco.com/product-pdf.cfm?p=1353
+Test Point
+0
+2
+2
+Server.pretty
+jumper-6mm
+SMT Test Point- Micro Miniature 5015, http://www.keyelco.com/product-pdf.cfm?p=1353
+Test Point
+0
+2
+2
+Server.pretty
+logo
+
+
+0
+0
+0

@@ -1,0 +1,43 @@
+    업체명 : 풀하우스 캠핑카 (트럭캠퍼 레벨러)
+    Flutter version 2.5.1
+    Project Folder : E:\CamTrol_V3.1\full_house\flutterProject\full_house_v3.1
+    App Name 위치 : android/app/src/main/AndroidManifest.xml line 5
+
+    keytool -genkey -v -keystore c:/CamTrol/key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias key
+    키저장소 비밀번호 : 012345, junhoLee
+
+    아래 경로에 keytool 로 만든 key.jks File 복사, 붙여넣기...
+    E:\CamTrol_V3.5\kim_kim\flutterProject\camtrol_flutter_v3.5\android\app
+
+    아래 경로에 key.properties File 생성 하여 아래 내용 저장...
+
+    storePassword=012345
+    keyPassword=012345
+    keyAlias=key
+    storeFile=./key.jks
+
+    E:\CamTrol_V3.5\kim_kim\flutterProject\camtrol_flutter_v3.5\android
+
+    apk Build : flutter build apk --release --target-platform=android-arm64
+                flutter build apk    // 이 명령으로 Build...
+    Build 경로 :
+    E:\CamTrol II\full_house\fullhouse_flutter_v5.0_smart_lift\build\app\outputs\flutter-apk
+
+    Package name 변경 : Terminal 에서 실행
+    flutter pub run change_app_package_name:main com.example.lift_v50
+
+    Program history
+      2021년 11월 1일 방문
+        1. 취침모드 Tablet, mobile 동시 적용 해야 함.
+        2. 취침모드 진입 시 냉장고는 상시 ON..
+        3. LED 출력 순서 : 거실등, 간접등, 주방등, 욕실등, 현관등, 어닝등
+        4. OUT 출력 순서 : 벙커등, 물펌프, 청수밸브, 오수밸브, 맥스팬, 냉장고
+        5. 인버터, 취침모드 버튼 추가 해야 함.
+        6. 폐수 센서 사용 않함. (그 자리에 취침모드 버튼 생성)
+
+*** 기존 Camtrol 프로그램이 깔려 있어도 새로운 프로그램 추가 설치 방법.
+    1. android>app>src>main> AndroidManifest.xml 의 Line 1 명칭 변경.
+    2. android>app> build.gradle 의 Line 53 명칭 변경.
+    3. android>app>src>main> MainActivity.kt 의 Line 1 명칭 변경.
+
+    1,2,3 번 명칭 모두 일치 변경...

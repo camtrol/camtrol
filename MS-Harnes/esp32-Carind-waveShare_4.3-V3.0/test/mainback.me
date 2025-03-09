@@ -1,0 +1,235 @@
+
+#define LGFX_USE_V1
+
+#include "Arduino.h"
+// #include "FS.h"
+// #include "Audio.h"
+// #include "SPI.h"
+// #include "SD.h"
+#include <lvgl.h>
+#include "ui/ui.h"
+// #include "ui.h"
+// #include <Arduino_GFX_Library.h>
+// #define TFT_BL 2
+#include <LovyanGFX.hpp>
+
+#include <lgfx/v1/platforms/esp32s3/Panel_RGB.hpp>
+#include <lgfx/v1/platforms/esp32s3/Bus_RGB.hpp>
+// #include <driver/i2c.h>
+
+// Arduino_ESP32RGBPanel *bus = new Arduino_ESP32RGBPanel(
+//     GFX_NOT_DEFINED /* CS */, GFX_NOT_DEFINED /* SCK */,
+//     GFX_NOT_DEFINED /* SDA */, 41 /* DE */, 40 /* VSYNC */, 39 /* HSYNC */,
+//     42 /* PCLK */, 14 /* R0 */, 21 /* R1 */, 47 /* R2 */, 48 /* R3 */,
+//     45 /* R4 */, 9 /* G0 */, 46 /* G1 */, 3 /* G2 */, 8 /* G3 */, 16 /* G4
+//     */,
+//     1 /* G5 */, 15 /* B0 */, 7 /* B1 */, 6 /* B2 */, 5 /* B3 */, 4 /* B4 */
+//     );
+
+// // ESP32-8048S050 IPS LCD 800x480
+// Arduino_RPi_DPI_RGBPanel *gfx = new Arduino_RPi_DPI_RGBPanel(
+//     bus, 800 /* width */, 0 /* hsync_polarity */, 8 /* hsync_front_porch */,
+//     2 /* hsync_pulse_width */, 43 /* hsync_back_porch */, 480 /* height */,
+//     0 /* vsync_polarity */, 8 /* vsync_front_porch */,
+//     2 /* vsync_pulse_width */, 12 /* vsync_back_porch */,
+//     1 /* pclk_active_neg */, 12000000 /* prefer_speed */,
+//     true /* auto_flush */);
+
+// #include "touch.h"
+
+class LGFX : public lgfx::LGFX_Device {
+public:
+  lgfx::Bus_RGB _bus_instance;
+  lgfx::Panel_RGB _panel_instance;
+  lgfx::Light_PWM _light_instance;
+  lgfx::Touch_GT911 _touch_instance;
+
+  LGFX(void) {
+    {
+      auto cfg = _panel_instance.config();
+
+      cfg.memory_width = 800;
+      cfg.memory_height = 480;
+      cfg.panel_width = 800;
+      cfg.panel_height = 480;
+
+      cfg.offset_x = 0;
+      cfg.offset_y = 0;
+
+      _panel_instance.config(cfg);
+    }
+
+    {
+      auto cfg = _panel_instance.config_detail();
+
+      cfg.use_psram = 1;
+
+      _panel_instance.config_detail(cfg);
+    }
+
+    {
+      auto cfg = _bus_instance.config();
+      cfg.panel = &_panel_instance;
+      cfg.pin_d0 = GPIO_NUM_15;  // B0
+      cfg.pin_d1 = GPIO_NUM_7;   // B1
+      cfg.pin_d2 = GPIO_NUM_6;   // B2
+      cfg.pin_d3 = GPIO_NUM_5;   // B3
+      cfg.pin_d4 = GPIO_NUM_4;   // B4
+      cfg.pin_d5 = GPIO_NUM_9;   // G0
+      cfg.pin_d6 = GPIO_NUM_46;  // G1
+      cfg.pin_d7 = GPIO_NUM_3;   // G2
+      cfg.pin_d8 = GPIO_NUM_8;   // G3
+      cfg.pin_d9 = GPIO_NUM_16;  // G4
+      cfg.pin_d10 = GPIO_NUM_1;  // G5
+      cfg.pin_d11 = GPIO_NUM_14; // R0
+      cfg.pin_d12 = GPIO_NUM_21; // R1
+      cfg.pin_d13 = GPIO_NUM_47; // R2
+      cfg.pin_d14 = GPIO_NUM_48; // R3
+      cfg.pin_d15 = GPIO_NUM_45; // R4
+
+      cfg.pin_henable = GPIO_NUM_41;
+      cfg.pin_vsync = GPIO_NUM_40;
+      cfg.pin_hsync = GPIO_NUM_39;
+      cfg.pin_pclk = GPIO_NUM_42;
+      cfg.freq_write = 12000000;
+
+      cfg.hsync_polarity = 0;
+      cfg.hsync_front_porch = 8;
+      cfg.hsync_pulse_width = 2;
+      cfg.hsync_back_porch = 43;
+
+      cfg.vsync_polarity = 0;
+      cfg.vsync_front_porch = 8;
+      cfg.vsync_pulse_width = 2;
+      cfg.vsync_back_porch = 12;
+      cfg.pclk_idle_high = 1;
+      _bus_instance.config(cfg);
+    }
+    _panel_instance.setBus(&_bus_instance);
+
+    {
+      auto cfg = _light_instance.config();
+      cfg.pin_bl = GPIO_NUM_2;
+      _light_instance.config(cfg);
+    }
+    _panel_instance.light(&_light_instance);
+
+    {
+      auto cfg = _touch_instance.config();
+      cfg.x_min = 0;
+      cfg.y_min = 0;
+      cfg.bus_shared = false;
+      cfg.offset_rotation = 0;
+      // I2C connection
+      // cfg.i2c_port = I2C_NUM_0;
+      cfg.pin_sda = GPIO_NUM_19;
+      cfg.pin_scl = GPIO_NUM_20;
+      cfg.pin_int = GPIO_NUM_NC;
+      cfg.pin_rst = GPIO_NUM_38;
+      cfg.x_max = 800;
+      cfg.y_max = 480;
+      cfg.freq = 10000;
+      _touch_instance.config(cfg);
+      _panel_instance.setTouch(&_touch_instance);
+    }
+
+    setPanel(&_panel_instance);
+  }
+};
+
+uint16_t btn_push_count;
+
+LGFX tft;
+
+/* Change to your screen resolution */
+static const uint16_t screenWidth = 800;
+static const uint16_t screenHeight = 480;
+
+static lv_disp_draw_buf_t draw_buf;
+static lv_color_t buf[screenWidth * screenHeight / 10];
+
+/* Display flushing */
+void my_disp_flush(lv_disp_drv_t *disp, const lv_area_t *area,
+                   lv_color_t *color_p) {
+  uint32_t w = (area->x2 - area->x1 + 1);
+  uint32_t h = (area->y2 - area->y1 + 1);
+
+  tft.startWrite();
+  tft.setAddrWindow(area->x1, area->y1, w, h);
+  tft.pushColors((uint16_t *)&color_p->full, w * h, true);
+  tft.endWrite();
+
+  lv_disp_flush_ready(disp);
+}
+
+/*Read the touchpad*/
+void my_touchpad_read(lv_indev_drv_t *indev_driver, lv_indev_data_t *data) {
+  uint16_t touchX = 0, touchY = 0;
+
+  // bool touched = false; // tft.getTouch( &touchX, &touchY, 600 );
+  bool touched = tft.getTouch(&touchX, &touchY);
+
+  if (!touched) {
+    data->state = LV_INDEV_STATE_REL;
+  } else {
+    data->state = LV_INDEV_STATE_PR;
+
+    /*Set the coordinates*/
+    data->point.x = touchX;
+    data->point.y = touchY;
+
+    // Serial.print("Data x ");
+    // Serial.println(touchX);
+
+    // Serial.print("Data y ");
+    // Serial.println(touchY);
+  }
+}
+
+void setup() {
+
+  Serial.begin(115200); /* prepare for possible serial debug */
+
+  String LVGL_Arduino = "Hello Arduino! ";
+  LVGL_Arduino += String('V') + lv_version_major() + "." + lv_version_minor() +
+                  "." + lv_version_patch();
+
+  Serial.println(LVGL_Arduino);
+  Serial.println("I am LVGL_Arduino");
+
+  lv_init();
+
+  tft.begin();        /* TFT init */
+  tft.setRotation(0); /* Landscape orientation, flipped */
+
+  lv_disp_draw_buf_init(&draw_buf, buf, NULL, screenWidth * screenHeight / 10);
+
+  // lv_disp_draw_buf_init(&draw_buf, buf, NULL, screenWidth * screenHeight /
+  // 10);
+
+  /*Initialize the display*/
+  static lv_disp_drv_t disp_drv;
+  lv_disp_drv_init(&disp_drv);
+  /*Change the following line to your display resolution*/
+  disp_drv.hor_res = screenWidth;
+  disp_drv.ver_res = screenHeight;
+  disp_drv.flush_cb = my_disp_flush;
+  disp_drv.draw_buf = &draw_buf;
+  lv_disp_drv_register(&disp_drv);
+
+  /*Initialize the (dummy) input device driver*/
+  static lv_indev_drv_t indev_drv;
+  lv_indev_drv_init(&indev_drv);
+  indev_drv.type = LV_INDEV_TYPE_POINTER;
+  indev_drv.read_cb = my_touchpad_read;
+  lv_indev_drv_register(&indev_drv);
+
+  ui_init();
+
+  Serial.println("Setup done");
+}
+
+void loop() {
+  lv_timer_handler(); /* let the GUI do its work */
+  delay(5);
+}

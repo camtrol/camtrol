@@ -1,0 +1,6842 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "56faeaf5-40ad-468a-9d0c-29afb0f8ddf6")
+	(paper "A5")
+	(lib_symbols
+		(symbol "CamTrol-12Ch-Main-Board-rescue:LED-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CamTrol-12Ch-Main-Board-rescue:R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue"
+				(at 0 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue_0_1"
+				(rectangle
+					(start -1.016 -6.35)
+					(end 1.016 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue_1_1"
+				(pin passive line
+					(at 0 0 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x04_Male"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Male"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Male_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x05_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J3"
+				(at 3.048 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x05, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacture" "DEVICEMART"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "30"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x05_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C_Polarized_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_Small_0_1"
+				(rectangle
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 0.6858)
+					(end 1.524 0.3048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode:SM712_SOT23"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SM712_SOT23"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf"
+				(at -3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transient voltage suppressor thyrector transil"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SM712_SOT23_0_0"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SM712_SOT23_0_1"
+				(polyline
+					(pts
+						(xy -6.35 0) (xy 6.35 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 1.27) (xy -3.81 1.27) (xy -3.81 -1.27) (xy -4.318 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 1.27) (xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.302 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -6.35 1.27) (xy -6.35 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy 6.35 -1.27) (xy 6.35 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SM712_SOT23_1_1"
+				(pin passive line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "common"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Interface_UART:MAX485E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.096 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MAX485E"
+				(at 0.762 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MAX485E_0_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -0.3048 -3.683)
+					(radius 0.3556)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.0254 1.4986)
+					(radius 0.3556)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 -5.08) (xy -1.905 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.2004) (xy -1.27 -3.4544)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -5.08) (xy 5.334 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 -2.54) (xy -1.27 -2.54) (xy -1.27 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 0) (xy -4.064 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.175) (xy 3.81 3.175) (xy 3.81 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.905) (xy 2.54 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -3.175) (xy -1.905 -5.715) (xy 0.635 -4.445) (xy -1.905 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 3.81) (xy 1.27 1.27) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.905) (xy 4.445 1.905) (xy 4.445 2.54) (xy 5.334 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 3.175)
+					(end 1.27 3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 1.905)
+					(radius 0.3556)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "MAX485E_1_1"
+				(pin output line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "RO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "~{RE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "DE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "DI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Server_Used:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Server_Used_C"
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GNDPWR"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDPWR"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , power ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDPWR_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDPWR_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GNDPWR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 140.335 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0299d167-9abd-4c9a-9e61-3b1ad10baea1")
+	)
+	(junction
+		(at 77.47 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "092d297d-5496-4870-9703-8fb5b2188cf1")
+	)
+	(junction
+		(at 35.56 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19a8d87f-af77-4667-93ee-105a51b40e29")
+	)
+	(junction
+		(at 97.79 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b11ab30-f87e-4487-a345-3fb5877ea3e4")
+	)
+	(junction
+		(at 128.524 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "417f4cd5-fbf2-4ce1-ac2d-91f1456f6d55")
+	)
+	(junction
+		(at 90.805 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42ddbde3-1734-4cbc-94ed-b71549b59b43")
+	)
+	(junction
+		(at 77.47 47.244)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "501ce24a-3215-48d1-9acd-77cc88200b12")
+	)
+	(junction
+		(at 113.03 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b585c3b-32f4-4495-bee7-aac24ddc9bf2")
+	)
+	(junction
+		(at 120.65 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71a0ef47-7093-4f42-ac86-c5c8f7fa4f4c")
+	)
+	(junction
+		(at 140.335 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "872d881a-7db7-4667-b839-d6059c757911")
+	)
+	(junction
+		(at 74.93 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a5904a9-b2b1-49e6-84d7-175b8bfd897a")
+	)
+	(junction
+		(at 113.03 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "913318db-bfae-4818-b5fe-f0e2a3ce43c1")
+	)
+	(junction
+		(at 140.335 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "931c94f8-a55a-40c7-8d44-06dcdb68cd56")
+	)
+	(junction
+		(at 140.335 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99ab52eb-a336-4441-9cff-8a242128f96f")
+	)
+	(junction
+		(at 72.39 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aab8e15e-b53b-4453-80b5-47bbdb0c6f7d")
+	)
+	(junction
+		(at 77.47 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b84ac479-66dc-4abc-801e-ecdcbc817d39")
+	)
+	(junction
+		(at 134.62 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba5b60eb-4ff9-47b4-9dc6-e9525aec2f4d")
+	)
+	(junction
+		(at 97.79 47.244)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7b50f86-30ea-46ff-988f-54f9e9572dc9")
+	)
+	(junction
+		(at 44.958 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cff50817-dd89-4444-9fe8-54272a9c944e")
+	)
+	(junction
+		(at 44.45 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5a22451-5628-4975-af2d-fb2a55695490")
+	)
+	(junction
+		(at 82.55 47.244)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa7a62eb-8d59-45d2-a71f-22e6edee8266")
+	)
+	(junction
+		(at 82.55 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa8ddc17-2a91-46f7-bff4-245a0c119568")
+	)
+	(no_connect
+		(at 42.545 40.64)
+		(uuid "08b1a841-f947-492f-98d3-0b9d3cc6abf8")
+	)
+	(no_connect
+		(at 36.83 68.58)
+		(uuid "95b8c3c3-0c35-4bf9-a66b-5d4cf7f6d9a8")
+	)
+	(no_connect
+		(at 36.83 66.04)
+		(uuid "e19d4752-e17b-4e74-af7c-30eb01ec8667")
+	)
+	(wire
+		(pts
+			(xy 71.755 118.11) (xy 71.755 108.585)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02f4a344-2610-4b4e-994d-590e0a988a84")
+	)
+	(wire
+		(pts
+			(xy 35.56 99.06) (xy 44.45 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "038126e5-1cda-4446-bf7e-ee137ca20c03")
+	)
+	(wire
+		(pts
+			(xy 180.34 34.925) (xy 180.34 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0501aa45-1e05-4b82-b675-2683bd468939")
+	)
+	(wire
+		(pts
+			(xy 140.335 63.5) (xy 143.51 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06499710-976c-4f8c-953b-08f189768da2")
+	)
+	(wire
+		(pts
+			(xy 82.55 59.69) (xy 82.55 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0943f72b-b173-4dda-896f-1cc11004c97a")
+	)
+	(wire
+		(pts
+			(xy 35.56 107.95) (xy 35.56 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bcbc710-e048-42ef-9acc-eb8dc3401dc1")
+	)
+	(wire
+		(pts
+			(xy 63.5 48.26) (xy 63.5 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d7fa0ce-95da-4d85-b8bc-8d64cdff7056")
+	)
+	(wire
+		(pts
+			(xy 97.79 47.244) (xy 97.79 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "138b7b9b-1548-406c-97c7-af6ec5483891")
+	)
+	(wire
+		(pts
+			(xy 138.43 71.12) (xy 138.43 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1574a338-6ad3-4745-a332-d3684a83e880")
+	)
+	(wire
+		(pts
+			(xy 74.93 36.83) (xy 78.74 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "178e01a4-12ea-427c-9213-988142c30342")
+	)
+	(wire
+		(pts
+			(xy 80.01 118.11) (xy 80.01 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18603844-64fd-4136-8936-4d325c0a3942")
+	)
+	(wire
+		(pts
+			(xy 72.39 59.69) (xy 72.39 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fab5951-cc53-4752-8db9-349c3b56864f")
+	)
+	(wire
+		(pts
+			(xy 113.03 71.12) (xy 113.03 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2460e690-3c6f-4c56-b2e9-d59e01880d1d")
+	)
+	(wire
+		(pts
+			(xy 72.39 71.12) (xy 87.63 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b2891c7-4801-4268-af90-5a14e694a7d0")
+	)
+	(wire
+		(pts
+			(xy 41.402 38.1) (xy 41.402 36.068)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c601da1-9ab1-4d8c-89d7-96a03e6ebadf")
+	)
+	(wire
+		(pts
+			(xy 72.39 52.07) (xy 72.39 47.244)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c9ea872-fe3e-4d71-8e8e-dc04590eb572")
+	)
+	(wire
+		(pts
+			(xy 180.34 31.75) (xy 177.8 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e7d4b8c-44fc-4608-9185-cdd0841a94ea")
+	)
+	(wire
+		(pts
+			(xy 113.03 87.122) (xy 113.03 91.186)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fdfba3c-9f51-4765-961d-3faf55fb6b7c")
+	)
+	(wire
+		(pts
+			(xy 44.45 99.06) (xy 44.45 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31617ef1-f5e6-4eed-960c-90c6237d9c3e")
+	)
+	(wire
+		(pts
+			(xy 128.524 99.568) (xy 134.62 99.568)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d46b02-cf77-4ba6-9f1a-230cf7e5c84d")
+	)
+	(wire
+		(pts
+			(xy 44.45 97.79) (xy 44.45 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d56033-8c93-46d6-9dc7-8125d1baad4d")
+	)
+	(wire
+		(pts
+			(xy 36.83 43.18) (xy 67.31 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c8ba009-4eb6-4a8d-bdec-c2d7e674d15b")
+	)
+	(wire
+		(pts
+			(xy 120.65 50.8) (xy 120.65 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dfe67e8-6230-4379-92a1-fc9483ac8211")
+	)
+	(wire
+		(pts
+			(xy 44.958 71.12) (xy 44.958 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea5d4ed-679e-49dc-8a16-fb5c8da677b7")
+	)
+	(wire
+		(pts
+			(xy 97.79 36.83) (xy 97.79 47.244)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ec2fa20-268f-4ddb-ac99-c2ac423a6c0b")
+	)
+	(wire
+		(pts
+			(xy 90.805 26.67) (xy 90.805 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fbb8f19-be42-4590-b362-03425203632a")
+	)
+	(wire
+		(pts
+			(xy 86.36 36.83) (xy 90.805 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fdb1575-1e35-41a3-9dc9-21dcaf0c908c")
+	)
+	(wire
+		(pts
+			(xy 134.62 60.96) (xy 134.62 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "400495a1-0222-45e5-b6e0-cddd947f2cb3")
+	)
+	(wire
+		(pts
+			(xy 140.335 58.42) (xy 143.51 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42fa7fe0-d977-4844-a3f7-64f2f392764f")
+	)
+	(wire
+		(pts
+			(xy 67.31 68.58) (xy 77.47 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "479e24bc-0582-4ea3-9ae5-a162aed820b2")
+	)
+	(wire
+		(pts
+			(xy 35.56 100.33) (xy 35.56 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c3c5e26-f9d1-4bd6-9ac3-0d06dc4d7de4")
+	)
+	(wire
+		(pts
+			(xy 26.67 99.06) (xy 35.56 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d099d1c-019f-40bb-ba8c-452e2188260a")
+	)
+	(wire
+		(pts
+			(xy 113.03 83.82) (xy 113.03 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "520fddb0-c651-4bdc-8c84-9e1fee5a34ed")
+	)
+	(wire
+		(pts
+			(xy 36.83 71.12) (xy 44.958 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54da1bab-9f98-4f92-b96a-b785c9aca504")
+	)
+	(wire
+		(pts
+			(xy 138.43 66.04) (xy 140.335 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57677598-3e23-4c65-98f7-0814d9bd529e")
+	)
+	(wire
+		(pts
+			(xy 134.62 63.5) (xy 140.335 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee66f6f-169a-4725-a452-fe1c8da1713b")
+	)
+	(wire
+		(pts
+			(xy 71.755 95.25) (xy 71.755 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f409e22-595e-4d18-81c2-a1f272b897a5")
+	)
+	(wire
+		(pts
+			(xy 74.93 39.37) (xy 74.93 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60c1dd75-ab39-4dea-aeb9-b7b0d19cb0b0")
+	)
+	(wire
+		(pts
+			(xy 134.62 60.96) (xy 140.335 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60e99765-1699-45de-9ecd-f5844b5ec248")
+	)
+	(wire
+		(pts
+			(xy 36.83 40.64) (xy 42.545 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619a11e0-9c2c-48f1-b4fb-e98ffbc7be0e")
+	)
+	(wire
+		(pts
+			(xy 80.01 98.425) (xy 80.01 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64ad36f9-6c0d-4b2e-8f8b-19f788a013f6")
+	)
+	(wire
+		(pts
+			(xy 107.95 71.12) (xy 113.03 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ad237c0-5afd-4a4e-af73-44e021b07b78")
+	)
+	(wire
+		(pts
+			(xy 120.65 81.28) (xy 120.65 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b23feb5-30e1-4f6d-b705-3a8ae3ba666f")
+	)
+	(wire
+		(pts
+			(xy 134.62 99.568) (xy 134.62 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df30f45-16dc-446e-b01a-137c91ac8a88")
+	)
+	(wire
+		(pts
+			(xy 82.55 47.244) (xy 82.55 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75aa544f-769c-4da5-895f-27c0bca7506c")
+	)
+	(wire
+		(pts
+			(xy 120.65 83.82) (xy 113.03 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77eb2cf6-87b2-41a5-b271-25be0d37a6f2")
+	)
+	(wire
+		(pts
+			(xy 49.53 63.5) (xy 36.83 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8408640f-84d6-47f1-880e-44a7ced7d44f")
+	)
+	(wire
+		(pts
+			(xy 53.34 107.95) (xy 53.34 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "855c9b6d-b7e1-4b10-a026-626d6736ad5a")
+	)
+	(wire
+		(pts
+			(xy 138.43 36.83) (xy 97.79 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86cad1cb-8ec5-42a4-9a8d-2d2df3dee6f9")
+	)
+	(wire
+		(pts
+			(xy 113.03 71.12) (xy 128.524 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87b4764d-d2a6-4e5b-962a-4454a6cb6ad1")
+	)
+	(wire
+		(pts
+			(xy 90.805 36.83) (xy 97.79 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "898dee31-c9f5-4f8a-a3b5-7f0b6b2d81e6")
+	)
+	(wire
+		(pts
+			(xy 86.36 26.67) (xy 90.805 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b18f47d-3a89-4e86-9b75-abe7b60fdf14")
+	)
+	(wire
+		(pts
+			(xy 120.65 50.8) (xy 113.03 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c5316a0-3074-4543-b858-5a9665be3c2c")
+	)
+	(wire
+		(pts
+			(xy 138.43 58.42) (xy 138.43 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e1f5fa-ce8a-40da-acb0-95c415ec4255")
+	)
+	(wire
+		(pts
+			(xy 63.5 71.12) (xy 72.39 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91847eab-9cd4-49cd-8bbe-4a0383b3ec0d")
+	)
+	(wire
+		(pts
+			(xy 49.53 61.976) (xy 49.53 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "969ef2d1-37b6-4e63-8fe3-85e615c240b1")
+	)
+	(wire
+		(pts
+			(xy 36.83 48.26) (xy 63.5 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "971e65ce-19c7-4045-8690-c8a915c4cf0f")
+	)
+	(wire
+		(pts
+			(xy 77.47 66.04) (xy 87.63 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a1ae39-a959-49a4-944b-46ba56cfa3f3")
+	)
+	(wire
+		(pts
+			(xy 50.292 36.068) (xy 50.292 36.576)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a379d80e-631c-4445-a751-f3df4a502bf6")
+	)
+	(wire
+		(pts
+			(xy 128.524 71.12) (xy 138.43 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4164335-09a2-4681-b793-fa7f3b2f2496")
+	)
+	(wire
+		(pts
+			(xy 65.405 45.72) (xy 65.405 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4c021a8-5099-4c6b-b56c-679c29a53e80")
+	)
+	(wire
+		(pts
+			(xy 77.47 66.04) (xy 77.47 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7592fff-14f0-46b1-b2b2-41d297915ec0")
+	)
+	(wire
+		(pts
+			(xy 77.47 66.04) (xy 77.47 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb95bab-93f4-41f4-9cd0-8aa3bddb644c")
+	)
+	(wire
+		(pts
+			(xy 140.335 66.04) (xy 143.51 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ace91575-8b4d-4e7f-9df5-62faa051beec")
+	)
+	(wire
+		(pts
+			(xy 74.93 26.67) (xy 74.93 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0858c14-8bce-41dc-b043-b3259e3295e5")
+	)
+	(wire
+		(pts
+			(xy 124.714 87.122) (xy 113.03 87.122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3a95899-1c79-40b9-95a1-d2e7aee430b8")
+	)
+	(wire
+		(pts
+			(xy 140.335 60.96) (xy 143.51 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e95ddb-5e2b-4273-b968-c43cbfd7ef77")
+	)
+	(wire
+		(pts
+			(xy 128.524 71.12) (xy 128.524 78.232)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b689d57c-55b0-4589-8a45-3a97ecb7f84e")
+	)
+	(wire
+		(pts
+			(xy 26.67 100.33) (xy 26.67 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baaba2a2-fee4-4231-8aa8-a4a9e1305e8d")
+	)
+	(wire
+		(pts
+			(xy 97.79 33.02) (xy 97.79 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb5336b9-efc9-4d0f-bd90-96c7be35ba06")
+	)
+	(wire
+		(pts
+			(xy 65.405 63.5) (xy 82.55 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c245a33c-29bc-4131-bae4-8167e16a2894")
+	)
+	(wire
+		(pts
+			(xy 77.47 47.244) (xy 77.47 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c277caf4-5be4-4621-9973-fb2eccb9619c")
+	)
+	(wire
+		(pts
+			(xy 44.45 99.06) (xy 53.34 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c624ba5a-7eb1-4640-b761-6ad6e47e5d8d")
+	)
+	(wire
+		(pts
+			(xy 113.03 50.8) (xy 113.03 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7906a58-7b15-4551-89a7-269cf3dae325")
+	)
+	(wire
+		(pts
+			(xy 53.34 100.33) (xy 53.34 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb5f002c-270d-42a2-b4b6-c27ebec18a25")
+	)
+	(wire
+		(pts
+			(xy 77.47 47.244) (xy 82.55 47.244)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb9aed3c-dac9-4fc6-85d9-a982e23f721e")
+	)
+	(wire
+		(pts
+			(xy 67.31 43.18) (xy 67.31 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc8ccd35-8bb6-466a-a671-413bc27869c7")
+	)
+	(wire
+		(pts
+			(xy 97.79 90.932) (xy 97.79 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdb223cd-96f2-47ab-b2b8-650ec03cc15e")
+	)
+	(wire
+		(pts
+			(xy 41.402 36.068) (xy 50.292 36.068)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6af776a-7a44-4d24-bb7a-c5641a9e64aa")
+	)
+	(wire
+		(pts
+			(xy 113.03 63.5) (xy 134.62 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6db4868-99ff-4e7c-b5d2-6e276e0dcee3")
+	)
+	(wire
+		(pts
+			(xy 78.74 26.67) (xy 74.93 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6fa194e-1265-4ac1-948b-85281295ce96")
+	)
+	(wire
+		(pts
+			(xy 134.62 50.8) (xy 120.65 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b7d1d7-eba5-4504-b892-80a44cf100f8")
+	)
+	(wire
+		(pts
+			(xy 36.83 38.1) (xy 41.402 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de78064e-9f86-4c5b-b7da-5b6114615066")
+	)
+	(wire
+		(pts
+			(xy 82.55 47.244) (xy 97.79 47.244)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee68f93-ae75-496f-b82e-d38ddaabb03b")
+	)
+	(wire
+		(pts
+			(xy 72.39 47.244) (xy 77.47 47.244)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e419bf9e-db1a-43a4-8507-03d617578cff")
+	)
+	(wire
+		(pts
+			(xy 107.95 63.5) (xy 113.03 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5bc9a90-90ea-4fba-b42e-cf7dcb6775f6")
+	)
+	(wire
+		(pts
+			(xy 113.03 60.96) (xy 113.03 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f07656d2-0271-4d24-b931-61d27969336c")
+	)
+	(wire
+		(pts
+			(xy 26.67 110.49) (xy 26.67 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f51b9033-3d11-4393-b522-24bdfff75cef")
+	)
+	(wire
+		(pts
+			(xy 44.45 110.49) (xy 44.45 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6a1e358-486b-4f76-8fbc-fcb0393100ca")
+	)
+	(wire
+		(pts
+			(xy 44.958 60.96) (xy 44.958 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f758813d-7d3e-41ed-8000-f95bc1cfc622")
+	)
+	(wire
+		(pts
+			(xy 87.63 68.58) (xy 77.47 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7ed39d2-bfc8-466c-ad98-eb45dd1574b5")
+	)
+	(wire
+		(pts
+			(xy 36.83 45.72) (xy 65.405 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f88c0f03-b0db-4701-aad1-d847b43b4772")
+	)
+	(wire
+		(pts
+			(xy 36.83 60.96) (xy 44.958 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa00f183-f067-466e-9440-507551209e39")
+	)
+	(wire
+		(pts
+			(xy 80.01 109.22) (xy 80.01 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fba74a91-029a-4ab1-a8fa-f6b2ad353dda")
+	)
+	(wire
+		(pts
+			(xy 82.55 63.5) (xy 87.63 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc08de68-9406-4f94-bcff-51bd51680cdd")
+	)
+	(wire
+		(pts
+			(xy 128.524 96.012) (xy 128.524 99.568)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc23f5b-c10a-49d3-a964-a71ceecc3c5a")
+	)
+	(wire
+		(pts
+			(xy 138.43 58.42) (xy 140.335 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff193c27-f9b5-49b8-82c4-9ad4f1394834")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 37.465 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3aedaf46-6d91-462d-8751-7a2e1ab72205")
+	)
+	(text "IO11"
+		(exclude_from_sim no)
+		(at 36.83 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e27c2c8-1d94-4ce0-b100-3db5560ee7ed")
+	)
+	(text "IO13"
+		(exclude_from_sim no)
+		(at 36.83 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7376453a-2f46-49b4-a9fa-ad100cafc707")
+	)
+	(text "RXD"
+		(exclude_from_sim no)
+		(at 37.465 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8aae86ef-9a51-42c0-bce8-77c9bdfe3bd3")
+	)
+	(text "5V"
+		(exclude_from_sim no)
+		(at 37.465 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4e70ce9-ab9b-4dff-948c-c9cda1af75c0")
+	)
+	(text "IO19"
+		(exclude_from_sim no)
+		(at 36.83 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd1e8c3d-f94e-4f3a-94f3-54214b4f15f8")
+	)
+	(text "TXD"
+		(exclude_from_sim no)
+		(at 37.465 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d85aa840-f2b4-4599-b689-c5b557af640a")
+	)
+	(text "IO12"
+		(exclude_from_sim no)
+		(at 36.83 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f93ebf60-9feb-4959-9ae9-7c721bcfbdc9")
+	)
+	(label "485-B"
+		(at 125.603 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "58a42fd5-0774-4d53-8112-313cc12965a7")
+	)
+	(label "485-A"
+		(at 125.73 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d095327c-9178-415c-bd21-916449100f20")
+	)
+	(symbol
+		(lib_id "Server_Used:C")
+		(at 53.34 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01870a19-797d-415c-b704-dfad7e5dd28c")
+		(property "Reference" "C11"
+			(at 50.419 105.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "104"
+			(at 49.276 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Server.pretty:C_0805_HandSoldering"
+			(at 52.3748 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000013173"
+			(at 53.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "66"
+			(at 53.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture" "부품세상"
+			(at 53.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "2012(0805)"
+			(at 53.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9de7e85-7096-4176-a06f-041340a44b4c")
+		)
+		(pin "2"
+			(uuid "4019fcfc-7871-4193-bdc5-b4e71ccdbf27")
+		)
+		(instances
+			(project "CamTrol-L-Main_V5.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SM712_SOT23")
+		(at 128.524 87.122 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07643d52-406d-47eb-9eda-53d113550a51")
+		(property "Reference" "D1"
+			(at 130.5306 88.3342 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "SM712"
+			(at 118.364 89.916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Server:SOT-23"
+			(at 119.634 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf"
+			(at 128.524 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23"
+			(at 128.524 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8cf94fcb-4250-4c0e-b14c-c29a63c3281f")
+		)
+		(pin "1"
+			(uuid "3cd9e508-9355-4ecb-9596-9211ea07d27b")
+		)
+		(pin "2"
+			(uuid "f659e555-88fb-4336-af29-37b06d6db643")
+		)
+		(instances
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CamTrol-12Ch-Main-Board-rescue:R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue")
+		(at 80.01 98.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a87cf7a-a20e-4348-8e1a-19eeaf5153ee")
+		(property "Reference" "R44"
+			(at 85.09 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "20KΩ"
+			(at 80.01 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Server.pretty:R_0805_HandSoldering"
+			(at 80.01 100.203 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637"
+			(at 80.01 98.425 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "20"
+			(at 80.01 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture" "부품세상"
+			(at 80.01 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "2012(0805)"
+			(at 80.01 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcd053d9-2202-46de-b232-ac1d68495e70")
+		)
+		(pin "2"
+			(uuid "99da4474-ca6c-46e1-a3eb-dbee3299a615")
+		)
+		(instances
+			(project "CamTrol-L-Main_V5.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 31.75 66.04 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b9bf107-b971-4b7c-ba04-ed86ebe23f1e")
+		(property "Reference" "J1"
+			(at 34.798 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 31.75 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal"
+			(at 31.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 31.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture" "DEVICEMART"
+			(at 31.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "30"
+			(at 31.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6e76571-9b21-4561-87d2-2be095241371")
+		)
+		(pin "2"
+			(uuid "666e0c64-8424-4c81-8403-1069b7033096")
+		)
+		(pin "3"
+			(uuid "cac2d24d-4660-48b2-83b6-702e8b8d9c4b")
+		)
+		(pin "4"
+			(uuid "8a8eb0e4-30c0-49e5-8061-c3c575016b9b")
+		)
+		(pin "MP"
+			(uuid "c663b6e3-a047-4378-bb7c-64944bcbef9f")
+		)
+		(instances
+			(project "L-CON RS485 V2.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Server_Used:C")
+		(at 82.55 26.67 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0bb23f42-b65b-476a-b3f1-61db00664eb6")
+		(property "Reference" "C4"
+			(at 81.28 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "106"
+			(at 82.55 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Server.pretty:C_0805_HandSoldering"
+			(at 78.74 25.7048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000013173"
+			(at 82.55 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "66"
+			(at 82.55 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture" "부품세상"
+			(at 82.55 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "2012(0805)"
+			(at 82.55 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad95f1c7-f7d8-420c-9720-2898c6ba92a7")
+		)
+		(pin "2"
+			(uuid "1877a8cf-5f54-45d3-869a-37660c6d48d6")
+		)
+		(instances
+			(project "Marre-S-Main_V6.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CamTrol-12Ch-Main-Board-rescue:R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue")
+		(at 113.03 81.28 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dfd450d-f07e-472d-8a2e-f7a252467967")
+		(property "Reference" "R37"
+			(at 110.49 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "20KΩ"
+			(at 113.03 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Server.pretty:R_0805_HandSoldering"
+			(at 111.252 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614"
+			(at 113.03 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "20"
+			(at 113.03 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture" "부품세상"
+			(at 113.03 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "2012(0805)"
+			(at 113.03 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1064173-a46f-4861-85fc-ef214ba38ae2")
+		)
+		(pin "2"
+			(uuid "d08feb22-4e71-4a2a-b614-94440c869eae")
+		)
+		(instances
+			(project "Marre-S-Main_V6.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 97.79 33.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13fb04ab-43c8-4719-87a2-6bf4f1537d74")
+		(property "Reference" "#PWR082"
+			(at 97.79 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 97.409 28.6258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2bf7baf-06f6-4fee-8ff6-0077cd8f811a")
+		)
+		(instances
+			(project "Marre-S-Main_V6.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 44.45 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1749fe51-f4b1-4625-a6c6-929c35897a54")
+		(property "Reference" "#PWR033"
+			(at 44.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 44.5516 114.4016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "903f8dc4-d464-459e-9af6-77b680746aad")
+		)
+		(instances
+			(project "CamTrol-L-Main_V5.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 71.755 106.045 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17513aeb-809b-4e93-8486-08ad136feafb")
+		(property "Reference" "C5"
+			(at 69.596 104.5904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "220uF/25V"
+			(at 69.596 107.3655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+			(at 71.755 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.755 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.755 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "859af536-af73-4062-872c-ce957aa0b5fa")
+		)
+		(pin "2"
+			(uuid "a2146c31-e32c-4935-80c6-056f761779b5")
+		)
+		(instances
+			(project "Marre-BASE_V1.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 120.65 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19bd4955-c2fe-41f6-85d1-3049af1f169c")
+		(property "Reference" "#PWR086"
+			(at 120.65 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 120.7516 58.5216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fcb46ed-f5fe-4ca1-aa48-abbfbdf6f4c9")
+		)
+		(instances
+			(project "Marre-S-Main_V6.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 97.79 90.932 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3223463d-0695-412f-983c-f0a962acffcf")
+		(property "Reference" "#PWR083"
+			(at 97.79 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 97.8916 94.8436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbf9c73c-0348-482e-b527-538752239ac7")
+		)
+		(instances
+			(project "Marre-S-Main_V6.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 44.958 74.295 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a3d38ac-b485-4fe1-8f9d-87a978219b1a")
+		(property "Reference" "#PWR073"
+			(at 44.958 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 45.0596 78.2066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.958 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.958 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.958 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d81e4db-1738-449c-9807-9b7e1b7f23cf")
+		)
+		(instances
+			(project "Marre-S-Main_V6.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 53.34 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43938479-b320-46c1-8ec9-614daf6c8094")
+		(property "Reference" "#PWR036"
+			(at 53.34 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 53.4416 114.4016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2edd86a8-8bfe-4257-b8f2-bebb446d696b")
+		)
+		(instances
+			(project "CamTrol-L-Main_V5.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 50.292 36.576 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53605add-0afe-487c-a192-4ff603a08e20")
+		(property "Reference" "#PWR013"
+			(at 50.292 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 50.3936 40.4876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.292 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.292 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.292 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "baa63759-562b-4cac-b7ff-76c7397fc9e9")
+		)
+		(instances
+			(project "L-CON RS485 V2.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 80.01 95.25 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "583db61c-aa3b-4739-9947-09f2bcc126e7")
+		(property "Reference" "#PWR082"
+			(at 80.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 79.629 90.8558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0de1f5d9-9e73-4e6b-a7aa-50bf1c9209f0")
+		)
+		(instances
+			(project "Marre-S-Main_V6.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Male")
+		(at 148.59 60.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e5d400e-9587-451d-b165-9f638c9a1243")
+		(property "Reference" "J11"
+			(at 147.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5267-04P"
+			(at 148.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Server.pretty:XH2.54-4P"
+			(at 148.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.devicemart.co.kr/goods/view?no=419"
+			(at 148.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture" "DEVICEMART"
+			(at 148.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "30"
+			(at 148.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c56256e-572e-4dd8-a17a-74c51ba70c57")
+		)
+		(pin "2"
+			(uuid "ade47d66-672e-49fe-b902-bd9a4af5f566")
+		)
+		(pin "3"
+			(uuid "7d83f801-7b54-4fd4-aaa1-841f46c5d1c1")
+		)
+		(pin "4"
+			(uuid "94fd5b50-689e-41a7-90c6-9b77810223d1")
+		)
+		(instances
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+			(project "ESP32-S3-Board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 80.01 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66e72754-7f07-41dd-91ce-15be108771d6")
+		(property "Reference" "#PWR078"
+			(at 80.01 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 80.1116 122.0216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8827a210-d784-4286-bfa9-7c3162396435")
+		)
+		(instances
+			(project "CamTrol-L-Main_V5.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 31.75 43.18 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e66adb4-6977-4417-bd63-c4514b662bdf")
+		(property "Reference" "J4"
+			(at 34.798 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 31.75 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal"
+			(at 31.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 31.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture" "DEVICEMART"
+			(at 31.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "30"
+			(at 31.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6a797d4-3e63-4b52-a738-8ad446051df6")
+		)
+		(pin "2"
+			(uuid "10a30fe3-c085-42d9-8d71-eb48ef843f4a")
+		)
+		(pin "3"
+			(uuid "df5a4c37-c052-4775-ab2f-e050c99bf160")
+		)
+		(pin "4"
+			(uuid "11498afe-c7c9-450b-ac3d-2c9cb2bdb1ec")
+		)
+		(pin "MP"
+			(uuid "e6fb1245-4f8f-4971-9e28-e351a45c403f")
+		)
+		(instances
+			(project "L-CON RS485 V2.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_UART:MAX485E")
+		(at 97.79 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d10c5eb-833f-482f-a4b7-72716f3333e5")
+		(property "Reference" "U2"
+			(at 104.902 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "485"
+			(at 96.012 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Server.pretty:MAX485"
+			(at 97.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf"
+			(at 97.79 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "428697cd-a5b0-4cf8-b98c-374e7a276e0d")
+		)
+		(pin "2"
+			(uuid "95cd81e3-39ec-4083-bc4f-ec3dced1492d")
+		)
+		(pin "3"
+			(uuid "c0dde32b-542b-4829-a0d5-76b5c6de4a41")
+		)
+		(pin "4"
+			(uuid "acf582b3-8465-4c4f-a802-236a13e97722")
+		)
+		(pin "5"
+			(uuid "c8c04c9c-2b0a-4784-a417-20d866dce40f")
+		)
+		(pin "6"
+			(uuid "8e6e7beb-4223-456f-b3b0-f3a555ddd502")
+		)
+		(pin "7"
+			(uuid "bb312cfe-c197-47ae-abde-dfbc3d43db0d")
+		)
+		(pin "8"
+			(uuid "fa57a3c7-0ffb-4fd8-beca-36baedab5930")
+		)
+		(instances
+			(project "Marre-S-Main_V6.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 26.67 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80ca6dad-fe5b-4e97-90fd-cc1aabbbe233")
+		(property "Reference" "#PWR027"
+			(at 26.67 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 26.7716 114.4016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9a08ff0-d3b3-46e3-b03f-7f1bd34f83b4")
+		)
+		(instances
+			(project "CamTrol-L-Main_V5.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 71.755 95.25 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "863bcc0d-4681-4a09-aa19-cf54c9ffbdd8")
+		(property "Reference" "#PWR082"
+			(at 71.755 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 71.374 90.8558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.755 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.755 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.755 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42953fc1-b638-4c5f-ad2b-b46357fa26d3")
+		)
+		(instances
+			(project "Marre-S-Main_V6.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 44.45 97.79 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90690c2e-3886-4c3d-926c-60ce59a52ab3")
+		(property "Reference" "#PWR082"
+			(at 44.45 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 44.069 93.3958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43a354b1-5aaf-4af7-8dc6-efe8fa96d803")
+		)
+		(instances
+			(project "Marre-S-Main_V6.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 172.72 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e4cff2e-5b4a-46ca-9d52-c5396dda88b0")
+		(property "Reference" "J3"
+			(at 173.99 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 172.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Server.pretty:LM-CON-PAD"
+			(at 172.72 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture" "DEVICEMART"
+			(at 172.72 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "30"
+			(at 172.72 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "731aabff-dc3b-47ff-83b6-41b13e714614")
+		)
+		(instances
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+			(project "ESP32-S3-Board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 180.34 34.925 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e75690c-6dc6-44b3-b484-dcfdf047ffdb")
+		(property "Reference" "#PWR086"
+			(at 180.34 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 180.4416 38.8366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c0fb9a3-ea3b-41a1-a819-fb626f5dead1")
+		)
+		(instances
+			(project "Marre-S-Main_V6.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CamTrol-12Ch-Main-Board-rescue:R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue")
+		(at 72.39 59.69 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4f48ba1-5225-4d85-9b31-f5661fe13206")
+		(property "Reference" "R18"
+			(at 69.85 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10KΩ"
+			(at 72.39 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Server.pretty:R_0805_HandSoldering"
+			(at 70.612 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614"
+			(at 72.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "20"
+			(at 72.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture" "부품세상"
+			(at 72.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "2012(0805)"
+			(at 72.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f76d145-cae8-40e3-8a40-d9844e1b4f11")
+		)
+		(pin "2"
+			(uuid "782b4308-7b2a-49e1-961d-30ef2abb747d")
+		)
+		(instances
+			(project "Marre-S-Main_V6.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Server_Used:C")
+		(at 44.45 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6308c8a-2912-4c5e-94b6-a6d06ed8cff0")
+		(property "Reference" "C10"
+			(at 41.529 105.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "104"
+			(at 40.386 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Server.pretty:C_0805_HandSoldering"
+			(at 43.4848 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000013173"
+			(at 44.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "66"
+			(at 44.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture" "부품세상"
+			(at 44.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "2012(0805)"
+			(at 44.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fa1c3d9-82e9-47ab-8df0-e4d7e0d6745c")
+		)
+		(pin "2"
+			(uuid "9dd697ac-27c4-4744-8574-241dd762b2ad")
+		)
+		(instances
+			(project "CamTrol-L-Main_V5.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Male")
+		(at 145.415 60.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a91149d0-9155-43d5-a001-bc2eaccc0d25")
+		(property "Reference" "J2"
+			(at 143.002 55.753 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5267-04P"
+			(at 145.415 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Server:XH2.54-4P-plat"
+			(at 145.415 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.devicemart.co.kr/goods/view?no=419"
+			(at 145.415 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 145.415 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture" "DEVICEMART"
+			(at 145.415 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "30"
+			(at 145.415 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5af674c6-e16b-4f64-979e-a02174294c1a")
+		)
+		(pin "2"
+			(uuid "4f2feee6-7849-473c-bad8-86a67422d772")
+		)
+		(pin "3"
+			(uuid "8029c00a-6356-474d-a1dc-64182cbadb45")
+		)
+		(pin "4"
+			(uuid "dde49206-993c-4da9-ae89-37630d13f265")
+		)
+		(instances
+			(project "L-CON RS485 V2.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CamTrol-12Ch-Main-Board-rescue:LED-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue")
+		(at 80.01 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3af8aa1-6b59-4482-aab9-f4b93e9d71c1")
+		(property "Reference" "D17"
+			(at 83.0072 112.0394 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+5V"
+			(at 80.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Server.pretty:LED_0805"
+			(at 80.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000008652"
+			(at 80.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "132"
+			(at 80.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture" "부품세상"
+			(at 80.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "2012(0805)"
+			(at 80.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ada2188a-6545-467b-b345-4cc336e4d347")
+		)
+		(pin "2"
+			(uuid "dbc18c3a-c302-4dba-bf7a-6a499ea91736")
+		)
+		(instances
+			(project "CamTrol-L-Main_V5.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 113.03 91.186 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b54ef7a4-6f75-4cc4-9b56-0964b09925ce")
+		(property "Reference" "#PWR012"
+			(at 113.03 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 113.1316 95.0976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "279af0e2-0f57-4788-be6d-4e8e4e6554fa")
+		)
+		(instances
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 74.93 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8b6a5e7-53e4-4238-9386-bc29c0d83d7a")
+		(property "Reference" "#PWR073"
+			(at 74.93 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 75.0316 43.2816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b05c93bb-3fbf-48c3-964d-93ebe31b56c2")
+		)
+		(instances
+			(project "Marre-S-Main_V6.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 49.53 61.976 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bedd08d6-aeb2-49ef-a763-cb4ea6b1da25")
+		(property "Reference" "#PWR082"
+			(at 49.53 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 49.149 57.5818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2494c43e-66e7-4c85-8b79-ef730f877236")
+		)
+		(instances
+			(project "Marre-S-Main_V6.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CamTrol-12Ch-Main-Board-rescue:R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue")
+		(at 77.47 59.69 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c494c8a9-efdc-4d1e-8f9b-0d4c2e30b720")
+		(property "Reference" "R27"
+			(at 74.93 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10KΩ"
+			(at 77.47 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Server.pretty:R_0805_HandSoldering"
+			(at 75.692 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614"
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "20"
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture" "부품세상"
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "2012(0805)"
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8eaab99d-e289-4034-915d-e0f07a59086f")
+		)
+		(pin "2"
+			(uuid "0d9c187c-0403-4402-8145-b1b04b09deac")
+		)
+		(instances
+			(project "Marre-S-Main_V6.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 71.755 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c50edd07-8247-4991-a25d-5883e42bd60d")
+		(property "Reference" "#PWR078"
+			(at 71.755 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 71.8566 122.0216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.755 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.755 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.755 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3909f652-bb7e-4b5a-b2f4-27e4f14b1b34")
+		)
+		(instances
+			(project "CamTrol-L-Main_V5.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Server_Used:C")
+		(at 82.55 36.83 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbd0fb33-5ef4-4db2-bfd2-5b69232f67c9")
+		(property "Reference" "C4"
+			(at 81.28 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "106"
+			(at 82.55 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Server.pretty:C_0805_HandSoldering"
+			(at 78.74 35.8648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000013173"
+			(at 82.55 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "66"
+			(at 82.55 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture" "부품세상"
+			(at 82.55 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "2012(0805)"
+			(at 82.55 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10e567cb-3528-4a74-8c09-c8dcd8a0e152")
+		)
+		(pin "2"
+			(uuid "eb2d3324-6884-4008-a96c-638338c8975b")
+		)
+		(instances
+			(project "Marre-S-Main_V6.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Server_Used:C")
+		(at 26.67 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2fde939-4fc2-41dd-bec1-dc4cf54bbc0c")
+		(property "Reference" "C7"
+			(at 23.749 105.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "104"
+			(at 22.606 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Server.pretty:C_0805_HandSoldering"
+			(at 25.7048 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000013173"
+			(at 26.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "66"
+			(at 26.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture" "부품세상"
+			(at 26.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "2012(0805)"
+			(at 26.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85edaef1-1aef-4a5b-953e-cdb6403831bd")
+		)
+		(pin "2"
+			(uuid "e77e238e-e322-4b31-a3a4-95930f9e920b")
+		)
+		(instances
+			(project "CamTrol-L-Main_V5.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Server_Used:C")
+		(at 35.56 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d792236a-5422-4705-a9e0-7eae8c0ceb05")
+		(property "Reference" "C9"
+			(at 32.639 105.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "104"
+			(at 31.496 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Server.pretty:C_0805_HandSoldering"
+			(at 34.5948 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000013173"
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "66"
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture" "부품세상"
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "2012(0805)"
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a019c90e-f3a0-4a84-95bb-cc30edb75b57")
+		)
+		(pin "2"
+			(uuid "ea8eb3f6-e019-4870-a356-8bcd2bb8e27a")
+		)
+		(instances
+			(project "CamTrol-L-Main_V5.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 35.56 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6aa12b0-9baf-44a4-a7a0-ac8a98d7451e")
+		(property "Reference" "#PWR030"
+			(at 35.56 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 35.6616 114.4016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfde869e-4bde-436d-9e9d-118d7e61b703")
+		)
+		(instances
+			(project "CamTrol-L-Main_V5.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CamTrol-12Ch-Main-Board-rescue:R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue")
+		(at 82.55 59.69 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f408d51d-4109-4c0d-a9d0-f36047d5edd2")
+		(property "Reference" "R33"
+			(at 80.01 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10KΩ"
+			(at 82.55 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Server.pretty:R_0805_HandSoldering"
+			(at 80.772 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614"
+			(at 82.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "20"
+			(at 82.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture" "부품세상"
+			(at 82.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "2012(0805)"
+			(at 82.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faf04681-1605-489a-a1a1-64f4cb4a26ac")
+		)
+		(pin "2"
+			(uuid "1607d695-e941-450e-b1ed-f790c7710afb")
+		)
+		(instances
+			(project "Marre-S-Main_V6.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CamTrol-12Ch-Main-Board-rescue:R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue")
+		(at 113.03 71.12 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4c8c88e-0753-47fd-af14-4b8c4bd5a12a")
+		(property "Reference" "R36"
+			(at 110.49 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "120Ω"
+			(at 113.03 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Server.pretty:R_0805_HandSoldering"
+			(at 111.252 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614"
+			(at 113.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "20"
+			(at 113.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture" "부품세상"
+			(at 113.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "2012(0805)"
+			(at 113.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f7fa4e6-39ff-4711-ad00-44b7d11103d4")
+		)
+		(pin "2"
+			(uuid "cc976260-0e43-47a8-bd50-e402d05a7a7d")
+		)
+		(instances
+			(project "Marre-S-Main_V6.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CamTrol-12Ch-Main-Board-rescue:R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue")
+		(at 113.03 60.96 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f750c632-c249-4f0b-88be-f681c69119ac")
+		(property "Reference" "R34"
+			(at 110.49 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "20KΩ"
+			(at 113.03 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Server.pretty:R_0805_HandSoldering"
+			(at 111.252 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614"
+			(at 113.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "20"
+			(at 113.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture" "부품세상"
+			(at 113.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "2012(0805)"
+			(at 113.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3441058e-5d89-4195-9a38-345dffc102fa")
+		)
+		(pin "2"
+			(uuid "a63546c6-5eb7-4339-aa43-a211d4dcb5d3")
+		)
+		(instances
+			(project "Marre-S-Main_V6.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 120.65 81.28 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "faeac188-c03e-4abe-b482-73fefaf4be12")
+		(property "Reference" "#PWR087"
+			(at 120.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 120.269 76.8858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fc56a6b-a580-4192-8c65-a0d67b96bcb9")
+		)
+		(instances
+			(project "Marre-S-Main_V6.0"
+				(path "/31540a7e-dc9e-4e4d-96b1-dab15efa5f4b"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+			(project "L-CON RS485 V1.0"
+				(path "/56faeaf5-40ad-468a-9d0c-29afb0f8ddf6"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

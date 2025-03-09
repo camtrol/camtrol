@@ -1,0 +1,2899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>E:\CamTrol II\LM_Seet\PCB\L-CON V1.0\L-CON V1.0.kicad_sch</source>
+    <date>2024-06-21 오후 7:44:43</date>
+    <tool>Eeschema 7.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>L-CON V1.0.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100uF/6.3V</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.3</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000002852</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">6.3ΦX5.4</field>
+        <field name="Price">66</field>
+        <field name="Value">100uF</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description=""/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="6.3ΦX5.4"/>
+      <property name="Price" value="66"/>
+      <property name="Value" value="100uF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e81b8828-3b1e-4618-bc0d-1fa5c4eea9e3</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>106</value>
+      <footprint>Server.pretty:C_0805_HandSoldering</footprint>
+      <libsource lib="Server_Used" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11a7e98c-5f25-44c6-8fea-f31623906754</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>106</value>
+      <footprint>Server.pretty:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000013173</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">66</field>
+        <field name="Value">106(10uF)</field>
+      </fields>
+      <libsource lib="Server_Used" part="C" description=""/>
+      <property name="Price" value="66"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="106(10uF)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da351b1c-f81d-4584-8c25-6ca0ea075495</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1000uF/10V</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19cdfd44-1573-4d88-a29e-8daf4658612b</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>106</value>
+      <footprint>Server.pretty:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000013173</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">66</field>
+        <field name="Value">106(10uF)</field>
+      </fields>
+      <libsource lib="Server_Used" part="C" description=""/>
+      <property name="Price" value="66"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="106(10uF)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4540adf-d7d2-469e-80d8-1cd76c70cf97</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>104</value>
+      <footprint>Server.pretty:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000013173</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">66</field>
+        <field name="Value">106(10uF)</field>
+      </fields>
+      <libsource lib="Server_Used" part="C" description=""/>
+      <property name="Price" value="66"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="106(10uF)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19cc28f0-4a97-42f6-9fa2-9e82d1b618ca</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>104</value>
+      <footprint>Server.pretty:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000013173</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">66</field>
+        <field name="Value">106(10uF)</field>
+      </fields>
+      <libsource lib="Server_Used" part="C" description=""/>
+      <property name="Price" value="66"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="106(10uF)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be8166e3-c10d-4131-abb3-6c2a18e51204</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>104</value>
+      <footprint>Server.pretty:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000013173</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">66</field>
+        <field name="Value">106(10uF)</field>
+      </fields>
+      <libsource lib="Server_Used" part="C" description=""/>
+      <property name="Price" value="66"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="106(10uF)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8250804-f4b2-4323-a85d-36647526567b</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>104</value>
+      <footprint>Server.pretty:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000013173</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">66</field>
+        <field name="Value">106(10uF)</field>
+      </fields>
+      <libsource lib="Server_Used" part="C" description=""/>
+      <property name="Price" value="66"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="106(10uF)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>034befb5-8abf-4767-ac0c-4a37b73a1cea</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>104</value>
+      <footprint>Server.pretty:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000013173</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">66</field>
+        <field name="Value">106(10uF)</field>
+      </fields>
+      <libsource lib="Server_Used" part="C" description=""/>
+      <property name="Price" value="66"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="106(10uF)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ebcb9ce-daa6-4bad-87f6-f577235aac21</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>POWER</value>
+      <footprint>Server.pretty:LED_0805</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000008652</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">132</field>
+        <field name="Value">RED LED</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="LED-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="132"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Value" value="RED LED"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77b08fa4-a154-44fa-a8ae-2e08f410a1cd</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>Server.pretty:LED_0805</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000008652</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">132</field>
+        <field name="Value">RED LED</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="LED-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="132"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="RED LED"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28f1cc5a-b744-45e6-8c7a-3fd68c6e0423</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>type="D" model="M7" lib=""</value>
+      <footprint>Server.pretty:D_SMA</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000012566</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Sim.Device">SPICE</field>
+        <field name="Sim.Params">type="D" model="M7" lib=""</field>
+        <field name="Sim.Pins">1=1 2=2</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="DO-214AC(SMA)"/>
+      <property name="Price" value="55"/>
+      <property name="Value" value="4007"/>
+      <property name="Sim.Device" value="SPICE"/>
+      <property name="Sim.Params" value="type=&quot;D&quot; model=&quot;M7&quot; lib=&quot;&quot;"/>
+      <property name="Sim.Pins" value="1=1 2=2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Diode, anode on pin 1, for simulation only!"/>
+      <property name="ki_keywords" value="simulation"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93db11da-70d9-4bd0-84fc-41005696d439</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>FRIGE</value>
+      <footprint>Server.pretty:LED_0805</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000008652</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">132</field>
+        <field name="Value">RED LED</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="LED-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="132"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Value" value="RED LED"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d07c59b0-1a5e-46ad-897c-3fff422ea613</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>SS34</value>
+      <footprint>Server.pretty:D_SMA</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000016469</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">165</field>
+        <field name="Sim.Device">SPICE</field>
+        <field name="Sim.Params">type="D" model="SS34" lib=""</field>
+        <field name="Sim.Pins">1=1 2=2</field>
+        <field name="Value">SS34</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="DO-214AC(SMA)"/>
+      <property name="Price" value="165"/>
+      <property name="Value" value="SS34"/>
+      <property name="Sim.Device" value="SPICE"/>
+      <property name="Sim.Params" value="type=&quot;D&quot; model=&quot;SS34&quot; lib=&quot;&quot;"/>
+      <property name="Sim.Pins" value="1=1 2=2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Diode, anode on pin 1, for simulation only!"/>
+      <property name="ki_keywords" value="simulation"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3aef7a1-2ce5-430f-b92d-c669425c3665</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>POWER</value>
+      <footprint>Server.pretty:LED_0805</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000008652</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">132</field>
+        <field name="Value">RED LED</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="LED-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="132"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Value" value="RED LED"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3af8aa1-6b59-4482-aab9-f4b93e9d71c1</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148W</value>
+      <footprint>Server.pretty:D_SOD-123</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000012566</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Sim.Device">SPICE</field>
+        <field name="Sim.Params">type="D" model="M7" lib=""</field>
+        <field name="Sim.Pins">1=1 2=2</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="DO-214AC(SMA)"/>
+      <property name="Price" value="55"/>
+      <property name="Value" value="4007"/>
+      <property name="Sim.Device" value="SPICE"/>
+      <property name="Sim.Params" value="type=&quot;D&quot; model=&quot;M7&quot; lib=&quot;&quot;"/>
+      <property name="Sim.Pins" value="1=1 2=2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Diode, anode on pin 1, for simulation only!"/>
+      <property name="ki_keywords" value="simulation"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3fd6ade3-6cc2-46eb-bbd8-16e7c6320ed5</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>Server.pretty:LED_0805</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000008652</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">132</field>
+        <field name="Value">RED LED</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="LED-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="132"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="RED LED"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14da147e-4b57-40e3-819f-18a3e688513d</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>type="D" model="M7" lib=""</value>
+      <footprint>Server.pretty:D_SMA</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000012566</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Sim.Device">SPICE</field>
+        <field name="Sim.Params">type="D" model="M7" lib=""</field>
+        <field name="Sim.Pins">1=1 2=2</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="DO-214AC(SMA)"/>
+      <property name="Price" value="55"/>
+      <property name="Value" value="4007"/>
+      <property name="Sim.Device" value="SPICE"/>
+      <property name="Sim.Params" value="type=&quot;D&quot; model=&quot;M7&quot; lib=&quot;&quot;"/>
+      <property name="Sim.Pins" value="1=1 2=2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Diode, anode on pin 1, for simulation only!"/>
+      <property name="ki_keywords" value="simulation"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3382161f-d19e-4613-bf0f-d3a290688f6f</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>LED</value>
+      <footprint>Server.pretty:LED_0805</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000008652</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">132</field>
+        <field name="Value">RED LED</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="LED-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="132"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="RED LED"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21f4fcec-3b72-4b2e-a784-9c557b87168b</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>LED</value>
+      <footprint>Server.pretty:LED_0805</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000008652</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">132</field>
+        <field name="Value">RED LED</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="LED-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="132"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="RED LED"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>252b994a-6818-4171-9945-fa7a16b64772</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>type="D" model="M7" lib=""</value>
+      <footprint>Server.pretty:D_SMA</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000012566</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Sim.Device">SPICE</field>
+        <field name="Sim.Params">type="D" model="M7" lib=""</field>
+        <field name="Sim.Pins">1=1 2=2</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="DO-214AC(SMA)"/>
+      <property name="Price" value="55"/>
+      <property name="Value" value="4007"/>
+      <property name="Sim.Device" value="SPICE"/>
+      <property name="Sim.Params" value="type=&quot;D&quot; model=&quot;M7&quot; lib=&quot;&quot;"/>
+      <property name="Sim.Pins" value="1=1 2=2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Diode, anode on pin 1, for simulation only!"/>
+      <property name="ki_keywords" value="simulation"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89cd2d49-901e-4221-8d48-927f6349d14b</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>type="D" model="M7" lib=""</value>
+      <footprint>Server.pretty:D_SMA</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000012566</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Sim.Device">SPICE</field>
+        <field name="Sim.Params">type="D" model="M7" lib=""</field>
+        <field name="Sim.Pins">1=1 2=2</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="DO-214AC(SMA)"/>
+      <property name="Price" value="55"/>
+      <property name="Value" value="4007"/>
+      <property name="Sim.Device" value="SPICE"/>
+      <property name="Sim.Params" value="type=&quot;D&quot; model=&quot;M7&quot; lib=&quot;&quot;"/>
+      <property name="Sim.Pins" value="1=1 2=2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Diode, anode on pin 1, for simulation only!"/>
+      <property name="ki_keywords" value="simulation"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a60d08d0-d970-41ee-a18f-50a8911bd753</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>1N4148</value>
+      <footprint>Server.pretty:D_SOD-123</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000012566</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Sim.Device">SPICE</field>
+        <field name="Sim.Params">type="D" model="M7" lib=""</field>
+        <field name="Sim.Pins">1=1 2=2</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="DO-214AC(SMA)"/>
+      <property name="Price" value="55"/>
+      <property name="Value" value="4007"/>
+      <property name="Sim.Device" value="SPICE"/>
+      <property name="Sim.Params" value="type=&quot;D&quot; model=&quot;M7&quot; lib=&quot;&quot;"/>
+      <property name="Sim.Pins" value="1=1 2=2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Diode, anode on pin 1, for simulation only!"/>
+      <property name="ki_keywords" value="simulation"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5087ff6-4ff0-452b-8ef9-7222daa7ea03</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>LED</value>
+      <footprint>Server.pretty:LED_0805</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000008652</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">132</field>
+        <field name="Value">RED LED</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="LED-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="132"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="RED LED"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2f60914-6d94-47e5-92ab-348ea27a7293</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>type="D" model="M7" lib=""</value>
+      <footprint>Server.pretty:D_SMA</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000012566</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Sim.Device">SPICE</field>
+        <field name="Sim.Params">type="D" model="M7" lib=""</field>
+        <field name="Sim.Pins">1=1 2=2</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="DO-214AC(SMA)"/>
+      <property name="Price" value="55"/>
+      <property name="Value" value="4007"/>
+      <property name="Sim.Device" value="SPICE"/>
+      <property name="Sim.Params" value="type=&quot;D&quot; model=&quot;M7&quot; lib=&quot;&quot;"/>
+      <property name="Sim.Pins" value="1=1 2=2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Diode, anode on pin 1, for simulation only!"/>
+      <property name="ki_keywords" value="simulation"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73c38718-ec59-4963-a5c2-ce4ae0b047db</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>FUSE</value>
+      <footprint>Server.pretty:FUSE-PIN-Holder-Mini</footprint>
+      <datasheet>http://www.intopion.com/goods/view?no=3828767</datasheet>
+      <fields>
+        <field name="Manufacture">인투피온</field>
+        <field name="Price">770</field>
+        <field name="Value">FRG500-16F</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="FUZETEC-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="770"/>
+      <property name="Manufacture" value="인투피온"/>
+      <property name="Value" value="FRG500-16F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e059d67-0e9d-4fd3-97e0-784ce566212f</tstamps>
+    </comp>
+    <comp ref="F2">
+      <value>FUSE</value>
+      <footprint>Server.pretty:FUSE-PIN-Holder-Mini</footprint>
+      <datasheet>http://www.intopion.com/goods/view?no=3828767</datasheet>
+      <fields>
+        <field name="Manufacture">인투피온</field>
+        <field name="Price">770</field>
+        <field name="Value">FRG500-16F</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="FUZETEC-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="770"/>
+      <property name="Manufacture" value="인투피온"/>
+      <property name="Value" value="FRG500-16F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6bfeffc-c442-443a-bfa8-ad9c0bd66e53</tstamps>
+    </comp>
+    <comp ref="F3">
+      <value>FUSE</value>
+      <footprint>Server.pretty:FUSE-PIN-Holder-Mini</footprint>
+      <datasheet>http://www.intopion.com/goods/view?no=3828767</datasheet>
+      <fields>
+        <field name="Manufacture">인투피온</field>
+        <field name="Price">770</field>
+        <field name="Value">FRG500-16F</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="FUZETEC-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="770"/>
+      <property name="Manufacture" value="인투피온"/>
+      <property name="Value" value="FRG500-16F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf1e7e29-1233-426b-9a52-d14f5995bc63</tstamps>
+    </comp>
+    <comp ref="F4">
+      <value>FUSE</value>
+      <footprint>Server.pretty:FUSE-PIN-Holder-Mini</footprint>
+      <datasheet>http://www.intopion.com/goods/view?no=3828767</datasheet>
+      <fields>
+        <field name="Manufacture">인투피온</field>
+        <field name="Price">770</field>
+        <field name="Value">FRG500-16F</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="FUZETEC-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="770"/>
+      <property name="Manufacture" value="인투피온"/>
+      <property name="Value" value="FRG500-16F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>707cf844-cf61-474f-9364-e8c7ad3c7d0c</tstamps>
+    </comp>
+    <comp ref="F6">
+      <value>FUSE</value>
+      <footprint>Server.pretty:FUSE-PIN-Holder-Mini</footprint>
+      <datasheet>http://www.intopion.com/goods/view?no=3828767</datasheet>
+      <fields>
+        <field name="Manufacture">인투피온</field>
+        <field name="Price">770</field>
+        <field name="Value">FRG500-16F</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="FUZETEC-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="770"/>
+      <property name="Manufacture" value="인투피온"/>
+      <property name="Value" value="FRG500-16F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3fb681c0-6ef2-4d76-9822-bf70004f341d</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>Server.pretty:ESP32Hole</footprint>
+      <libsource lib="Server_Used" part="ESP32Hole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f83f2c3d-8ed8-435e-a52c-3e064c75121a</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>Server.pretty:MountingHole_3.2mm_M3-support</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>afeb2516-3a33-447d-a436-eb3b2a2fe7f4</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>YMW025-04R</value>
+      <footprint>Server.pretty:Molex_SPOX_5267-04A_1x04_P2.50mm_Vertical</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=419</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">30</field>
+        <field name="Value">5267-04P</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacture" value="DEVICEMART"/>
+      <property name="Price" value="30"/>
+      <property name="Value" value="5267-04P"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>134e7075-8ccd-4506-99aa-9705a49d5785</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02_Male</value>
+      <footprint>Server.pretty:PhoenixContact_MSTBVA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">160</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacture" value="DEVICEMART"/>
+      <property name="Price" value="160"/>
+      <property name="Value" value="Conn_01x02_Male"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3f0b17b-8605-4abf-afaf-dc31c8c23b5b</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x03_Pin</value>
+      <footprint>Server.pretty:PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical_NEW</footprint>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">160</field>
+        <field name="Value">Conn_01x03_Pin</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Manufacture" value="DEVICEMART"/>
+      <property name="Price" value="160"/>
+      <property name="Value" value="Conn_01x03_Pin"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed7a5494-04c2-4371-a8f4-0e61caea1321</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>TEMP</value>
+      <footprint>Server.pretty:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=23260&amp;market=naver&amp;NaPm=ct%3Dkof8h100%7Cci%3D2b06ad3968d8adec0b2b30ae50256e40450772f8%7Ctr%3Dslsc%7Csn%3D876973%7Chk%3Dcbed85e5f251313af0535f600d98c0e674ebf3d9</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">100</field>
+        <field name="Value">ECH381V-2P</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacture" value="DEVICEMART"/>
+      <property name="Price" value="100"/>
+      <property name="Value" value="ECH381V-2P"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b3449f3-22ef-4a17-afe5-97fe8d794074</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x03_Pin</value>
+      <footprint>Server.pretty:PhoenixContact_MCV_1,5_3-G-3.81_1x03_P3.81mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">100</field>
+        <field name="Value">Conn_01x03_Pin</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Manufacture" value="DEVICEMART"/>
+      <property name="Price" value="100"/>
+      <property name="Value" value="Conn_01x03_Pin"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6a4a6f9-0f63-4269-a9fd-b1f646b46ed6</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x02_Male</value>
+      <footprint>Server.pretty:PhoenixContact_MSTBVA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">160</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacture" value="DEVICEMART"/>
+      <property name="Price" value="160"/>
+      <property name="Value" value="Conn_01x02_Male"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7da9e154-20d2-44b3-8486-8f44127f1c44</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x02_Male</value>
+      <footprint>Server.pretty:PhoenixContact_MSTBVA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">160</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacture" value="DEVICEMART"/>
+      <property name="Price" value="160"/>
+      <property name="Value" value="Conn_01x02_Male"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>166b826d-edb8-4574-98f7-b8c31134592a</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x02_Male</value>
+      <footprint>Server.pretty:PhoenixContact_MSTBVA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">160</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacture" value="DEVICEMART"/>
+      <property name="Price" value="160"/>
+      <property name="Value" value="Conn_01x02_Male"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>494fd7fb-ed8e-491b-9403-c7d8051c4abe</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>DOOR -</value>
+      <footprint>Server.pretty:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=23260&amp;market=naver&amp;NaPm=ct%3Dkof8h100%7Cci%3D2b06ad3968d8adec0b2b30ae50256e40450772f8%7Ctr%3Dslsc%7Csn%3D876973%7Chk%3Dcbed85e5f251313af0535f600d98c0e674ebf3d9</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">100</field>
+        <field name="Value">ECH381V-2P</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacture" value="DEVICEMART"/>
+      <property name="Price" value="100"/>
+      <property name="Value" value="ECH381V-2P"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d8d08b2-f1c8-4518-a3b7-b5be0dc532ea</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x02_Male</value>
+      <footprint>Server.pretty:PhoenixContact_MSTBVA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">160</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacture" value="DEVICEMART"/>
+      <property name="Price" value="160"/>
+      <property name="Value" value="Conn_01x02_Male"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b15e8a27-f4c4-45d3-b41d-34ae28c7fbe9</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>+</value>
+      <footprint>Server.pretty:BR-120</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=1232631</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">360</field>
+        <field name="Value">BR-120</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Price" value="360"/>
+      <property name="Manufacture" value="DEVICEMART"/>
+      <property name="Value" value="BR-120"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2f2ed73-42e1-4d51-95f0-6fce1c1ab93e</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>-</value>
+      <footprint>Server.pretty:BR-120</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=1232631</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">360</field>
+        <field name="Value">BR-120</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Price" value="360"/>
+      <property name="Manufacture" value="DEVICEMART"/>
+      <property name="Value" value="BR-120"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe87ea85-ed16-472b-858a-f5ef8507a6e0</tstamps>
+    </comp>
+    <comp ref="K1">
+      <value>DIPxx-1Axx-11x</value>
+      <footprint>Server.pretty:Relay_SPST_StandexMeder_SIL_Form1A</footprint>
+      <datasheet>https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf</datasheet>
+      <libsource lib="" part="DIPxx-1Axx-11x_2" description="Standex Meder DIP reed relay, SPST, Closing Contact"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Standex Meder DIP reed relay, SPST, Closing Contact"/>
+      <property name="ki_keywords" value="Single Pole Reed Relay SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7f41fa5-e35b-4ab2-ab10-6e5957189ff0</tstamps>
+    </comp>
+    <comp ref="K3">
+      <value>JQC-T78-DC12V-C</value>
+      <footprint>Server.pretty:JQC-T78-DC12V-C</footprint>
+      <datasheet>https://www.openidea.co.kr/goods/goods_view.php?goodsNo=1000010196</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">430</field>
+      </fields>
+      <libsource lib="Server_Used" part="HR702-NH-DC12V" description="Standex Meder DIP reed relay, SPDT"/>
+      <property name="Manufacture" value="DEVICEMART"/>
+      <property name="Price" value="430"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Standex Meder DIP reed relay, SPDT"/>
+      <property name="ki_keywords" value="Single Pole Reed Relay SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b20bf511-c822-4f3d-a6bb-395483caf9a3</tstamps>
+    </comp>
+    <comp ref="MO1">
+      <value>MP1584</value>
+      <footprint>Server.pretty:MP1584-SMD</footprint>
+      <datasheet>https://smartstore.naver.com/misoparts/products/5356716694</datasheet>
+      <fields>
+        <field name="Price">880</field>
+      </fields>
+      <libsource lib="Server_Used" part="MP1584" description=""/>
+      <property name="Price" value="880"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b50006e-b7ec-442a-81c9-08259bd24820</tstamps>
+    </comp>
+    <comp ref="MO2">
+      <value>STEP-UP</value>
+      <footprint>Server.pretty:STEP-UP</footprint>
+      <libsource lib="" part="MP1584_1" description=""/>
+      <property name="Price" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6996b271-7593-4e89-a005-45385387c71c</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>AOD4185</value>
+      <footprint>Server.pretty:AOD1485</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=6603223</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Package">TO-252-3</field>
+        <field name="Price">1050</field>
+        <field name="Value">AOD4185</field>
+      </fields>
+      <libsource lib="Server_Used" part="AOD4185" description=""/>
+      <property name="Price" value="1050"/>
+      <property name="Manufacture" value="DEVICEMART"/>
+      <property name="Package" value="TO-252-3"/>
+      <property name="Value" value="AOD4185"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f873799b-9224-4e0f-bbeb-43a05f480291</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>AOD4185</value>
+      <footprint>Server.pretty:AOD1485</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=6603223</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Package">TO-252-3</field>
+        <field name="Price">1050</field>
+        <field name="Value">AOD4185</field>
+      </fields>
+      <libsource lib="Server_Used" part="AOD4185" description=""/>
+      <property name="Price" value="1050"/>
+      <property name="Manufacture" value="DEVICEMART"/>
+      <property name="Package" value="TO-252-3"/>
+      <property name="Value" value="AOD4185"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2bb2cb90-b4de-493f-985e-744ca04aaa46</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>MMBTA42L</value>
+      <footprint>Server.pretty:SOT-23</footprint>
+      <libsource lib="Server_Used" part="2SC1815_SMD" description=""/>
+      <property name="Price" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb4e8480-dc9a-4d49-954a-740d51abdb77</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>MMBTA42L</value>
+      <footprint>Server.pretty:SOT-23</footprint>
+      <libsource lib="Server_Used" part="2SC1815_SMD" description=""/>
+      <property name="Price" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16c7f711-13c8-4033-8ed0-c5ea81d489a0</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>AOD4185</value>
+      <footprint>Server.pretty:AOD1485</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=6603223</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Package">TO-252-3</field>
+        <field name="Price">1050</field>
+        <field name="Value">AOD4185</field>
+      </fields>
+      <libsource lib="Server_Used" part="AOD4185" description=""/>
+      <property name="Price" value="1050"/>
+      <property name="Manufacture" value="DEVICEMART"/>
+      <property name="Package" value="TO-252-3"/>
+      <property name="Value" value="AOD4185"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7ca31d2-3257-4c54-a474-14b391b39093</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>AOD4185</value>
+      <footprint>Server.pretty:AOD1485</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=6603223</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Package">TO-252-3</field>
+        <field name="Price">1050</field>
+        <field name="Value">AOD4185</field>
+      </fields>
+      <libsource lib="Server_Used" part="AOD4185" description=""/>
+      <property name="Price" value="1050"/>
+      <property name="Manufacture" value="DEVICEMART"/>
+      <property name="Package" value="TO-252-3"/>
+      <property name="Value" value="AOD4185"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60a5b8b0-cfc0-487d-a298-aa477abc29d3</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>MMBTA42L</value>
+      <footprint>Server.pretty:SOT-23</footprint>
+      <libsource lib="Server_Used" part="2SC1815_SMD" description=""/>
+      <property name="Price" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>264cf5fd-dd13-4892-b3f7-73fceec3d81e</tstamps>
+    </comp>
+    <comp ref="Q9">
+      <value>MMBTA42L</value>
+      <footprint>Server.pretty:SOT-23</footprint>
+      <libsource lib="Server_Used" part="2SC1815_SMD" description=""/>
+      <property name="Price" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfab90e4-b414-46b7-8ea0-d7cd83a1548a</tstamps>
+    </comp>
+    <comp ref="Q10">
+      <value>AOD4185</value>
+      <footprint>Server.pretty:AOD1485</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=6603223</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Package">TO-252-3</field>
+        <field name="Price">1050</field>
+        <field name="Value">AOD4185</field>
+      </fields>
+      <libsource lib="Server_Used" part="AOD4185" description=""/>
+      <property name="Price" value="1050"/>
+      <property name="Manufacture" value="DEVICEMART"/>
+      <property name="Package" value="TO-252-3"/>
+      <property name="Value" value="AOD4185"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7415c27-8bf7-4761-86a2-7f96dc26941d</tstamps>
+    </comp>
+    <comp ref="Q11">
+      <value>AOD4185</value>
+      <footprint>Server.pretty:AOD1485</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=6603223</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Package">TO-252-3</field>
+        <field name="Price">1050</field>
+        <field name="Value">AOD4185</field>
+      </fields>
+      <libsource lib="Server_Used" part="AOD4185" description=""/>
+      <property name="Price" value="1050"/>
+      <property name="Manufacture" value="DEVICEMART"/>
+      <property name="Package" value="TO-252-3"/>
+      <property name="Value" value="AOD4185"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3e630a7-23af-44f6-992b-21e1d1f86fdd</tstamps>
+    </comp>
+    <comp ref="Q12">
+      <value>AOD4185</value>
+      <footprint>Server.pretty:AOD1485</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=6603223</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Package">TO-252-3</field>
+        <field name="Price">1050</field>
+        <field name="Value">AOD4185</field>
+      </fields>
+      <libsource lib="Server_Used" part="AOD4185" description=""/>
+      <property name="Price" value="1050"/>
+      <property name="Manufacture" value="DEVICEMART"/>
+      <property name="Package" value="TO-252-3"/>
+      <property name="Value" value="AOD4185"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d01eb25-3216-4cb7-b6b2-c001e03f4be7</tstamps>
+    </comp>
+    <comp ref="Q13">
+      <value>AOD4185</value>
+      <footprint>Server.pretty:AOD1485</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=6603223</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Package">TO-252-3</field>
+        <field name="Price">1050</field>
+        <field name="Value">AOD4185</field>
+      </fields>
+      <libsource lib="Server_Used" part="AOD4185" description=""/>
+      <property name="Price" value="1050"/>
+      <property name="Manufacture" value="DEVICEMART"/>
+      <property name="Package" value="TO-252-3"/>
+      <property name="Value" value="AOD4185"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>caf4d906-59f4-4cb0-b99d-f26ba51115d0</tstamps>
+    </comp>
+    <comp ref="Q17">
+      <value>MMBTA42L</value>
+      <footprint>Server.pretty:SOT-23</footprint>
+      <libsource lib="Server_Used" part="2SC1815_SMD" description=""/>
+      <property name="Price" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe68832b-c20e-40e0-8cb6-820f04f404d4</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="20"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="10KΩ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3708f6bf-0d46-4ae3-9fa3-6895a53536f2</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="20"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="1KΩ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69d2abd0-a9cc-4d66-a40d-10718f865e25</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>330</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="20"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="1KΩ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>caa273ef-4166-49b1-86d1-8fd5b5e2ad77</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="20"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="10KΩ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0507d6de-b30a-424d-b5d3-0f204c4dea58</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>202F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+        <field name="Value_1">R</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <property name="Price" value="20"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="10KΩ"/>
+      <property name="Value_1" value="R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d24617d-6838-4070-af42-4c7633c738a7</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>203F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="20"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="1KΩ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d5204ba-bf48-4e80-9901-fe576f22f6d7</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>203F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="20"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="1KΩ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>329ea998-71cb-4d5b-b990-655cd2f03008</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>202F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="20"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="1KΩ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9dab7c1-9f77-4db2-b48b-489371a89496</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>202F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="20"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="1KΩ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>735dd07d-cca0-4ab1-9279-445a007ad8a9</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>203F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="20"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="10KΩ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a87cf7a-a20e-4348-8e1a-19eeaf5153ee</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>102F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="20"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="10KΩ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3d745b7-628c-4ce0-9da8-890e468dffb4</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="20"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="1KΩ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e23d5aef-1a8d-4db2-8152-6f79ab8300f3</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>203F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="20"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="1KΩ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99108288-44ea-4446-9ee6-a5e77c6fa843</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>202F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+        <field name="Value_1">R</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <property name="Price" value="20"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="10KΩ"/>
+      <property name="Value_1" value="R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39e8542a-6995-4eea-b771-7aa26139d6e8</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>203F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="20"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="1KΩ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18016f19-23f4-4805-ab74-c71bcdd8f0df</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>202F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="20"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="1KΩ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3deebfa0-322e-4450-85c5-624b43f92bee</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>202F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="20"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="1KΩ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63816431-fbbf-47ae-96a5-a5f0de51a2f7</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>203F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="20"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="1KΩ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0cf387cf-8374-4d28-b2fb-9b8267ee3ebe</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>203F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="20"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="1KΩ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a5873b0-844b-4971-8524-3ebd5c37712a</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>202F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+        <field name="Value_1">R</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <property name="Price" value="20"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="10KΩ"/>
+      <property name="Value_1" value="R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83f3b1a2-7e81-437a-9edc-d3daf10177e2</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>202F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+        <field name="Value_1">R</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <property name="Price" value="20"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="10KΩ"/>
+      <property name="Value_1" value="R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e737d7e7-0a57-4a8f-ab12-01edfd6acaf8</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>203F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="20"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="1KΩ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d851b056-8359-49e1-9f33-660925d175ff</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>203F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="20"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="1KΩ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed6d805f-980f-45a3-a55c-f6fdcb69837a</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>203F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="20"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="1KΩ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18ca4bef-ef70-43c1-89e7-da7702655366</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>202F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="CamTrol-12Ch-Main-Board-rescue" part="R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue" description=""/>
+      <property name="Price" value="20"/>
+      <property name="Manufacture" value="부품세상"/>
+      <property name="Package" value="2012(0805)"/>
+      <property name="Value" value="1KΩ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2b59d7d-c502-4f10-a567-1cc69a715f33</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>NW3-SK-02</value>
+      <footprint>Server.pretty:NW3-SK-02A</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=1128484</datasheet>
+      <fields>
+        <field name="Price">80</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Price" value="80"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Switch, single pole double throw"/>
+      <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18177e02-65e8-45a0-8dc8-7c945399ac37</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>Server.pretty:TS-3404</footprint>
+      <datasheet>https://ko.aliexpress.com/item/1005001629175919.html?spm=a2g0o.productlist.main.11.5e724c28lXbOYL&amp;algo_pvid=f0595e6e-2810-4e0b-8806-369804a5228c&amp;algo_exp_id=f0595e6e-2810-4e0b-8806-369804a5228c-5&amp;pdp_npi=4%40dis%21KRW%212761%211374.0%21%21%212.05%21%21%402101c59517020762702623391e2bb4%2112000026886281234%21sea%21KR%212278664531%21AB&amp;curPageLogUid=r6hnWocM2BSy</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb5352d7-ae27-49f5-bb1b-1f8e21eea196</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>EN</value>
+      <footprint>Button_Switch_SMD:SW_SPST_CK_RS282G05A3</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=1322056</datasheet>
+      <fields>
+        <field name="Price">30</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Price" value="30"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2bfa0711-5eab-4e83-a6bc-15ae0e055d14</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>BOOT</value>
+      <footprint>Button_Switch_SMD:SW_SPST_CK_RS282G05A3</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=1322056</datasheet>
+      <fields>
+        <field name="Price">30</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Price" value="30"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>575fbf7c-d923-4f5e-b6e3-ad2e6543cb12</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_Push</value>
+      <footprint>Server.pretty:TS-3404</footprint>
+      <datasheet>https://ko.aliexpress.com/item/1005001629175919.html?spm=a2g0o.productlist.main.11.5e724c28lXbOYL&amp;algo_pvid=f0595e6e-2810-4e0b-8806-369804a5228c&amp;algo_exp_id=f0595e6e-2810-4e0b-8806-369804a5228c-5&amp;pdp_npi=4%40dis%21KRW%212761%211374.0%21%21%212.05%21%21%402101c59517020762702623391e2bb4%2112000026886281234%21sea%21KR%212278664531%21AB&amp;curPageLogUid=r6hnWocM2BSy</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>434e2793-09f0-4784-9e13-41eef807c65d</tstamps>
+    </comp>
+    <comp ref="SW6">
+      <value>SW_DPDT_x2</value>
+      <footprint>Server.pretty:YSS-1201-SMD</footprint>
+      <fields>
+        <field name="필드4">ON</field>
+        <field name="필드5">OFF</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DPDT_x2" description="Switch, dual pole double throw, separate symbols"/>
+      <property name="필드4" value="ON"/>
+      <property name="필드5" value="OFF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Switch, dual pole double throw, separate symbols"/>
+      <property name="ki_keywords" value="switch dual-pole double-throw DPDT spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a9a932a-7807-45ec-ba6a-042709847db7 7fc290a8-bc67-426a-ba09-b412f3bc35d7</tstamps>
+    </comp>
+    <comp ref="SW7">
+      <value>SW_DPDT_x2</value>
+      <footprint>Server.pretty:YSS-1201-SMD</footprint>
+      <fields>
+        <field name="필드4">ON</field>
+        <field name="필드5">OFF</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DPDT_x2" description="Switch, dual pole double throw, separate symbols"/>
+      <property name="필드4" value="ON"/>
+      <property name="필드5" value="OFF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Switch, dual pole double throw, separate symbols"/>
+      <property name="ki_keywords" value="switch dual-pole double-throw DPDT spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d1e85ac-e811-4d56-96ce-8b229129088b 386bca04-282d-471d-98e6-28df202eb9f9</tstamps>
+    </comp>
+    <comp ref="SW8">
+      <value>SW_DPDT_x2</value>
+      <footprint>Server.pretty:YSS-1201-SMD</footprint>
+      <fields>
+        <field name="필드4">ON</field>
+        <field name="필드5">OFF</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DPDT_x2" description="Switch, dual pole double throw, separate symbols"/>
+      <property name="필드4" value="ON"/>
+      <property name="필드5" value="OFF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Switch, dual pole double throw, separate symbols"/>
+      <property name="ki_keywords" value="switch dual-pole double-throw DPDT spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ce977ab-677d-4905-9f31-3f0ae47bbf2e 47f00182-7b14-46c6-aacf-11d9f821454e</tstamps>
+    </comp>
+    <comp ref="SW9">
+      <value>SW_DPDT_x2</value>
+      <footprint>Server.pretty:YSS-1201-SMD</footprint>
+      <fields>
+        <field name="필드4">ON</field>
+        <field name="필드5">OFF</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DPDT_x2" description="Switch, dual pole double throw, separate symbols"/>
+      <property name="필드4" value="ON"/>
+      <property name="필드5" value="OFF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Switch, dual pole double throw, separate symbols"/>
+      <property name="ki_keywords" value="switch dual-pole double-throw DPDT spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad97d049-fc02-4453-8164-a0646f696011 045ec97e-a6d6-4631-8978-5ae7423d19e4</tstamps>
+    </comp>
+    <comp ref="SW10">
+      <value>SW_DPDT_x2</value>
+      <footprint>Server.pretty:YSS-1201-SMD</footprint>
+      <fields>
+        <field name="필드4">ON</field>
+        <field name="필드5">OFF</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DPDT_x2" description="Switch, dual pole double throw, separate symbols"/>
+      <property name="필드4" value="ON"/>
+      <property name="필드5" value="OFF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Switch, dual pole double throw, separate symbols"/>
+      <property name="ki_keywords" value="switch dual-pole double-throw DPDT spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd08a5b0-2464-4ecd-9fe0-64e8404f2667 2bb14ed5-f975-4ee7-ba5e-97923a1bd821</tstamps>
+    </comp>
+    <comp ref="SW11">
+      <value>SW_DPDT_x2</value>
+      <footprint>Server.pretty:YSS-1201-SMD</footprint>
+      <fields>
+        <field name="필드4">ON</field>
+        <field name="필드5">OFF</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DPDT_x2" description="Switch, dual pole double throw, separate symbols"/>
+      <property name="필드4" value="ON"/>
+      <property name="필드5" value="OFF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <property name="ki_description" value="Switch, dual pole double throw, separate symbols"/>
+      <property name="ki_keywords" value="switch dual-pole double-throw DPDT spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42d812d6-2c29-4d53-a8b6-affcca1ccbd3 33d4c9d9-babc-48ab-99d0-65bd4771e4a1</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>3.3V</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223</footprint>
+      <libsource lib="CamTrol-12ChOne-Board-cache" part="AZ1117-3.3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bec301b4-a372-43f2-9ebc-e3425b75e0c5</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ESP32-S3-PCB</value>
+      <footprint>Server.pretty:ESP32-S3-PCB</footprint>
+      <fields>
+        <field name="Field4">Espressif Systems</field>
+        <field name="Manufacture">알파마이크로</field>
+      </fields>
+      <libsource lib="" part="ESP32-S-PCB_1" description=""/>
+      <property name="Field4" value="Espressif Systems"/>
+      <property name="Value_1" value=""/>
+      <property name="Manufacture" value="알파마이크로"/>
+      <property name="Price" value=""/>
+      <property name="Value_1_1" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="L-CON V1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80a624fd-4aa6-4f03-a50c-61d59643d521</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="DIPxx-1Axx-11x_2">
+      <description>Standex Meder DIP reed relay, SPST, Closing Contact</description>
+      <docs>https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf</docs>
+      <footprints>
+        <fp>Relay*StandexMeder*DIP*LowProfile*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K6</field>
+        <field name="Value">DIPxx-1Axx-11x</field>
+        <field name="Footprint">Relay_THT:Relay_SPST_StandexMeder_SIL_Form1A</field>
+        <field name="Datasheet">https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="ESP32-S-PCB_1">
+      <fields>
+        <field name="Reference">U5</field>
+        <field name="Value">ESP32-S3-PCB</field>
+        <field name="Footprint">Server.pretty:ESP32-S3-PCB</field>
+        <field name="Field4">Espressif Systems</field>
+        <field name="Manufacture">알파마이크로</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="3V3" type="power_in"/>
+        <pin num="3" name="EN" type="bidirectional"/>
+        <pin num="4" name="IO_4" type="bidirectional"/>
+        <pin num="5" name="IO_5" type="bidirectional"/>
+        <pin num="6" name="IO_6" type="bidirectional"/>
+        <pin num="7" name="IO_7" type="bidirectional"/>
+        <pin num="8" name="IO_15" type="bidirectional"/>
+        <pin num="9" name="IO_16" type="bidirectional"/>
+        <pin num="10" name="IO_17" type="bidirectional"/>
+        <pin num="11" name="IO_18" type="bidirectional"/>
+        <pin num="12" name="IO_8" type="input"/>
+        <pin num="13" name="IO_19" type="output"/>
+        <pin num="14" name="IO_20" type="bidirectional"/>
+        <pin num="15" name="IO_3" type="bidirectional"/>
+        <pin num="16" name="IO_46" type="input"/>
+        <pin num="17" name="IO_09" type="bidirectional"/>
+        <pin num="18" name="IO_10" type="bidirectional"/>
+        <pin num="19" name="IO_11" type="bidirectional"/>
+        <pin num="20" name="IO_12" type="bidirectional"/>
+        <pin num="21" name="IO_13" type="bidirectional"/>
+        <pin num="22" name="IO_14" type="bidirectional"/>
+        <pin num="23" name="IO_21" type="bidirectional"/>
+        <pin num="24" name="IO_47" type="bidirectional"/>
+        <pin num="25" name="IO_48" type="bidirectional"/>
+        <pin num="26" name="IO_45" type="bidirectional"/>
+        <pin num="27" name="IO_0" type="bidirectional"/>
+        <pin num="28" name="IO_35" type="bidirectional"/>
+        <pin num="29" name="IO_36" type="power_in"/>
+        <pin num="30" name="IO_37" type="power_in"/>
+        <pin num="31" name="IO_38" type="power_in"/>
+        <pin num="32" name="TCK/IO_39" type="power_in"/>
+        <pin num="33" name="TDO/IO_40" type="power_in"/>
+        <pin num="34" name="TDI/IO_41" type="power_in"/>
+        <pin num="35" name="TMS/IO_42" type="power_in"/>
+        <pin num="36" name="RxD0" type="power_in"/>
+        <pin num="37" name="TxD0" type="power_in"/>
+        <pin num="38" name="IO_2" type="power_in"/>
+        <pin num="39" name="IO_1" type="power_in"/>
+        <pin num="40" name="GND" type="power_in"/>
+        <pin num="41" name="GND" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="MP1584_1">
+      <fields>
+        <field name="Reference">MO2</field>
+        <field name="Value">STEP-UP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="+12V" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="+18V" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="CamTrol-12Ch-Main-Board-rescue" part="FUZETEC-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue">
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">CamTrol-12Ch-Main-Board-rescue_FUZETEC-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CamTrol-12Ch-Main-Board-rescue" part="LED-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">CamTrol-12Ch-Main-Board-rescue_LED-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CamTrol-12Ch-Main-Board-rescue" part="LED-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CamTrol-12Ch-Main-Board-rescue" part="R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">CamTrol-12Ch-Main-Board-rescue_R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CamTrol-12Ch-Main-Board-rescue" part="R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Server_Used-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue-CamTrol-12Ch-Main-Board-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CamTrol-12ChOne-Board-cache" part="AZ1117-3.3">
+      <footprints>
+        <fp>SOT?223*</fp>
+        <fp>SOT?89*</fp>
+        <fp>TO?220*</fp>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CamTrol-12ChOne-Board-cache_AZ1117-3.3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x01_Male">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Pin">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Device_CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Server_Used" part="2SC1815_SMD">
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Server_Used_2SC1815_SMD</field>
+        <field name="Footprint">TO_SOT_Packages_SMD.pretty:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Server_Used" part="AOD4185">
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AOD4185</field>
+        <field name="Footprint">SmartCon_HMI.pretty:SO-8_5.3x6.2mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="D" name="Drain" type="passive"/>
+        <pin num="G" name="Gate" type="input"/>
+        <pin num="S" name="Source" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Server_Used" part="C">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Server_Used_C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Server_Used" part="ESP32Hole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H?</field>
+        <field name="Value">ESP32Hole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Server_Used" part="HR702-NH-DC12V">
+      <description>Standex Meder DIP reed relay, SPDT</description>
+      <docs>https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf</docs>
+      <footprints>
+        <fp>Relay*StandexMeder*DIP*LowProfile*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">HR702-NH-DC12V</field>
+        <field name="Footprint">Relay_THT:Relay_StandexMeder_DIP_LowProfile</field>
+        <field name="Datasheet">https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="14" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Server_Used" part="MP1584">
+      <fields>
+        <field name="Reference">MO</field>
+        <field name="Value">Server_Used_MP1584</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="+12V" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="+5V" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Server_Used" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R11</field>
+        <field name="Value">R</field>
+        <field name="Footprint">Server.pretty:R_0805_HandSoldering</field>
+        <field name="Datasheet">~</field>
+        <field name="Price">50</field>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Value_1">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Simulation_SPICE" part="DIODE">
+      <description>Diode, anode on pin 1, for simulation only!</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+        <field name="Datasheet">~</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DPDT_x2">
+      <description>Switch, dual pole double throw, separate symbols</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW*DPDT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DPDT_x2</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Server_Used">
+      <uri>E:/업무/SmartCon II/Server/Server/Library/Server_Used.kicad_sym</uri>
+    </library>
+    <library logical="Simulation_SPICE">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Simulation_SPICE.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="+12P">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="K1" pin="3" pintype="passive"/>
+      <node ref="Q1" pin="S" pinfunction="Source" pintype="passive"/>
+      <node ref="Q10" pin="S" pinfunction="Source" pintype="passive"/>
+      <node ref="Q11" pin="S" pinfunction="Source" pintype="passive"/>
+      <node ref="Q12" pin="S" pinfunction="Source" pintype="passive"/>
+      <node ref="Q13" pin="S" pinfunction="Source" pintype="passive"/>
+      <node ref="Q2" pin="S" pinfunction="Source" pintype="passive"/>
+      <node ref="Q6" pin="S" pinfunction="Source" pintype="passive"/>
+      <node ref="Q7" pin="S" pinfunction="Source" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="3V3" pintype="power_in"/>
+    </net>
+    <net code="4" name="BOOT">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="27" pinfunction="IO_0" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="EN">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="EN" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="GEN_OUT_01">
+      <node ref="R29" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="GNDPWR">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D12" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D18" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K1" pin="1" pintype="passive"/>
+      <node ref="MO1" pin="1" pinfunction="GND" pintype="input"/>
+      <node ref="MO1" pin="3" pinfunction="GND" pintype="input"/>
+      <node ref="MO2" pin="1" pinfunction="GND" pintype="input"/>
+      <node ref="MO2" pin="3" pinfunction="GND" pintype="input"/>
+      <node ref="Q17" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q8" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q9" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="40" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="41" pinfunction="GND" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="IO_1">
+      <node ref="U2" pin="39" pinfunction="IO_1" pintype="power_in"/>
+    </net>
+    <net code="9" name="IO_3">
+      <node ref="U2" pin="15" pinfunction="IO_3" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="IO_4">
+      <node ref="U2" pin="4" pinfunction="IO_4" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="IO_5">
+      <node ref="U2" pin="5" pinfunction="IO_5" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="IO_6">
+      <node ref="U2" pin="6" pinfunction="IO_6" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="IO_7">
+      <node ref="U2" pin="7" pinfunction="IO_7" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="IO_8">
+      <node ref="U2" pin="12" pinfunction="IO_8" pintype="input"/>
+    </net>
+    <net code="15" name="IO_9">
+      <node ref="U2" pin="17" pinfunction="IO_09" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="IO_10">
+      <node ref="U2" pin="18" pinfunction="IO_10" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="IO_11">
+      <node ref="U2" pin="19" pinfunction="IO_11" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="IO_12">
+      <node ref="U2" pin="20" pinfunction="IO_12" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="IO_13">
+      <node ref="U2" pin="21" pinfunction="IO_13" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="IO_14">
+      <node ref="U2" pin="22" pinfunction="IO_14" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="IO_15">
+      <node ref="U2" pin="8" pinfunction="IO_15" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="IO_16">
+      <node ref="U2" pin="9" pinfunction="IO_16" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="IO_17">
+      <node ref="U2" pin="10" pinfunction="IO_17" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="IO_18">
+      <node ref="U2" pin="11" pinfunction="IO_18" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="IO_19">
+      <node ref="U2" pin="13" pinfunction="IO_19" pintype="output"/>
+    </net>
+    <net code="26" name="IO_20">
+      <node ref="U2" pin="14" pinfunction="IO_20" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="IO_21">
+      <node ref="U2" pin="23" pinfunction="IO_21" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="IO_35">
+      <node ref="U2" pin="28" pinfunction="IO_35" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="IO_36">
+      <node ref="U2" pin="29" pinfunction="IO_36" pintype="power_in"/>
+    </net>
+    <net code="30" name="IO_37">
+      <node ref="U2" pin="30" pinfunction="IO_37" pintype="power_in"/>
+    </net>
+    <net code="31" name="IO_38">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K1" pin="7" pintype="passive"/>
+      <node ref="U2" pin="31" pinfunction="IO_38" pintype="power_in"/>
+    </net>
+    <net code="32" name="IO_39">
+      <node ref="U2" pin="32" pinfunction="TCK/IO_39" pintype="power_in"/>
+    </net>
+    <net code="33" name="IO_41">
+      <node ref="U2" pin="34" pinfunction="TDI/IO_41" pintype="power_in"/>
+    </net>
+    <net code="34" name="IO_45">
+      <node ref="U2" pin="26" pinfunction="IO_45" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="IO_46">
+      <node ref="U2" pin="16" pinfunction="IO_46" pintype="input"/>
+    </net>
+    <net code="36" name="IO_47">
+      <node ref="U2" pin="24" pinfunction="IO_47" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="IO_48">
+      <node ref="U2" pin="25" pinfunction="IO_48" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="LED_OUT_05">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(D3-K)">
+      <node ref="D3" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(D5-K)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="MO1" pin="2" pinfunction="+12V" pintype="input"/>
+    </net>
+    <net code="44" name="Net-(D6-A)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(D7-A)">
+      <node ref="D7" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K1" pin="5" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(D8-A)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(D9-K)">
+      <node ref="D9" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="F2" pin="2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(D10-A)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(D11-A)">
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(D12-K)">
+      <node ref="D12" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="F3" pin="2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(D13-K)">
+      <node ref="D13" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="F4" pin="2" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(D16-A)">
+      <node ref="D16" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="K3" pin="2" pintype="passive"/>
+      <node ref="Q17" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="SW11" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW11" pin="5" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(D16-K)">
+      <node ref="D16" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="K3" pin="14" pintype="passive"/>
+      <node ref="K3" pin="6" pintype="passive"/>
+      <node ref="MO2" pin="4" pinfunction="+18V" pintype="input"/>
+    </net>
+    <net code="54" name="Net-(D17-A)">
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(D18-K)">
+      <node ref="D18" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="F6" pin="2" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(F6-Pad1)">
+      <node ref="F6" pin="1" pintype="passive"/>
+      <node ref="K3" pin="7" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(J1-Pin_1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(MO1-+5V)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="MO1" pin="4" pinfunction="+5V" pintype="input"/>
+      <node ref="U1" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="59" name="Net-(Q1-Drain)">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="D" pinfunction="Drain" pintype="passive"/>
+      <node ref="Q2" pin="D" pinfunction="Drain" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(Q1-Gate)">
+      <node ref="Q1" pin="G" pinfunction="Gate" pintype="input"/>
+      <node ref="Q2" pin="G" pinfunction="Gate" pintype="input"/>
+      <node ref="Q3" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="SW6" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW6" pin="5" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(Q3-B)">
+      <node ref="Q3" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(Q5-B)">
+      <node ref="Q5" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(Q5-C)">
+      <node ref="Q5" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q6" pin="G" pinfunction="Gate" pintype="input"/>
+      <node ref="Q7" pin="G" pinfunction="Gate" pintype="input"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="SW7" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW7" pin="5" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(Q6-Drain)">
+      <node ref="F2" pin="1" pintype="passive"/>
+      <node ref="Q6" pin="D" pinfunction="Drain" pintype="passive"/>
+      <node ref="Q7" pin="D" pinfunction="Drain" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(Q8-B)">
+      <node ref="Q8" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(Q9-B)">
+      <node ref="Q9" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(Q10-Drain)">
+      <node ref="F3" pin="1" pintype="passive"/>
+      <node ref="Q10" pin="D" pinfunction="Drain" pintype="passive"/>
+      <node ref="Q11" pin="D" pinfunction="Drain" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(Q10-Gate)">
+      <node ref="Q10" pin="G" pinfunction="Gate" pintype="input"/>
+      <node ref="Q11" pin="G" pinfunction="Gate" pintype="input"/>
+      <node ref="Q8" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="SW8" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW8" pin="5" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(Q12-Drain)">
+      <node ref="F4" pin="1" pintype="passive"/>
+      <node ref="Q12" pin="D" pinfunction="Drain" pintype="passive"/>
+      <node ref="Q13" pin="D" pinfunction="Drain" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(Q12-Gate)">
+      <node ref="Q12" pin="G" pinfunction="Gate" pintype="input"/>
+      <node ref="Q13" pin="G" pinfunction="Gate" pintype="input"/>
+      <node ref="Q9" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="SW9" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW9" pin="5" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(Q17-B)">
+      <node ref="Q17" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(SW1-C)">
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="74" name="Net-(SW6A-A)">
+      <node ref="SW6" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW6" pin="4" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(SW7A-A)">
+      <node ref="SW7" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW7" pin="4" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(SW8A-A)">
+      <node ref="SW8" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW8" pin="4" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(SW9A-A)">
+      <node ref="SW9" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW9" pin="4" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(SW11A-A)">
+      <node ref="SW11" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW11" pin="4" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="79" name="RxD0">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="36" pinfunction="RxD0" pintype="power_in"/>
+    </net>
+    <net code="80" name="SCL">
+      <node ref="U2" pin="38" pinfunction="IO_2" pintype="power_in"/>
+    </net>
+    <net code="81" name="SDA">
+      <node ref="U2" pin="35" pinfunction="TMS/IO_42" pintype="power_in"/>
+    </net>
+    <net code="82" name="TEMP">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U2" pin="33" pinfunction="TDO/IO_40" pintype="power_in"/>
+    </net>
+    <net code="83" name="TxD0">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U2" pin="37" pinfunction="TxD0" pintype="power_in"/>
+    </net>
+    <net code="84" name="unconnected-(D5-A-Pad1)">
+      <node ref="D5" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="85" name="unconnected-(J3-Pin_1-Pad1)">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="86" name="unconnected-(J3-Pin_2-Pad2)">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="87" name="unconnected-(J3-Pin_3-Pad3)">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="88" name="unconnected-(J5-Pin_1-Pad1)">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="89" name="unconnected-(J5-Pin_2-Pad2)">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="90" name="unconnected-(J5-Pin_3-Pad3)">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="91" name="unconnected-(J12-Pin_1-Pad1)">
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="92" name="unconnected-(J13-Pin_1-Pad1)">
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="93" name="unconnected-(K3-Pad1)">
+      <node ref="K3" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(MO2-+12V-Pad2)">
+      <node ref="MO2" pin="2" pinfunction="+12V" pintype="input"/>
+    </net>
+    <net code="95" name="unconnected-(SW6A-C-Pad3)">
+      <node ref="SW6" pin="3" pinfunction="C" pintype="passive+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(SW6B-C-Pad6)">
+      <node ref="SW6" pin="6" pinfunction="C" pintype="passive+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(SW7A-C-Pad3)">
+      <node ref="SW7" pin="3" pinfunction="C" pintype="passive+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(SW7B-C-Pad6)">
+      <node ref="SW7" pin="6" pinfunction="C" pintype="passive+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(SW8A-C-Pad3)">
+      <node ref="SW8" pin="3" pinfunction="C" pintype="passive+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(SW8B-C-Pad6)">
+      <node ref="SW8" pin="6" pinfunction="C" pintype="passive+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(SW9A-C-Pad3)">
+      <node ref="SW9" pin="3" pinfunction="C" pintype="passive+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(SW9B-C-Pad6)">
+      <node ref="SW9" pin="6" pinfunction="C" pintype="passive+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(SW10A-A-Pad1)">
+      <node ref="SW10" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="104" name="unconnected-(SW10A-B-Pad2)">
+      <node ref="SW10" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="105" name="unconnected-(SW10A-C-Pad3)">
+      <node ref="SW10" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="106" name="unconnected-(SW10B-A-Pad4)">
+      <node ref="SW10" pin="4" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="107" name="unconnected-(SW10B-B-Pad5)">
+      <node ref="SW10" pin="5" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="108" name="unconnected-(SW10B-C-Pad6)">
+      <node ref="SW10" pin="6" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="109" name="unconnected-(SW11A-C-Pad3)">
+      <node ref="SW11" pin="3" pinfunction="C" pintype="passive+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(SW11B-C-Pad6)">
+      <node ref="SW11" pin="6" pinfunction="C" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,3708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Lee JunHo\Desktop\업무\CamTrol Final\CamTrol 12Ch One Board\CamTrol 12Ch\CamTrol 12Ch Main Board.sch</source>
+    <date>2021-08-11 오전 10:38:23</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Server Main Circuit</title>
+        <company/>
+        <rev/>
+        <date>2021-05-30</date>
+        <source>CamTrol 12Ch Main Board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/OutPut/" tstamps="/5E3D0683/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>file5E3D0682.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BUZZER1">
+      <value>50</value>
+      <footprint>Server.pretty:Potentiometer_Bourns_3296Y_Vertical</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000013040</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Price">710</field>
+        <field name="Value">B3296Y-2KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="3296Y" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A999EC</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>102F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A282E0</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A18D9C</tstamp>
+    </comp>
+    <comp ref="BZ1">
+      <value>Buzzer</value>
+      <footprint>Buzzers_Beepers.pretty:MagneticBuzzer_ProSignal_ABI-010-RC</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000008659</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Price">550</field>
+        <field name="Value">ALP1205S</field>
+      </fields>
+      <libsource lib="Device" part="Buzzer" description="Buzzer, polarized"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609C5D25</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>102F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CF8FD8</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CFA2EB</tstamp>
+    </comp>
+    <comp ref="R126">
+      <value>100F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61605933</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>106</value>
+      <footprint>Server.pretty:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000013173</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">66</field>
+        <field name="Value">106(10uF)</field>
+      </fields>
+      <libsource lib="Server_Used" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61605925</tstamp>
+    </comp>
+    <comp ref="R127">
+      <value>100F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61583111</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>106</value>
+      <footprint>Server.pretty:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000013173</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">66</field>
+        <field name="Value">106(10uF)</field>
+      </fields>
+      <libsource lib="Server_Used" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61581E23</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>FDS6990A</value>
+      <footprint>Server.pretty:6990A</footprint>
+      <libsource lib="Server_Used" part="FDS6990A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C76B14</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>YMW025-04R</value>
+      <footprint>Server.pretty:Molex_SPOX_5267-04A_1x04_P2.50mm_Vertical</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=419</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">30</field>
+        <field name="Value">5267-04P</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6438EED4</tstamp>
+    </comp>
+    <comp ref="H25">
+      <value>MountingHole</value>
+      <footprint>Server.pretty:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6260F66C</tstamp>
+    </comp>
+    <comp ref="H24">
+      <value>MountingHole</value>
+      <footprint>Server.pretty:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62460DE0</tstamp>
+    </comp>
+    <comp ref="H23">
+      <value>MountingHole</value>
+      <footprint>Server.pretty:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62460DDA</tstamp>
+    </comp>
+    <comp ref="H22">
+      <value>MountingHole</value>
+      <footprint>Server.pretty:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6242F295</tstamp>
+    </comp>
+    <comp ref="H21">
+      <value>MountingHole</value>
+      <footprint>Server.pretty:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6242F28F</tstamp>
+    </comp>
+    <comp ref="H20">
+      <value>MountingHole</value>
+      <footprint>Server.pretty:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6242F289</tstamp>
+    </comp>
+    <comp ref="H19">
+      <value>MountingHole</value>
+      <footprint>Server.pretty:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6242F283</tstamp>
+    </comp>
+    <comp ref="H18">
+      <value>MountingHole</value>
+      <footprint>Server.pretty:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6242F27D</tstamp>
+    </comp>
+    <comp ref="H15">
+      <value>MountingHole</value>
+      <footprint>Server.pretty:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6242F277</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>MAIN SW</value>
+      <footprint>Server.pretty:Molex_SPOX_5267-05A_1x05_P2.50mm_Vertical</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=419</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">30</field>
+        <field name="Value">5267-05P</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B4F58E</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>102F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000607</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">50</field>
+        <field name="Value">500Ω</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B453C4</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>AOD4185</value>
+      <footprint>Server.pretty:AOD1485</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=6603223</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Package">TO-252-3</field>
+        <field name="Price">1050</field>
+        <field name="Value">AOD4185</field>
+      </fields>
+      <libsource lib="Server_Used" part="AOD4185" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CD1E93</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>104</value>
+      <footprint>Server.pretty:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000013173</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">66</field>
+        <field name="Value">106(10uF)</field>
+      </fields>
+      <libsource lib="Server_Used" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64AF7440</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>106</value>
+      <footprint>Server.pretty:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000013173</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">66</field>
+        <field name="Value">106(10uF)</field>
+      </fields>
+      <libsource lib="Server_Used" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64AEBAA4</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>66EAE738</tstamp>
+    </comp>
+    <comp ref="H6">
+      <value>MountingHole</value>
+      <footprint>Server.pretty:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6567C937</tstamp>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole</value>
+      <footprint>Server.pretty:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65671A69</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>Server.pretty:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65666AE6</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>Server.pretty:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6565BA46</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>Server.pretty:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65650B4F</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>Server.pretty:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>656471D2</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>REMOTE</value>
+      <footprint>Server.pretty:BR-114</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=1232623</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">150</field>
+        <field name="Value">BR-114</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61071949</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>INVERTOR</value>
+      <footprint>Server.pretty:PhoenixContact_MCV_1,5_2-G-3.81_1x02_P3.81mm_Vertical</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=23260&amp;market=naver&amp;NaPm=ct%3Dkof8h100%7Cci%3D2b06ad3968d8adec0b2b30ae50256e40450772f8%7Ctr%3Dslsc%7Csn%3D876973%7Chk%3Dcbed85e5f251313af0535f600d98c0e674ebf3d9</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">100</field>
+        <field name="Value">ECH381V-2P</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6082E3CF</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>M7</value>
+      <footprint>Server.pretty:D_SMA</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000012566</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6081DB10</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>HR702NHDC12V</value>
+      <footprint>Server.pretty:RELAY_10A</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=38804</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">704</field>
+        <field name="Value">HR702NH-DC12V</field>
+      </fields>
+      <libsource lib="Server-cache" part="HR702-NH-DC12V" description="Standex Meder DIP reed relay, SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607F78F2</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ESP32-DEVKITC-32D</value>
+      <footprint>Server.pretty:ESP32-DEVKITC-32D</footprint>
+      <datasheet>https://smartstore.naver.com/makerspace/products/2377048185</datasheet>
+      <fields>
+        <field name="Field4">Espressif Systems</field>
+        <field name="Manufacture">송파메이커</field>
+        <field name="Value">ESP32-DEVKITC-32D</field>
+      </fields>
+      <libsource lib="Server_Used" part="ESP32-DEVKITC-32D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611BFE31</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>I/O LED</value>
+      <footprint>Connector_Molex.pretty:Molex_SPOX_5267-05A_1x05_P2.50mm_Vertical</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=421</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">60</field>
+        <field name="Value">5267-05P</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63FED21B</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61823572</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F48B66</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>POWER</value>
+      <footprint>Server.pretty:LED_0805</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000008652</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">132</field>
+        <field name="Value">RED LED</field>
+      </fields>
+      <libsource lib="Server_Used" part="LED" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F48B19</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E7F791</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100uF/25V</value>
+      <footprint>Capacitor_SMD.pretty:CP_Elec_6.3x5.3</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000002852</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">6.3ΦX5.4</field>
+        <field name="Price">66</field>
+        <field name="Value">100uF</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611BFE7C</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>106</value>
+      <footprint>Server.pretty:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000013173</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">66</field>
+        <field name="Value">106(10uF)</field>
+      </fields>
+      <libsource lib="Server_Used" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611BFE75</tstamp>
+    </comp>
+    <comp ref="Battery_V1">
+      <value>202</value>
+      <footprint>Server.pretty:Potentiometer_Bourns_3296Y_Vertical</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000013040</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Price">710</field>
+        <field name="Value">B3296Y-2KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="3296Y" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611BFE53</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611BFE4B</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>103</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611BFE44</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>FDS6990A</value>
+      <footprint>Server.pretty:6990A</footprint>
+      <libsource lib="Server_Used" part="FDS6990A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C1F857</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>DS1307</value>
+      <footprint>Server.pretty:DS1307</footprint>
+      <datasheet>https://smartstore.naver.com/ic11401/products/560006512?NaPm=ct%3Dkozoi9go%7Cci%3D77de31f3c399e235aec449cb5081532fd53822fc%7Ctr%3Dslsl%7Csn%3D434525%7Chk%3D657bce8b90351b20f692a8f3323bd52cdcecdfc0</datasheet>
+      <fields>
+        <field name="Price">870</field>
+      </fields>
+      <libsource lib="Server_Used" part="DS1307" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CDC14D</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>AHT10</value>
+      <footprint>Server.pretty:AHT10</footprint>
+      <datasheet>4</datasheet>
+      <libsource lib="Server_Used" part="AHT10" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BE9677</tstamp>
+    </comp>
+    <comp ref="J25">
+      <value>WAST</value>
+      <footprint>Server.pretty:PhoenixContact_MCV_1,5_2-G-3.81_1x02_P3.81mm_Vertical</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=23260&amp;market=naver&amp;NaPm=ct%3Dkof8h100%7Cci%3D2b06ad3968d8adec0b2b30ae50256e40450772f8%7Ctr%3Dslsc%7Csn%3D876973%7Chk%3Dcbed85e5f251313af0535f600d98c0e674ebf3d9</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">100</field>
+        <field name="Value">ECH381V-2P</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61580C69</tstamp>
+    </comp>
+    <comp ref="J24">
+      <value>CLEAN</value>
+      <footprint>Server.pretty:PhoenixContact_MCV_1,5_2-G-3.81_1x02_P3.81mm_Vertical</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=23260&amp;market=naver&amp;NaPm=ct%3Dkof8h100%7Cci%3D2b06ad3968d8adec0b2b30ae50256e40450772f8%7Ctr%3Dslsc%7Csn%3D876973%7Chk%3Dcbed85e5f251313af0535f600d98c0e674ebf3d9</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">100</field>
+        <field name="Value">ECH381V-2P</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61605905</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>102F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C5B0B0</tstamp>
+    </comp>
+    <comp ref="D43">
+      <value>M7</value>
+      <footprint>Server.pretty:D_SMA</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000005570</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EF7D4C</tstamp>
+    </comp>
+    <comp ref="K20">
+      <value>HR702NHDC12V</value>
+      <footprint>Server.pretty:RELAY_10A</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=38804</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">704</field>
+        <field name="Value">HR702NH-DC12V</field>
+      </fields>
+      <libsource lib="Server-cache" part="HR702-NH-DC12V" description="Standex Meder DIP reed relay, SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6321C357</tstamp>
+    </comp>
+    <comp ref="D62">
+      <value>M7</value>
+      <footprint>Server.pretty:D_SMA</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000005570</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6321DCDF</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>GENERAL LED</value>
+      <footprint>Connector_Molex.pretty:Molex_SPOX_5267-05A_1x05_P2.50mm_Vertical</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=421</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">60</field>
+        <field name="Value">5267-05P</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64E25360</tstamp>
+    </comp>
+    <comp ref="D61">
+      <value>M7</value>
+      <footprint>Server.pretty:D_SMA</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000005570</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>653FEEE8</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>102</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B9FC2D</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C5F26B</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C20D94</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>102F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C5B70E</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>AOD4185</value>
+      <footprint>Server.pretty:AOD1485</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=6603223</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Package">TO-252-3</field>
+        <field name="Price">1050</field>
+        <field name="Value">AOD4185</field>
+      </fields>
+      <libsource lib="Server_Used" part="AOD4185" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C593F5</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C6EA57</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C6F52C</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>102F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C70C57</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>M7</value>
+      <footprint>Server.pretty:D_SMA</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000005570</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D4DE66</tstamp>
+    </comp>
+    <comp ref="JP5">
+      <value>Jumper_NC_Small</value>
+      <footprint>Server.pretty:Jumper-3P-2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NC_Small" description="Jumper, normally closed, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C4ED01</tstamp>
+    </comp>
+    <comp ref="JP6">
+      <value>Jumper_NC_Small</value>
+      <footprint>Server.pretty:Jumper-3P-2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NC_Small" description="Jumper, normally closed, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CD30A6</tstamp>
+    </comp>
+    <comp ref="JP7">
+      <value>Jumper_NC_Small</value>
+      <footprint>Server.pretty:Jumper-3P-2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NC_Small" description="Jumper, normally closed, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CD34EA</tstamp>
+    </comp>
+    <comp ref="JP8">
+      <value>Jumper_NC_Small</value>
+      <footprint>Server.pretty:Jumper-3P-2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NC_Small" description="Jumper, normally closed, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CD3703</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>104</value>
+      <footprint>Server.pretty:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000013173</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">66</field>
+        <field name="Value">106(10uF)</field>
+      </fields>
+      <libsource lib="Server_Used" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D0963B</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>104</value>
+      <footprint>Server.pretty:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000013173</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">66</field>
+        <field name="Value">106(10uF)</field>
+      </fields>
+      <libsource lib="Server_Used" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D91DE9</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>-</value>
+      <footprint>Server.pretty:BR-120</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=1232631</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">360</field>
+        <field name="Value">BR-120</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B9B101</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>+</value>
+      <footprint>Server.pretty:BR-120</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=1232631</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">360</field>
+        <field name="Value">BR-120</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B9B0FA</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>104</value>
+      <footprint>Server.pretty:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000013173</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">66</field>
+        <field name="Value">106(10uF)</field>
+      </fields>
+      <libsource lib="Server_Used" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DBE72F</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>104</value>
+      <footprint>Server.pretty:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000013173</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">66</field>
+        <field name="Value">106(10uF)</field>
+      </fields>
+      <libsource lib="Server_Used" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DBEB1C</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>104</value>
+      <footprint>Server.pretty:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000013173</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">66</field>
+        <field name="Value">106(10uF)</field>
+      </fields>
+      <libsource lib="Server_Used" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DBF071</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>104</value>
+      <footprint>Server.pretty:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000013173</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">66</field>
+        <field name="Value">106(10uF)</field>
+      </fields>
+      <libsource lib="Server_Used" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DBF3E9</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100uF/16V</value>
+      <footprint>Capacitor_SMD.pretty:CP_Elec_6.3x5.3</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000002852</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">6.3ΦX5.4</field>
+        <field name="Price">66</field>
+        <field name="Value">100uF</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EBECAD</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>202F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D8EB44</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>102F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EFDCEE</tstamp>
+    </comp>
+    <comp ref="MO1">
+      <value>MP1584</value>
+      <footprint>Server.pretty:MP1584</footprint>
+      <libsource lib="Server_Used" part="MP1584" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61987B57</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>LED</value>
+      <footprint>Server.pretty:LED_0805</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000008652</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">132</field>
+        <field name="Value">RED LED</field>
+      </fields>
+      <libsource lib="Server_Used" part="LED" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>61110FD1</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>LED</value>
+      <footprint>Server.pretty:LED_0805</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000008652</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">132</field>
+        <field name="Value">RED LED</field>
+      </fields>
+      <libsource lib="Server_Used" part="LED" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>61176EB6</tstamp>
+    </comp>
+    <comp ref="Q15">
+      <value>FDS6990A</value>
+      <footprint>Server.pretty:6990A</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=6603223</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Package">TO-252-3</field>
+        <field name="Price">1050</field>
+        <field name="Value">AOD4185</field>
+      </fields>
+      <libsource lib="Server_Used" part="FDS6990A" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>61176F50</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>LED</value>
+      <footprint>Server.pretty:LED_0805</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000008652</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">132</field>
+        <field name="Value">RED LED</field>
+      </fields>
+      <libsource lib="Server_Used" part="LED" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>61176FD5</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>LED</value>
+      <footprint>Server.pretty:LED_0805</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000008652</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">132</field>
+        <field name="Value">RED LED</field>
+      </fields>
+      <libsource lib="Server_Used" part="LED" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>6121C812</tstamp>
+    </comp>
+    <comp ref="Q16">
+      <value>FDS6990A</value>
+      <footprint>Server.pretty:6990A</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=6603223</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Package">TO-252-3</field>
+        <field name="Price">1050</field>
+        <field name="Value">AOD4185</field>
+      </fields>
+      <libsource lib="Server_Used" part="FDS6990A" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>6121C8AC</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>LED</value>
+      <footprint>Server.pretty:LED_0805</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000008652</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">132</field>
+        <field name="Value">RED LED</field>
+      </fields>
+      <libsource lib="Server_Used" part="LED" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>6121C931</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>LED</value>
+      <footprint>Server.pretty:LED_0805</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000008652</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">132</field>
+        <field name="Value">RED LED</field>
+      </fields>
+      <libsource lib="Server_Used" part="LED" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>6121CA50</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>LED</value>
+      <footprint>Server.pretty:LED_0805</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000008652</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">132</field>
+        <field name="Value">RED LED</field>
+      </fields>
+      <libsource lib="Server_Used" part="LED" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>6121CB6F</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>LED</value>
+      <footprint>Server.pretty:LED_0805</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000008652</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">132</field>
+        <field name="Value">RED LED</field>
+      </fields>
+      <libsource lib="Server_Used" part="LED" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>61365276</tstamp>
+    </comp>
+    <comp ref="Q17">
+      <value>FDS6990A</value>
+      <footprint>Server.pretty:6990A</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=6603223</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Package">TO-252-3</field>
+        <field name="Price">1050</field>
+        <field name="Value">AOD4185</field>
+      </fields>
+      <libsource lib="Server_Used" part="FDS6990A" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>61365310</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>LED</value>
+      <footprint>Server.pretty:LED_0805</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000008652</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">132</field>
+        <field name="Value">RED LED</field>
+      </fields>
+      <libsource lib="Server_Used" part="LED" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>61365395</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>LED</value>
+      <footprint>Server.pretty:LED_0805</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000008652</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">132</field>
+        <field name="Value">RED LED</field>
+      </fields>
+      <libsource lib="Server_Used" part="LED" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>613654B4</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>LED</value>
+      <footprint>Server.pretty:LED_0805</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000008652</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">132</field>
+        <field name="Value">RED LED</field>
+      </fields>
+      <libsource lib="Server_Used" part="LED" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>613655D3</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>M7</value>
+      <footprint>Server.pretty:D_SMA</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000012566</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>6480FEBC</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>M7</value>
+      <footprint>Server.pretty:D_SMA</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000012566</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>64BAD20D</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>M7</value>
+      <footprint>Server.pretty:D_SMA</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000012566</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>64F4A597</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>M7</value>
+      <footprint>Server.pretty:D_SMA</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000012566</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>65118CF3</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>M7</value>
+      <footprint>Server.pretty:D_SMA</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000012566</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>652E773C</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>M7</value>
+      <footprint>Server.pretty:D_SMA</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000012566</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>654B621F</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>M7</value>
+      <footprint>Server.pretty:D_SMA</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000012566</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>65684AC8</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>M7</value>
+      <footprint>Server.pretty:D_SMA</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000012566</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>65853445</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>M7</value>
+      <footprint>Server.pretty:D_SMA</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000012566</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>65A21D28</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>102F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>6250DC52</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>102F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>626DC4B4</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>102F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>628AAC8A</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>102F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>62A797FC</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>102F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>62C4802E</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>102F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>62E16836</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>102F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>62FE5184</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>102F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>631B3AC6</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>102F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>63382711</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>102F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>63550FDD</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>102F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>6371F729</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>63ABE952</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>63C84258</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>63E49AB4</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>6400F3E6</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>641D4D2A</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>6439A5F4</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>6455FF52</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>647258F8</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>648EB272</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>64AB0C8A</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>64C7693D</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>2EDGVC-3P</value>
+      <footprint>Server.pretty:PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=23214</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">160</field>
+        <field name="Value">5EHDV-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>6360B1B0</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>2EDGVC-3P</value>
+      <footprint>Server.pretty:PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=23214</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">160</field>
+        <field name="Value">5EHDV-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>637D7979</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>2EDGVC-3P</value>
+      <footprint>Server.pretty:PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=23214</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">160</field>
+        <field name="Value">5EHDV-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>639A4A20</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>2EDGVC-3P</value>
+      <footprint>Server.pretty:PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=23214</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">160</field>
+        <field name="Value">5EHDV-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>63B71A0B</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>2EDGVC-3P</value>
+      <footprint>Server.pretty:PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=23214</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">160</field>
+        <field name="Value">5EHDV-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>63D3EB0D</tstamp>
+    </comp>
+    <comp ref="J21">
+      <value>2EDGVC-3P</value>
+      <footprint>Server.pretty:PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=23214</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">160</field>
+        <field name="Value">5EHDV-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>63F0BF18</tstamp>
+    </comp>
+    <comp ref="J20">
+      <value>2EDGVC-3P</value>
+      <footprint>Server.pretty:PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=23214</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">160</field>
+        <field name="Value">5EHDV-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>640D8D13</tstamp>
+    </comp>
+    <comp ref="J19">
+      <value>2EDGVC-3P</value>
+      <footprint>Server.pretty:PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=23214</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">160</field>
+        <field name="Value">5EHDV-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>642A532B</tstamp>
+    </comp>
+    <comp ref="J18">
+      <value>2EDGVC-3P</value>
+      <footprint>Server.pretty:PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=23214</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">160</field>
+        <field name="Value">5EHDV-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>64471C7B</tstamp>
+    </comp>
+    <comp ref="J17">
+      <value>2EDGVC-3P</value>
+      <footprint>Server.pretty:PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=23214</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">160</field>
+        <field name="Value">5EHDV-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>6463E2D0</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>2EDGVC-3P</value>
+      <footprint>Server.pretty:PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=23214</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">160</field>
+        <field name="Value">5EHDV-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>6480AB1C</tstamp>
+    </comp>
+    <comp ref="Q32">
+      <value>FDS6990A</value>
+      <footprint>Server.pretty:6990A</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000017434</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">600</field>
+        <field name="Value">FDS6990A</field>
+      </fields>
+      <libsource lib="Server_Used" part="FDS6990A" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>64AD4636</tstamp>
+    </comp>
+    <comp ref="Q31">
+      <value>FDS6990A</value>
+      <footprint>Server.pretty:6990A</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000017434</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">600</field>
+        <field name="Value">FDS6990A</field>
+      </fields>
+      <libsource lib="Server_Used" part="FDS6990A" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>64E6E9ED</tstamp>
+    </comp>
+    <comp ref="Q30">
+      <value>FDS6990A</value>
+      <footprint>Server.pretty:6990A</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000017434</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">600</field>
+        <field name="Value">FDS6990A</field>
+      </fields>
+      <libsource lib="Server_Used" part="FDS6990A" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>653D54F4</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>FRG1200-16F</value>
+      <footprint>Server.pretty:FHT1500</footprint>
+      <datasheet>http://www.intopion.com/goods/view?no=3828767</datasheet>
+      <fields>
+        <field name="Manufacture">인투피온</field>
+        <field name="Price">770</field>
+        <field name="Value">FRG500-16F</field>
+      </fields>
+      <libsource lib="Server_Used" part="FUZETEC" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>65914630</tstamp>
+    </comp>
+    <comp ref="F3">
+      <value>FRG1200-16F</value>
+      <footprint>Server.pretty:FHT1500</footprint>
+      <datasheet>http://www.intopion.com/goods/view?no=3828767</datasheet>
+      <fields>
+        <field name="Manufacture">인투피온</field>
+        <field name="Price">770</field>
+        <field name="Value">FRG500-16F</field>
+      </fields>
+      <libsource lib="Server_Used" part="FUZETEC" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>65AE140E</tstamp>
+    </comp>
+    <comp ref="F4">
+      <value>FRG1200-16F</value>
+      <footprint>Server.pretty:FHT1500</footprint>
+      <datasheet>http://www.intopion.com/goods/view?no=3828767</datasheet>
+      <fields>
+        <field name="Manufacture">인투피온</field>
+        <field name="Price">770</field>
+        <field name="Value">FRG500-16F</field>
+      </fields>
+      <libsource lib="Server_Used" part="FUZETEC" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>65CADFCC</tstamp>
+    </comp>
+    <comp ref="F5">
+      <value>FRG1200-16F</value>
+      <footprint>Server.pretty:FHT1500</footprint>
+      <datasheet>http://www.intopion.com/goods/view?no=3828767</datasheet>
+      <fields>
+        <field name="Manufacture">인투피온</field>
+        <field name="Price">770</field>
+        <field name="Value">FRG500-16F</field>
+      </fields>
+      <libsource lib="Server_Used" part="FUZETEC" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>65E7AD8E</tstamp>
+    </comp>
+    <comp ref="F12">
+      <value>FRG1200-16F</value>
+      <footprint>Server.pretty:FHT1500</footprint>
+      <datasheet>http://www.intopion.com/goods/view?no=3828767</datasheet>
+      <fields>
+        <field name="Manufacture">인투피온</field>
+        <field name="Price">770</field>
+        <field name="Value">FRG500-16F</field>
+      </fields>
+      <libsource lib="Server_Used" part="FUZETEC" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>662148EE</tstamp>
+    </comp>
+    <comp ref="F11">
+      <value>FRG1200-16F</value>
+      <footprint>Server.pretty:FHT1500</footprint>
+      <datasheet>http://www.intopion.com/goods/view?no=3828767</datasheet>
+      <fields>
+        <field name="Manufacture">인투피온</field>
+        <field name="Price">770</field>
+        <field name="Value">FRG500-16F</field>
+      </fields>
+      <libsource lib="Server_Used" part="FUZETEC" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>663E14CC</tstamp>
+    </comp>
+    <comp ref="F10">
+      <value>FRG1200-16F</value>
+      <footprint>Server.pretty:FHT1500</footprint>
+      <datasheet>http://www.intopion.com/goods/view?no=3828767</datasheet>
+      <fields>
+        <field name="Manufacture">인투피온</field>
+        <field name="Price">770</field>
+        <field name="Value">FRG500-16F</field>
+      </fields>
+      <libsource lib="Server_Used" part="FUZETEC" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>665AE71C</tstamp>
+    </comp>
+    <comp ref="F9">
+      <value>FRG1200-16F</value>
+      <footprint>Server.pretty:FHT1500</footprint>
+      <datasheet>http://www.intopion.com/goods/view?no=3828767</datasheet>
+      <fields>
+        <field name="Manufacture">인투피온</field>
+        <field name="Price">770</field>
+        <field name="Value">FRG500-16F</field>
+      </fields>
+      <libsource lib="Server_Used" part="FUZETEC" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>6677B440</tstamp>
+    </comp>
+    <comp ref="F8">
+      <value>FRG1200-16F</value>
+      <footprint>Server.pretty:FHT1500</footprint>
+      <datasheet>http://www.intopion.com/goods/view?no=3828767</datasheet>
+      <fields>
+        <field name="Manufacture">인투피온</field>
+        <field name="Price">770</field>
+        <field name="Value">FRG500-16F</field>
+      </fields>
+      <libsource lib="Server_Used" part="FUZETEC" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>6694811A</tstamp>
+    </comp>
+    <comp ref="F7">
+      <value>FRG1200-16F</value>
+      <footprint>Server.pretty:FHT1500</footprint>
+      <datasheet>http://www.intopion.com/goods/view?no=3828767</datasheet>
+      <fields>
+        <field name="Manufacture">인투피온</field>
+        <field name="Price">770</field>
+        <field name="Value">FRG500-16F</field>
+      </fields>
+      <libsource lib="Server_Used" part="FUZETEC" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>66B14CBE</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>2EDGVC-3P</value>
+      <footprint>Server.pretty:PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical</footprint>
+      <datasheet>https://www.devicemart.co.kr/goods/view?no=23214</datasheet>
+      <fields>
+        <field name="Manufacture">DEVICEMART</field>
+        <field name="Price">160</field>
+        <field name="Value">5EHDV-3P</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>61EBB9E3</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>LED</value>
+      <footprint>Server.pretty:LED_0805</footprint>
+      <datasheet>http://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000008652</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">132</field>
+        <field name="Value">RED LED</field>
+      </fields>
+      <libsource lib="Server_Used" part="LED" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>61EBB9EB</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>M7</value>
+      <footprint>Server.pretty:D_SMA</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000012566</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>61EBBA7F</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>102F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000614</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">1KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>61EBBAB4</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>61EBBABC</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>M7</value>
+      <footprint>Server.pretty:D_SMA</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000012566</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>64D7BB70</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>M7</value>
+      <footprint>Server.pretty:D_SMA</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000012566</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>649DE8AF</tstamp>
+    </comp>
+    <comp ref="R114">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>6200B683</tstamp>
+    </comp>
+    <comp ref="R113">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>624AF6CD</tstamp>
+    </comp>
+    <comp ref="R115">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>628515EE</tstamp>
+    </comp>
+    <comp ref="R116">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>62851FE1</tstamp>
+    </comp>
+    <comp ref="R117">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>62AB4CC3</tstamp>
+    </comp>
+    <comp ref="R118">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>62AB5790</tstamp>
+    </comp>
+    <comp ref="R119">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>62D6C7A6</tstamp>
+    </comp>
+    <comp ref="R120">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>62D6D245</tstamp>
+    </comp>
+    <comp ref="R121">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>62D6DF78</tstamp>
+    </comp>
+    <comp ref="R122">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>62D6EBBD</tstamp>
+    </comp>
+    <comp ref="R123">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>62D6F2A6</tstamp>
+    </comp>
+    <comp ref="R124">
+      <value>103F</value>
+      <footprint>Server.pretty:R_0805_HandSoldering</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000000637</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">2012(0805)</field>
+        <field name="Price">20</field>
+        <field name="Value">10KΩ</field>
+      </fields>
+      <libsource lib="Server_Used" part="R" description="Resistor"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>62D6F8EF</tstamp>
+    </comp>
+    <comp ref="M24">
+      <value>OUTPUT_MODULE_3</value>
+      <footprint>Server.pretty:OUTPUT_MODULE-3</footprint>
+      <libsource lib="Server_Used" part="OUTPUT_MODULE_3" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>69917304</tstamp>
+    </comp>
+    <comp ref="M23">
+      <value>OUTPUT_MODULE_3</value>
+      <footprint>Server.pretty:OUTPUT_MODULE-3</footprint>
+      <libsource lib="Server_Used" part="OUTPUT_MODULE_3" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>69B4D4A4</tstamp>
+    </comp>
+    <comp ref="M22">
+      <value>OUTPUT_MODULE_3</value>
+      <footprint>Server.pretty:OUTPUT_MODULE-3</footprint>
+      <libsource lib="Server_Used" part="OUTPUT_MODULE_3" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>69D7627C</tstamp>
+    </comp>
+    <comp ref="M21">
+      <value>OUTPUT_MODULE_3</value>
+      <footprint>Server.pretty:OUTPUT_MODULE-3</footprint>
+      <libsource lib="Server_Used" part="OUTPUT_MODULE_3" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>69F9E004</tstamp>
+    </comp>
+    <comp ref="M20">
+      <value>OUTPUT_MODULE_3</value>
+      <footprint>Server.pretty:OUTPUT_MODULE-3</footprint>
+      <libsource lib="Server_Used" part="OUTPUT_MODULE_3" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>6A1BB8E2</tstamp>
+    </comp>
+    <comp ref="M19">
+      <value>OUTPUT_MODULE_3</value>
+      <footprint>Server.pretty:OUTPUT_MODULE-3</footprint>
+      <libsource lib="Server_Used" part="OUTPUT_MODULE_3" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>6A3D02ED</tstamp>
+    </comp>
+    <comp ref="M12">
+      <value>OUTPUT_MODULE_3</value>
+      <footprint>Server.pretty:OUTPUT_MODULE-3</footprint>
+      <libsource lib="Server_Used" part="OUTPUT_MODULE_3" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>6CCE1C6E</tstamp>
+    </comp>
+    <comp ref="M11">
+      <value>OUTPUT_MODULE_3</value>
+      <footprint>Server.pretty:OUTPUT_MODULE-3</footprint>
+      <libsource lib="Server_Used" part="OUTPUT_MODULE_3" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>6CCE4D08</tstamp>
+    </comp>
+    <comp ref="M10">
+      <value>OUTPUT_MODULE_3</value>
+      <footprint>Server.pretty:OUTPUT_MODULE-3</footprint>
+      <libsource lib="Server_Used" part="OUTPUT_MODULE_3" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>6CD092CD</tstamp>
+    </comp>
+    <comp ref="M9">
+      <value>OUTPUT_MODULE_3</value>
+      <footprint>Server.pretty:OUTPUT_MODULE-3</footprint>
+      <libsource lib="Server_Used" part="OUTPUT_MODULE_3" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>6CD0AD80</tstamp>
+    </comp>
+    <comp ref="M8">
+      <value>OUTPUT_MODULE_3</value>
+      <footprint>Server.pretty:OUTPUT_MODULE-3</footprint>
+      <libsource lib="Server_Used" part="OUTPUT_MODULE_3" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>6CD0C35B</tstamp>
+    </comp>
+    <comp ref="M7">
+      <value>OUTPUT_MODULE_3</value>
+      <footprint>Server.pretty:OUTPUT_MODULE-3</footprint>
+      <libsource lib="Server_Used" part="OUTPUT_MODULE_3" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>6CD0E0A4</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>M7</value>
+      <footprint>Server.pretty:D_SMA</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000012566</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>60D414FC</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>M7</value>
+      <footprint>Server.pretty:D_SMA</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000012566</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>60D7CB21</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>M7</value>
+      <footprint>Server.pretty:D_SMA</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000012566</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>60DB5CEB</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>M7</value>
+      <footprint>Server.pretty:D_SMA</footprint>
+      <datasheet>https://www.partsworld.co.kr/goods/goods_view.php?goodsNo=1000012566</datasheet>
+      <fields>
+        <field name="Manufacture">부품세상</field>
+        <field name="Package">DO-214AC(SMA)</field>
+        <field name="Price">55</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+        <field name="Value">4007</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>60DF1F01</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>JUMPER-28mm</value>
+      <footprint>Server.pretty:WIRE-JUMPER</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>612A0629</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>JUMPER-28mm</value>
+      <footprint>Server.pretty:WIRE-JUMPER</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>612A062F</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>JUMPER-28mm</value>
+      <footprint>Server.pretty:WIRE-JUMPER</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>612A0635</tstamp>
+    </comp>
+    <comp ref="JP4">
+      <value>JUMPER-28mm</value>
+      <footprint>Server.pretty:WIRE-JUMPER</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>612A063B</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>FRG1200-16F</value>
+      <footprint>Server.pretty:FHT1500</footprint>
+      <datasheet>http://www.intopion.com/goods/view?no=3828767</datasheet>
+      <fields>
+        <field name="Manufacture">인투피온</field>
+        <field name="Price">770</field>
+        <field name="Value">FRG500-16F</field>
+      </fields>
+      <libsource lib="Server_Used" part="FUZETEC" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>61EBBAA6</tstamp>
+    </comp>
+    <comp ref="F6">
+      <value>FRG1200-16F</value>
+      <footprint>Server.pretty:FHT1500</footprint>
+      <datasheet>http://www.intopion.com/goods/view?no=3828767</datasheet>
+      <fields>
+        <field name="Manufacture">인투피온</field>
+        <field name="Price">770</field>
+        <field name="Value">FRG500-16F</field>
+      </fields>
+      <libsource lib="Server_Used" part="FUZETEC" description=""/>
+      <sheetpath names="/OutPut/" tstamps="/5E3D0683/"/>
+      <tstamp>66047A1E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x01_Male">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Male">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Buzzer">
+      <description>Buzzer, polarized</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Buzzer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">BZ</field>
+        <field name="Value">Buzzer</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Jumper_NC_Small">
+      <description>Jumper, normally closed, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NC_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Bridged">
+      <description>Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Bridged</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Server-cache" part="HR702-NH-DC12V">
+      <description>Standex Meder DIP reed relay, SPDT</description>
+      <docs>https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf</docs>
+      <footprints>
+        <fp>Relay*StandexMeder*DIP*LowProfile*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">HR702-NH-DC12V</field>
+        <field name="Footprint">Relay_THT:Relay_StandexMeder_DIP_LowProfile</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="14" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Server_Used" part="3296Y">
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">3296Y</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Server_Used" part="AHT10">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AHT10</field>
+        <field name="Footprint">AHT10</field>
+        <field name="Datasheet">4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="SCL" type="BiDi"/>
+        <pin num="4" name="SDA" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Server_Used" part="AOD4185">
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AOD4185</field>
+        <field name="Footprint">SmartCon_HMI.pretty:SO-8_5.3x6.2mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="D" name="Drain" type="passive"/>
+        <pin num="G" name="Gate" type="input"/>
+        <pin num="S" name="Source" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Server_Used" part="C">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Server_Used" part="DS1307">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DS1307</field>
+        <field name="Footprint">DS1307</field>
+        <field name="Datasheet">4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SQW" type="BiDi"/>
+        <pin num="2" name="DS" type="BiDi"/>
+        <pin num="3" name="SCL" type="BiDi"/>
+        <pin num="4" name="SDA" type="BiDi"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="BAT" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Server_Used" part="ESP32-DEVKITC-32D">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-DEVKITC-32D</field>
+        <field name="Footprint">MODULE_ESP32-DEVKITC-32D</field>
+        <field name="Datasheet">4</field>
+        <field name="Field4">Espressif Systems</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="GPIO15" type="BiDi"/>
+        <pin num="4" name="GPO2" type="BiDi"/>
+        <pin num="5" name="GPIO4" type="BiDi"/>
+        <pin num="6" name="GPIO16" type="BiDi"/>
+        <pin num="7" name="GPIO17" type="BiDi"/>
+        <pin num="8" name="GPIO5" type="BiDi"/>
+        <pin num="9" name="GPIO18" type="BiDi"/>
+        <pin num="10" name="GPIO19" type="BiDi"/>
+        <pin num="11" name="SDA" type="BiDi"/>
+        <pin num="12" name="RXD0" type="input"/>
+        <pin num="13" name="TXD0" type="output"/>
+        <pin num="14" name="SCL" type="BiDi"/>
+        <pin num="15" name="GPIO23" type="BiDi"/>
+        <pin num="16" name="EN" type="input"/>
+        <pin num="17" name="GPI36" type="BiDi"/>
+        <pin num="18" name="GII39" type="BiDi"/>
+        <pin num="19" name="GPI34" type="BiDi"/>
+        <pin num="20" name="GPI35" type="BiDi"/>
+        <pin num="21" name="GPIO32" type="BiDi"/>
+        <pin num="22" name="GPIO33" type="BiDi"/>
+        <pin num="23" name="GPIO25" type="BiDi"/>
+        <pin num="24" name="GPIO26" type="BiDi"/>
+        <pin num="25" name="GPIO27" type="BiDi"/>
+        <pin num="26" name="GPIO14" type="BiDi"/>
+        <pin num="27" name="GPIO12" type="BiDi"/>
+        <pin num="28" name="GPIO13" type="BiDi"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Server_Used" part="FDS6990A">
+      <footprints>
+        <fp>TSOP*</fp>
+        <fp>SC?70*</fp>
+        <fp>SC?88*</fp>
+        <fp>SOT?363*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">FDS6990A</field>
+      </fields>
+      <pins>
+        <pin num="D1" name="Drain" type="passive"/>
+        <pin num="D2" name="Drain" type="passive"/>
+        <pin num="G1" name="Gate" type="input"/>
+        <pin num="G2" name="Gate" type="input"/>
+        <pin num="S1" name="Source" type="passive"/>
+        <pin num="S2" name="Source" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Server_Used" part="FUZETEC">
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">FUZETEC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Server_Used" part="LED">
+      <description>Light emitting diode, filled shape</description>
+      <docs>http://www.devicemart.co.kr/goods/view?no=30195</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Server_Used" part="MP1584">
+      <fields>
+        <field name="Reference">MO</field>
+        <field name="Value">MP1584</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="+12V" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="+5V" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Server_Used" part="OUTPUT_MODULE_3">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">OUTPUT_MODULE_3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="+12" name="~" type="passive"/>
+        <pin num="OUT" name="~" type="passive"/>
+        <pin num="SW" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Server_Used" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Simulation_SPICE" part="DIODE">
+      <description>Diode, anode on pin 1, for simulation only!</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Jumper.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="Server-cache">
+      <uri>C:/Users/Lee JunHo/Desktop/업무/SmartCon II/Server/Server/Server-cache.lib</uri>
+    </library>
+    <library logical="Server_Used">
+      <uri>C:/Users/Lee JunHo/Desktop/업무/SmartCon II/Server/Server/Library/Server_Used.lib</uri>
+    </library>
+    <library logical="Simulation_SPICE">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Simulation_SPICE.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GNDPWR">
+      <node ref="Q17" pin="S2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="Q15" pin="S2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="J5" pin="4"/>
+      <node ref="J6" pin="5"/>
+      <node ref="D17" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="D31" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="K1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="D41" pin="1"/>
+      <node ref="D23" pin="1"/>
+      <node ref="D21" pin="1"/>
+      <node ref="D19" pin="1"/>
+      <node ref="D35" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="U1" pin="29"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D30" pin="1"/>
+      <node ref="R124" pin="1"/>
+      <node ref="R122" pin="1"/>
+      <node ref="Q30" pin="S2"/>
+      <node ref="M24" pin="3"/>
+      <node ref="M23" pin="3"/>
+      <node ref="R123" pin="1"/>
+      <node ref="D22" pin="1"/>
+      <node ref="D20" pin="1"/>
+      <node ref="R114" pin="1"/>
+      <node ref="M7" pin="3"/>
+      <node ref="M8" pin="3"/>
+      <node ref="M22" pin="3"/>
+      <node ref="M9" pin="3"/>
+      <node ref="M10" pin="3"/>
+      <node ref="M19" pin="3"/>
+      <node ref="M20" pin="3"/>
+      <node ref="M11" pin="3"/>
+      <node ref="D33" pin="1"/>
+      <node ref="Q16" pin="S2"/>
+      <node ref="D34" pin="1"/>
+      <node ref="Q17" pin="S1"/>
+      <node ref="M12" pin="3"/>
+      <node ref="R113" pin="1"/>
+      <node ref="R115" pin="1"/>
+      <node ref="R116" pin="1"/>
+      <node ref="R118" pin="1"/>
+      <node ref="R117" pin="1"/>
+      <node ref="M21" pin="3"/>
+      <node ref="R119" pin="1"/>
+      <node ref="R120" pin="1"/>
+      <node ref="R121" pin="1"/>
+      <node ref="Q16" pin="S1"/>
+      <node ref="D32" pin="1"/>
+      <node ref="J19" pin="3"/>
+      <node ref="J9" pin="4"/>
+      <node ref="J10" pin="3"/>
+      <node ref="K20" pin="6"/>
+      <node ref="D40" pin="1"/>
+      <node ref="D62" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="J14" pin="3"/>
+      <node ref="R2" pin="1"/>
+      <node ref="Q30" pin="S1"/>
+      <node ref="Q32" pin="S2"/>
+      <node ref="MO1" pin="1"/>
+      <node ref="J20" pin="3"/>
+      <node ref="J11" pin="3"/>
+      <node ref="Q32" pin="S1"/>
+      <node ref="Q31" pin="S2"/>
+      <node ref="Q31" pin="S1"/>
+      <node ref="J15" pin="3"/>
+      <node ref="Q15" pin="S1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="MO1" pin="3"/>
+      <node ref="Q1" pin="S1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="Q2" pin="S2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J17" pin="3"/>
+      <node ref="J18" pin="3"/>
+      <node ref="C1" pin="2"/>
+      <node ref="Battery_V1" pin="2"/>
+      <node ref="Battery_V1" pin="3"/>
+      <node ref="D37" pin="1"/>
+      <node ref="D38" pin="1"/>
+      <node ref="Q1" pin="S2"/>
+      <node ref="D39" pin="1"/>
+      <node ref="J8" pin="4"/>
+      <node ref="C10" pin="2"/>
+      <node ref="R17" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="J13" pin="3"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="J12" pin="3"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J21" pin="3"/>
+      <node ref="D36" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="D18" pin="1"/>
+      <node ref="U3" pin="6"/>
+      <node ref="C11" pin="2"/>
+      <node ref="J16" pin="3"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="2" name="/SCL">
+      <node ref="J9" pin="2"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U5" pin="3"/>
+      <node ref="J8" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="3" name="Net-(D43-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="D43" pin="1"/>
+    </net>
+    <net code="4" name="12V_LED">
+      <node ref="D43" pin="2"/>
+      <node ref="J6" pin="4"/>
+      <node ref="Q3" pin="D"/>
+    </net>
+    <net code="5" name="Net-(K20-Pad1)">
+      <node ref="K20" pin="1"/>
+    </net>
+    <net code="6" name="AUTO">
+      <node ref="M9" pin="2"/>
+      <node ref="M7" pin="2"/>
+      <node ref="M8" pin="2"/>
+      <node ref="M10" pin="2"/>
+      <node ref="M19" pin="2"/>
+      <node ref="K20" pin="14"/>
+      <node ref="M22" pin="2"/>
+      <node ref="M12" pin="2"/>
+      <node ref="M23" pin="2"/>
+      <node ref="M11" pin="2"/>
+      <node ref="M24" pin="2"/>
+      <node ref="M21" pin="2"/>
+      <node ref="M20" pin="2"/>
+    </net>
+    <net code="7" name="Net-(R10-Pad1)">
+      <node ref="U1" pin="21"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="8" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="9" name="Net-(Q2-PadD2)">
+      <node ref="Q2" pin="D2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="Q4" pin="G"/>
+    </net>
+    <net code="10" name="Net-(C3-Pad1)">
+      <node ref="D61" pin="2"/>
+      <node ref="MO1" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J6" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="11" name="Net-(J24-Pad2)">
+      <node ref="J24" pin="2"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="12" name="Net-(R5-Pad1)">
+      <node ref="U1" pin="17"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="13" name="Net-(Q2-PadG2)">
+      <node ref="R21" pin="1"/>
+      <node ref="Q2" pin="G2"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="14" name="Net-(Battery_V1-Pad1)">
+      <node ref="R16" pin="1"/>
+      <node ref="Battery_V1" pin="1"/>
+    </net>
+    <net code="15" name="Net-(C1-Pad1)">
+      <node ref="R5" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="16" name="Net-(BZ1-Pad2)">
+      <node ref="BZ1" pin="2"/>
+      <node ref="Q1" pin="D1"/>
+    </net>
+    <net code="17" name="Net-(Q1-PadG2)">
+      <node ref="R7" pin="1"/>
+      <node ref="Q1" pin="G2"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="19" name="LED_OUT_01">
+      <node ref="R35" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="20" name="LED_OUT_02">
+      <node ref="R34" pin="2"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="21" name="LED_OUT_03">
+      <node ref="R32" pin="2"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="22" name="LED_OUT_04">
+      <node ref="U1" pin="6"/>
+      <node ref="R33" pin="2"/>
+    </net>
+    <net code="23" name="LED_OUT_05">
+      <node ref="U1" pin="7"/>
+      <node ref="R30" pin="2"/>
+    </net>
+    <net code="24" name="LED_OUT_06">
+      <node ref="R31" pin="2"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="25" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="26" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="27" name="+5V">
+      <node ref="U1" pin="30"/>
+      <node ref="C5" pin="2"/>
+      <node ref="J5" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="MO1" pin="4"/>
+      <node ref="U3" pin="5"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="J9" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R18" pin="1"/>
+      <node ref="BUZZER1" pin="1"/>
+      <node ref="J8" pin="1"/>
+    </net>
+    <net code="28" name="Net-(J25-Pad2)">
+      <node ref="J25" pin="2"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="29" name="Net-(U3-Pad7)">
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="30" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="31" name="Net-(D2-Pad1)">
+      <node ref="Q4" pin="D"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="32" name="+12P">
+      <node ref="C10" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="K20" pin="7"/>
+      <node ref="J6" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="M12" pin="+12"/>
+      <node ref="M9" pin="+12"/>
+      <node ref="M10" pin="+12"/>
+      <node ref="M8" pin="+12"/>
+      <node ref="M19" pin="+12"/>
+      <node ref="M21" pin="+12"/>
+      <node ref="M20" pin="+12"/>
+      <node ref="M11" pin="+12"/>
+      <node ref="R1" pin="2"/>
+      <node ref="M24" pin="+12"/>
+      <node ref="M23" pin="+12"/>
+      <node ref="M22" pin="+12"/>
+      <node ref="Q4" pin="S"/>
+      <node ref="R11" pin="2"/>
+      <node ref="Q3" pin="S"/>
+      <node ref="R9" pin="2"/>
+      <node ref="M7" pin="+12"/>
+    </net>
+    <net code="33" name="Net-(D2-Pad2)">
+      <node ref="D62" pin="2"/>
+      <node ref="J6" pin="3"/>
+      <node ref="D2" pin="2"/>
+      <node ref="K20" pin="2"/>
+      <node ref="D61" pin="1"/>
+    </net>
+    <net code="34" name="Net-(Q2-PadG1)">
+      <node ref="Q2" pin="G1"/>
+    </net>
+    <net code="35" name="Net-(Q2-PadS1)">
+      <node ref="Q2" pin="S1"/>
+    </net>
+    <net code="36" name="Net-(Q2-PadD1)">
+      <node ref="Q2" pin="D1"/>
+    </net>
+    <net code="37" name="GO_05">
+      <node ref="D8" pin="2"/>
+      <node ref="JP7" pin="2"/>
+    </net>
+    <net code="38" name="GO_03">
+      <node ref="JP5" pin="2"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="39" name="GO_04">
+      <node ref="D7" pin="2"/>
+      <node ref="JP6" pin="2"/>
+    </net>
+    <net code="40" name="GO_06">
+      <node ref="D9" pin="2"/>
+      <node ref="JP8" pin="2"/>
+    </net>
+    <net code="41" name="Net-(J1-Pad1)">
+      <node ref="K1" pin="14"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="42" name="Net-(J1-Pad2)">
+      <node ref="K1" pin="7"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="43" name="Net-(K1-Pad1)">
+      <node ref="K1" pin="1"/>
+    </net>
+    <net code="44" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="45" name="Net-(D1-Pad2)">
+      <node ref="JP5" pin="1"/>
+      <node ref="K1" pin="6"/>
+      <node ref="D1" pin="2"/>
+      <node ref="JP8" pin="1"/>
+      <node ref="JP7" pin="1"/>
+      <node ref="JP6" pin="1"/>
+    </net>
+    <net code="46" name="/TxD">
+      <node ref="J5" pin="3"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="47" name="/RxD">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="12"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="48" name="Net-(Q1-PadD2)">
+      <node ref="Q3" pin="G"/>
+      <node ref="R9" pin="1"/>
+      <node ref="Q1" pin="D2"/>
+    </net>
+    <net code="49" name="/SDA">
+      <node ref="J9" pin="3"/>
+      <node ref="U5" pin="4"/>
+      <node ref="U1" pin="11"/>
+      <node ref="J8" pin="3"/>
+      <node ref="R13" pin="1"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="50" name="GEN_OUT_01">
+      <node ref="R53" pin="2"/>
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="51" name="Net-(C28-Pad1)">
+      <node ref="J24" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="C28" pin="1"/>
+      <node ref="R126" pin="2"/>
+    </net>
+    <net code="52" name="Net-(C29-Pad1)">
+      <node ref="R15" pin="2"/>
+      <node ref="R127" pin="2"/>
+      <node ref="C29" pin="1"/>
+      <node ref="J25" pin="1"/>
+    </net>
+    <net code="53" name="Net-(Q1-PadG1)">
+      <node ref="R4" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="Q1" pin="G1"/>
+    </net>
+    <net code="54" name="Net-(BUZZER1-Pad2)">
+      <node ref="BUZZER1" pin="3"/>
+      <node ref="BZ1" pin="1"/>
+      <node ref="BUZZER1" pin="2"/>
+    </net>
+    <net code="55" name="Net-(R7-Pad2)">
+      <node ref="U1" pin="15"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="56" name="/GENARAL_SELECT">
+      <node ref="J9" pin="5"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="57" name="GEN_OUT_06">
+      <node ref="R48" pin="2"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="58" name="GEN_OUT_05">
+      <node ref="R49" pin="2"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="59" name="GEN_OUT_04">
+      <node ref="U1" pin="25"/>
+      <node ref="R50" pin="2"/>
+    </net>
+    <net code="60" name="GEN_OUT_03">
+      <node ref="U1" pin="26"/>
+      <node ref="R51" pin="2"/>
+    </net>
+    <net code="61" name="GEN_OUT_02">
+      <node ref="R52" pin="2"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="62" name="+3.3V">
+      <node ref="R126" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R127" pin="1"/>
+    </net>
+    <net code="63" name="/LED_SELECT">
+      <node ref="U1" pin="19"/>
+      <node ref="J8" pin="5"/>
+    </net>
+    <net code="64" name="/WIFI">
+      <node ref="R20" pin="2"/>
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="65" name="/BUZZER">
+      <node ref="U1" pin="10"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="66" name="Net-(Q15-PadG2)">
+      <node ref="R30" pin="1"/>
+      <node ref="R118" pin="2"/>
+      <node ref="Q15" pin="G2"/>
+    </net>
+    <net code="67" name="Net-(Q15-PadG1)">
+      <node ref="R117" pin="2"/>
+      <node ref="R31" pin="1"/>
+      <node ref="Q15" pin="G1"/>
+    </net>
+    <net code="68" name="Net-(Q32-PadG1)">
+      <node ref="R53" pin="1"/>
+      <node ref="R119" pin="2"/>
+      <node ref="Q32" pin="G1"/>
+    </net>
+    <net code="69" name="Net-(Q32-PadG2)">
+      <node ref="R120" pin="2"/>
+      <node ref="Q32" pin="G2"/>
+      <node ref="R52" pin="1"/>
+    </net>
+    <net code="70" name="Net-(Q31-PadG1)">
+      <node ref="R121" pin="2"/>
+      <node ref="R51" pin="1"/>
+      <node ref="Q31" pin="G1"/>
+    </net>
+    <net code="71" name="Net-(Q17-PadG2)">
+      <node ref="Q17" pin="G2"/>
+      <node ref="R114" pin="2"/>
+      <node ref="R35" pin="1"/>
+    </net>
+    <net code="72" name="Net-(Q17-PadG1)">
+      <node ref="R34" pin="1"/>
+      <node ref="Q17" pin="G1"/>
+      <node ref="R113" pin="2"/>
+    </net>
+    <net code="73" name="Net-(Q16-PadG1)">
+      <node ref="Q16" pin="G1"/>
+      <node ref="R115" pin="2"/>
+      <node ref="R33" pin="1"/>
+    </net>
+    <net code="74" name="Net-(Q16-PadG2)">
+      <node ref="R116" pin="2"/>
+      <node ref="Q16" pin="G2"/>
+      <node ref="R32" pin="1"/>
+    </net>
+    <net code="75" name="Net-(J21-Pad2)">
+      <node ref="M24" pin="SW"/>
+      <node ref="J21" pin="2"/>
+    </net>
+    <net code="76" name="Net-(M24-Pad1)">
+      <node ref="Q32" pin="D1"/>
+      <node ref="M24" pin="1"/>
+    </net>
+    <net code="77" name="Net-(F12-Pad2)">
+      <node ref="F12" pin="2"/>
+      <node ref="M24" pin="OUT"/>
+    </net>
+    <net code="78" name="Net-(F11-Pad2)">
+      <node ref="F11" pin="2"/>
+      <node ref="M23" pin="OUT"/>
+    </net>
+    <net code="79" name="Net-(M22-Pad1)">
+      <node ref="Q31" pin="D1"/>
+      <node ref="M22" pin="1"/>
+    </net>
+    <net code="80" name="Net-(Q31-PadG2)">
+      <node ref="R122" pin="2"/>
+      <node ref="Q31" pin="G2"/>
+      <node ref="R50" pin="1"/>
+    </net>
+    <net code="81" name="Net-(Q30-PadG1)">
+      <node ref="R49" pin="1"/>
+      <node ref="R123" pin="2"/>
+      <node ref="Q30" pin="G1"/>
+    </net>
+    <net code="82" name="Net-(Q30-PadG2)">
+      <node ref="Q30" pin="G2"/>
+      <node ref="R48" pin="1"/>
+      <node ref="R124" pin="2"/>
+    </net>
+    <net code="83" name="Net-(M23-Pad1)">
+      <node ref="M23" pin="1"/>
+      <node ref="Q32" pin="D2"/>
+    </net>
+    <net code="84" name="Net-(M21-Pad1)">
+      <node ref="M21" pin="1"/>
+      <node ref="Q31" pin="D2"/>
+    </net>
+    <net code="85" name="Net-(J18-Pad2)">
+      <node ref="J18" pin="2"/>
+      <node ref="M21" pin="SW"/>
+    </net>
+    <net code="86" name="Net-(F9-Pad2)">
+      <node ref="F9" pin="2"/>
+      <node ref="M21" pin="OUT"/>
+    </net>
+    <net code="87" name="Net-(J19-Pad2)">
+      <node ref="J19" pin="2"/>
+      <node ref="M22" pin="SW"/>
+    </net>
+    <net code="88" name="Net-(F10-Pad2)">
+      <node ref="M22" pin="OUT"/>
+      <node ref="F10" pin="2"/>
+    </net>
+    <net code="89" name="Net-(J15-Pad2)">
+      <node ref="J15" pin="2"/>
+      <node ref="M12" pin="SW"/>
+    </net>
+    <net code="90" name="Net-(J14-Pad2)">
+      <node ref="M11" pin="SW"/>
+      <node ref="J14" pin="2"/>
+    </net>
+    <net code="91" name="Net-(M11-Pad1)">
+      <node ref="Q17" pin="D1"/>
+      <node ref="M11" pin="1"/>
+    </net>
+    <net code="92" name="Net-(F6-Pad2)">
+      <node ref="F6" pin="2"/>
+      <node ref="M12" pin="OUT"/>
+    </net>
+    <net code="93" name="Net-(F5-Pad2)">
+      <node ref="F5" pin="2"/>
+      <node ref="M11" pin="OUT"/>
+    </net>
+    <net code="94" name="Net-(M12-Pad1)">
+      <node ref="Q17" pin="D2"/>
+      <node ref="M12" pin="1"/>
+    </net>
+    <net code="95" name="Net-(J12-Pad2)">
+      <node ref="M9" pin="SW"/>
+      <node ref="J12" pin="2"/>
+    </net>
+    <net code="96" name="Net-(M9-Pad1)">
+      <node ref="M9" pin="1"/>
+      <node ref="Q16" pin="D1"/>
+    </net>
+    <net code="97" name="Net-(F3-Pad2)">
+      <node ref="F3" pin="2"/>
+      <node ref="M9" pin="OUT"/>
+    </net>
+    <net code="98" name="Net-(F4-Pad2)">
+      <node ref="F4" pin="2"/>
+      <node ref="M10" pin="OUT"/>
+    </net>
+    <net code="99" name="Net-(J13-Pad2)">
+      <node ref="J13" pin="2"/>
+      <node ref="M10" pin="SW"/>
+    </net>
+    <net code="100" name="Net-(M10-Pad1)">
+      <node ref="Q16" pin="D2"/>
+      <node ref="M10" pin="1"/>
+    </net>
+    <net code="101" name="Net-(J10-Pad2)">
+      <node ref="J10" pin="2"/>
+      <node ref="M7" pin="SW"/>
+    </net>
+    <net code="102" name="Net-(D18-Pad2)">
+      <node ref="J10" pin="1"/>
+      <node ref="F1" pin="1"/>
+      <node ref="R24" pin="1"/>
+      <node ref="D18" pin="2"/>
+    </net>
+    <net code="103" name="Net-(J20-Pad2)">
+      <node ref="M23" pin="SW"/>
+      <node ref="J20" pin="2"/>
+    </net>
+    <net code="104" name="Net-(D9-Pad1)">
+      <node ref="JP4" pin="2"/>
+      <node ref="D9" pin="1"/>
+    </net>
+    <net code="105" name="Net-(M20-Pad1)">
+      <node ref="M20" pin="1"/>
+      <node ref="Q30" pin="D1"/>
+    </net>
+    <net code="106" name="Net-(F8-Pad2)">
+      <node ref="M20" pin="OUT"/>
+      <node ref="F8" pin="2"/>
+    </net>
+    <net code="107" name="Net-(J17-Pad2)">
+      <node ref="J17" pin="2"/>
+      <node ref="M20" pin="SW"/>
+    </net>
+    <net code="108" name="Net-(M19-Pad1)">
+      <node ref="Q30" pin="D2"/>
+      <node ref="M19" pin="1"/>
+    </net>
+    <net code="109" name="Net-(F7-Pad2)">
+      <node ref="M19" pin="OUT"/>
+      <node ref="F7" pin="2"/>
+    </net>
+    <net code="110" name="Net-(J16-Pad2)">
+      <node ref="J16" pin="2"/>
+      <node ref="M19" pin="SW"/>
+    </net>
+    <net code="111" name="Net-(D6-Pad1)">
+      <node ref="JP1" pin="2"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="112" name="Net-(D7-Pad1)">
+      <node ref="JP2" pin="2"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="113" name="Net-(D8-Pad1)">
+      <node ref="JP3" pin="2"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="114" name="Net-(M8-Pad1)">
+      <node ref="M8" pin="1"/>
+      <node ref="Q15" pin="D2"/>
+    </net>
+    <net code="115" name="Net-(F2-Pad2)">
+      <node ref="F2" pin="2"/>
+      <node ref="M8" pin="OUT"/>
+    </net>
+    <net code="116" name="Net-(J11-Pad2)">
+      <node ref="J11" pin="2"/>
+      <node ref="M8" pin="SW"/>
+    </net>
+    <net code="117" name="Net-(M7-Pad1)">
+      <node ref="Q15" pin="D1"/>
+      <node ref="M7" pin="1"/>
+    </net>
+    <net code="118" name="Net-(F1-Pad2)">
+      <node ref="M7" pin="OUT"/>
+      <node ref="F1" pin="2"/>
+    </net>
+    <net code="119" name="Net-(D16-Pad2)">
+      <node ref="D16" pin="2"/>
+      <node ref="R28" pin="2"/>
+    </net>
+    <net code="120" name="Net-(D34-Pad2)">
+      <node ref="R46" pin="2"/>
+      <node ref="D34" pin="2"/>
+    </net>
+    <net code="121" name="Net-(D33-Pad2)">
+      <node ref="R45" pin="2"/>
+      <node ref="D33" pin="2"/>
+    </net>
+    <net code="122" name="Net-(D35-Pad2)">
+      <node ref="R47" pin="2"/>
+      <node ref="D35" pin="2"/>
+    </net>
+    <net code="123" name="Net-(D17-Pad2)">
+      <node ref="R29" pin="2"/>
+      <node ref="D17" pin="2"/>
+    </net>
+    <net code="124" name="Net-(D31-Pad2)">
+      <node ref="D31" pin="2"/>
+      <node ref="R43" pin="2"/>
+    </net>
+    <net code="125" name="Net-(D30-Pad2)">
+      <node ref="D30" pin="2"/>
+      <node ref="R42" pin="2"/>
+    </net>
+    <net code="126" name="Net-(D13-Pad2)">
+      <node ref="R25" pin="2"/>
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="127" name="Net-(D32-Pad2)">
+      <node ref="D32" pin="2"/>
+      <node ref="R44" pin="2"/>
+    </net>
+    <net code="128" name="Net-(D15-Pad2)">
+      <node ref="D15" pin="2"/>
+      <node ref="R27" pin="2"/>
+    </net>
+    <net code="129" name="Net-(D14-Pad2)">
+      <node ref="R26" pin="2"/>
+      <node ref="D14" pin="2"/>
+    </net>
+    <net code="130" name="Net-(D37-Pad2)">
+      <node ref="F8" pin="1"/>
+      <node ref="R43" pin="1"/>
+      <node ref="D37" pin="2"/>
+      <node ref="J17" pin="1"/>
+      <node ref="JP3" pin="1"/>
+    </net>
+    <net code="131" name="Net-(D36-Pad2)">
+      <node ref="JP4" pin="1"/>
+      <node ref="J16" pin="1"/>
+      <node ref="F7" pin="1"/>
+      <node ref="D36" pin="2"/>
+      <node ref="R42" pin="1"/>
+    </net>
+    <net code="132" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="133" name="Net-(D19-Pad2)">
+      <node ref="F2" pin="1"/>
+      <node ref="J11" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="D19" pin="2"/>
+    </net>
+    <net code="134" name="Net-(D20-Pad2)">
+      <node ref="R26" pin="1"/>
+      <node ref="D20" pin="2"/>
+      <node ref="F3" pin="1"/>
+      <node ref="J12" pin="1"/>
+    </net>
+    <net code="135" name="Net-(D21-Pad2)">
+      <node ref="R27" pin="1"/>
+      <node ref="F4" pin="1"/>
+      <node ref="D21" pin="2"/>
+      <node ref="J13" pin="1"/>
+    </net>
+    <net code="136" name="Net-(D22-Pad2)">
+      <node ref="J14" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="F5" pin="1"/>
+      <node ref="D22" pin="2"/>
+    </net>
+    <net code="137" name="Net-(D41-Pad2)">
+      <node ref="R47" pin="1"/>
+      <node ref="J21" pin="1"/>
+      <node ref="F12" pin="1"/>
+      <node ref="D41" pin="2"/>
+    </net>
+    <net code="138" name="Net-(D40-Pad2)">
+      <node ref="F11" pin="1"/>
+      <node ref="D40" pin="2"/>
+      <node ref="J20" pin="1"/>
+      <node ref="R46" pin="1"/>
+    </net>
+    <net code="139" name="Net-(D39-Pad2)">
+      <node ref="F10" pin="1"/>
+      <node ref="J19" pin="1"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="R45" pin="1"/>
+      <node ref="D39" pin="2"/>
+    </net>
+    <net code="140" name="Net-(D38-Pad2)">
+      <node ref="F9" pin="1"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="R44" pin="1"/>
+      <node ref="D38" pin="2"/>
+      <node ref="J18" pin="1"/>
+    </net>
+    <net code="141" name="Net-(D23-Pad2)">
+      <node ref="R29" pin="1"/>
+      <node ref="D23" pin="2"/>
+      <node ref="F6" pin="1"/>
+      <node ref="J15" pin="1"/>
+    </net>
+  </nets>
+</export>

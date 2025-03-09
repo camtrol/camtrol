@@ -1,0 +1,17 @@
+{
+  "codename": "SOYOMapleBold18",
+  "ttf_path": "\\assets\\Fonts\\SOYOMapleBold.ttf",
+  "bin_path": "\\assets\\Fonts\\ui_font_SOYOMapleBold18.bin",
+  "c_path": "\\assets\\Fonts\\ui_font_SOYOMapleBold18.c",
+  "cfg_path": "\\assets\\Fonts\\ui_font_SOYOMapleBold18.fcfg",
+  "size": 18,
+  "bpp": 2,
+  "letters": 4,
+  "ranges": [
+    "0x20-0x7f",
+    "0xAC00-0xD7AF"
+  ],
+  "symbols": "°CΩ",
+  "customparams": "--no-compress --no-prefilter",
+  "uploaded": false
+}

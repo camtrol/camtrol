@@ -1,0 +1,24 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "array": "cpp",
+        "string": "cpp",
+        "*.tcc": "cpp",
+        "system_error": "cpp",
+        "functional": "cpp",
+        "regex": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "vector": "cpp",
+        "initializer_list": "cpp"
+    },
+    "cmake.configureOnOpen": false,
+    "cSpell.words": [
+        "GPIO"
+    ]
+}
